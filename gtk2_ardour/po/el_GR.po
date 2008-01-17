@@ -1,0 +1,6731 @@
+# Hellenic translations for gtk-ardour
+# Copyright (C) 2003 Paul Davis
+# This file is distributed under the same license as the gtk-ardour package.
+# Klearchos Gourgourinis <muadib@in.gr>, 2004.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: gtk-ardour 0.347.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-01-11 13:00+0200\n"
+"PO-Revision-Date: 2007-04-11 02:27+0200\n"
+"Language-Team: Hellenic\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: Klearchos Gourgourinis <muadib@in.gr>\n"
+
+#: about.cc:120
+msgid "Paul Davis"
+msgstr ""
+
+#: about.cc:121
+#, fuzzy
+msgid "Jesse Chappell"
+msgstr ""
+
+#: about.cc:122
+msgid "Taybin Rutkin"
+msgstr ""
+
+#: about.cc:123
+msgid "Marcus Andersson"
+msgstr ""
+
+#: about.cc:124
+msgid "Jeremy Hall"
+msgstr ""
+
+#: about.cc:125
+msgid "Steve Harris"
+msgstr ""
+
+#: about.cc:126
+msgid "Tim Mayberry"
+msgstr ""
+
+#: about.cc:127
+msgid "Mark Stewart"
+msgstr ""
+
+#: about.cc:128
+msgid "Sam Chessman"
+msgstr ""
+
+#: about.cc:129
+msgid "Jack O'Quin"
+msgstr ""
+
+#: about.cc:130
+msgid "Matt Krai"
+msgstr ""
+
+#: about.cc:131
+msgid "Ben Bell"
+msgstr ""
+
+#: about.cc:132
+msgid "Gerard van Dongen"
+msgstr ""
+
+#: about.cc:133
+msgid "Thomas Charbonnel"
+msgstr ""
+
+#: about.cc:134
+msgid "Nick Mainsbridge"
+msgstr ""
+
+#: about.cc:135
+msgid "Colin Law"
+msgstr ""
+
+#: about.cc:136
+msgid "Sampo Savolainen"
+msgstr ""
+
+#: about.cc:137
+msgid "Joshua Leach"
+msgstr ""
+
+#: about.cc:138
+msgid "Rob Holland"
+msgstr ""
+
+#: about.cc:139
+msgid "Per Sigmond"
+msgstr ""
+
+#: about.cc:140
+msgid "Doug Mclain"
+msgstr ""
+
+#: about.cc:141
+msgid "Petter Sundlöf"
+msgstr ""
+
+#: about.cc:146
+msgid ""
+"French:\n"
+"\tAlain Fréhel <alain.frehel@free.fr>\n"
+msgstr ""
+
+#: about.cc:147
+msgid ""
+"German:\n"
+"\tKarsten Petersen <kapet@kapet.de>\n"
+msgstr ""
+
+#: about.cc:148
+msgid ""
+"Italian:\n"
+"\tFilippo Pappalardo <filippo@email.it>\n"
+msgstr ""
+
+#: about.cc:149
+msgid ""
+"Portuguese:\n"
+"\tRui Nuno Capela <rncbc@rncbc.org>\n"
+msgstr ""
+
+#: about.cc:150
+msgid ""
+"Brazilian Portuguese:\n"
+"\tAlexander da Franca Fernandes <alexander@nautae.eti.br>\n"
+"\tChris Ross <chris@tebibyte.org>\n"
+msgstr ""
+
+#: about.cc:152
+msgid ""
+"Spanish:\n"
+"\t Alex Krohn <alexkrohn@fastmail.fm>\n"
+msgstr ""
+
+#: about.cc:153
+msgid ""
+"Russian:\n"
+"\t Igor Blinov <pitstop@nm.ru>\n"
+msgstr ""
+
+#: about.cc:154
+msgid ""
+"Hellenic:\n"
+"\t Klearchos Gourgourinis <muadib@in.gr>\n"
+msgstr ""
+
+#: about.cc:181
+#, fuzzy
+msgid "Copyright (C) 1999-2005 Paul Davis\n"
+msgstr "Πνευματικα Δικαιώματα 1999-2004 Paul Davis"
+
+#: about.cc:182
+#, fuzzy
+msgid ""
+"Ardour comes with ABSOLUTELY NO WARRANTY\n"
+"This is free software, and you are welcome to redistribute it\n"
+"under certain conditions; see the file COPYING for details.\n"
+msgstr ""
+"Πνευματικά Δικαιώματα (C) 1999-2004 Paul Davis\n"
+"Το πρόγραμμα Ardour διανέμεται δίχως ΑΠΟΛΥΤΩΣ ΚΑΜΙΑ ΕΓΓΥΗΣΗ\n"
+"Το παρόν ειναι δωρεάν λογισμικό, είστε ευπρόσδεκτοι να το επαναδιανείμετε \n"
+"υπό ειδικούς όρους; διαβάστε το αρχείο COPYING για λεπτομέρειες.\n"
+
+#: about.cc:188
+#, fuzzy
+msgid ""
+"%1\n"
+"(built with ardour/gtk %2.%3.%4 libardour: %5.%6.%7)"
+msgstr ""
+"Ardour: %1\n"
+"(Κτισμένο με ardour/gtk %2 libardour: %3.%4.%5)"
+
+#: actions.cc:261
+#, fuzzy
+msgid "programmer error: %1 %2"
+msgstr "σφάλμα προγραμματισμού: "
+
+#: add_route_dialog.cc:62
+msgid "ardour: add track/bus"
+msgstr "ardour: Εισαγωγή καναλιού/διαύλου"
+
+#. path = "1"
+#: add_route_dialog.cc:63
+#: editor_route_list.cc:73
+msgid "Tracks"
+msgstr "Κανάλια"
+
+#. path = "0"
+#: add_route_dialog.cc:64
+#: editor_route_list.cc:70
+msgid "Busses"
+msgstr "Δίαυλοι"
+
+#: add_route_dialog.cc:96
+#: plugin_ui.cc:833
+msgid "Add"
+msgstr "Πρόσθεση"
+
+#: add_route_dialog.cc:114
+msgid "Name (template)"
+msgstr "Όνομα (προσχέδιο)"
+
+#: add_route_dialog.cc:120
+#, fuzzy
+msgid "Channel Configuration"
+msgstr "Διάταξη"
+
+#: add_route_dialog.cc:177
+#: editor.cc:134
+#: editor.cc:3688
+#: time_axis_view.cc:552
+msgid "Normal"
+msgstr "Κανονικό"
+
+#: add_route_dialog.cc:179
+msgid "Tape"
+msgstr ""
+
+#: add_route_dialog.cc:196
+msgid "Mono"
+msgstr ""
+
+#: add_route_dialog.cc:198
+msgid "Stereo"
+msgstr ""
+
+#. preroll stuff
+#: ardour_ui.cc:106
+msgid ""
+"pre\n"
+"roll"
+msgstr ""
+"pre\n"
+"roll"
+
+#: ardour_ui.cc:107
+msgid ""
+"post\n"
+"roll"
+msgstr ""
+"post\n"
+"roll"
+
+#. transport
+#: ardour_ui.cc:115
+msgid ""
+"time\n"
+"master"
+msgstr ""
+
+#: ardour_ui.cc:117
+msgid "% "
+msgstr "% "
+
+#: ardour_ui.cc:119
+msgid ""
+"punch\n"
+"in"
+msgstr ""
+"punch\n"
+"in"
+
+#: ardour_ui.cc:120
+msgid ""
+"punch\n"
+"out"
+msgstr ""
+"punch\n"
+"out"
+
+#: ardour_ui.cc:121
+msgid ""
+"auto\n"
+"return"
+msgstr ""
+"αυτόματη\n"
+"επιστροφή"
+
+#: ardour_ui.cc:122
+msgid ""
+"auto\n"
+"play"
+msgstr ""
+"αυτόματη\n"
+"αναπαρ/γή"
+
+#: ardour_ui.cc:123
+msgid ""
+"auto\n"
+"input"
+msgstr ""
+"αυτόματο\n"
+"input"
+
+#: ardour_ui.cc:124
+msgid "click"
+msgstr "μετρονόμος"
+
+#: ardour_ui.cc:125
+msgid "AUDITIONING"
+msgstr "ΑΚΡΟΑΣΗ"
+
+#: ardour_ui.cc:126
+msgid "SOLO"
+msgstr "ΣΟΛΟ"
+
+#: ardour_ui.cc:375
+msgid "quit"
+msgstr "Έξοδος"
+
+#: ardour_ui.cc:384
+msgid ""
+"Ardour was unable to save your session.\n"
+"\n"
+"If you still wish to quit, please use the\n"
+"\n"
+"\"Just quit\" option."
+msgstr ""
+"Ο Ardour δεν μπόρεσε να αποθηκεύσει τη συνεδρία.\n"
+"\n"
+"Αν ακόμα επιθυμείτε να βγείτε, πατήστε την\n"
+"\n"
+"επιλογή \"Μόνο Έξοδος\"."
+
+#: ardour_ui.cc:403
+msgid "ardour: save session?"
+msgstr "ardour: αποθήκευση συνεδρίας;"
+
+#: ardour_ui.cc:410
+msgid "Don't %1"
+msgstr "ΟΧΙ %1"
+
+#: ardour_ui.cc:412
+msgid "Just %1"
+msgstr "Μόνο %1"
+
+#: ardour_ui.cc:414
+msgid "Save and %1"
+msgstr "Αποθήκευση και %1"
+
+#: ardour_ui.cc:426
+#, fuzzy
+msgid "session"
+msgstr "Συνεδρία"
+
+#: ardour_ui.cc:428
+#, fuzzy
+msgid "snapshot"
+msgstr "Στιγμιότυπο"
+
+#: ardour_ui.cc:430
+#, fuzzy
+msgid ""
+"The %1\"%2\"\n"
+"has not been saved.\n"
+"\n"
+"Any changes made this time\n"
+"will be lost unless you save it.\n"
+"\n"
+"What do you want to do?"
+msgstr ""
+"Το τραγούδι \"%1\"\n"
+"δεν έχει αποθηκευθεί.\n"
+"\n"
+"Εάν δεν το αποθήκευσετε\n"
+"οι αλλαγές που κάνατε θα χαθούν.\n"
+"\n"
+"τί θέλετε να κάνετε;"
+
+#: ardour_ui.cc:444
+msgid "Prompter"
+msgstr "Υποβολέας"
+
+#: ardour_ui.cc:503
+#, c-format
+msgid "disconnected"
+msgstr "Αποσυνδέθηκε"
+
+#: ardour_ui.cc:510
+#, fuzzy, c-format
+msgid "SR: %.1f kHz / %4.1f msecs"
+msgstr "SR: %.1f kHz"
+
+#: ardour_ui.cc:514
+#, c-format
+msgid "SR: %u kHz / %4.1f msecs"
+msgstr ""
+
+#: ardour_ui.cc:527
+#, c-format
+msgid "DSP Load: %.1f%%"
+msgstr "Φορτίο DSP: %.1f%%"
+
+#: ardour_ui.cc:537
+#, fuzzy, c-format
+msgid "Buffers p:%<PRIu32>%% c:%<PRIu32>%%"
+msgstr "Buffers p:%5.0f%% c:%5.0f%%"
+
+#: ardour_ui.cc:564
+msgid "space: 24hrs+"
+msgstr "χώρος : 24hrs+"
+
+#: ardour_ui.cc:594
+#, c-format
+msgid "space: %02dh:%02dm:%02ds"
+msgstr "χώρος: %02dh:%02dm:%02ds"
+
+#: ardour_ui.cc:633
+msgid "programming error: impossible control method"
+msgstr "Σφάλμα προγραμματισμού: Μη-πιθανή μέθοδος ελέγχου"
+
+#: ardour_ui.cc:741
+#: new_session_dialog.cc:294
+msgid "Recent Sessions"
+msgstr "Πρόσφατες συνεδρίες"
+
+#. ardour sessions are folders
+#: ardour_ui.cc:834
+msgid "open session"
+msgstr "Άνοιγμα συνεδρίας"
+
+#: ardour_ui.cc:840
+msgid "Ardour sessions"
+msgstr "Ardour συνεδρίες"
+
+#: ardour_ui.cc:873
+msgid "Patience is a virtue.\n"
+msgstr "Η Υπομονή ειναι Χρυσός.\n"
+
+#: ardour_ui.cc:882
+msgid "You cannot add a track without a session already loaded."
+msgstr "Δεν γίνεται να προστεθεί κανάλι χωρίς ήδη φορτωμένη συνεδρία."
+
+#: ardour_ui.cc:889
+msgid "could not create new audio track"
+msgstr "Δεν γίνεται να δημιουργηθεί νέο ηχητικό κανάλι"
+
+#: ardour_ui.cc:893
+msgid "could not create new audio bus"
+msgstr "Δεν γίνεται να δημιουργηθεί νέος ηχητικός δίαυλος"
+
+#: ardour_ui.cc:912
+msgid ""
+"There are insufficient JACK ports available\n"
+"to create a new track or bus.\n"
+"You should save Ardour, exit and\n"
+"restart JACK with more ports."
+msgstr ""
+"Ανεπαρκείς διαθέσιμες θύρες του JACK\n"
+"για δημιουργία νέου καναλιού ή διαύλου.\n"
+"Αποθηκεύστε τη συνεδρία, τερματίστε το Ardour\n"
+"και επανεκκινήστε το JACK με περισσότερες θύρες."
+
+#: ardour_ui.cc:1036
+msgid ""
+"Please create 1 or more track\n"
+"before trying to record.\n"
+"Check the Session menu."
+msgstr ""
+"Παρακαλώ δημιουργήστε 1 ή περισότερα\n"
+"κανάλια πριν προσπαθήστε να ηχογραφήσετε.\n"
+"Κοιτάξτε στο μενού 'Συνεδρία'."
+
+#: ardour_ui.cc:1265
+msgid ""
+"JACK has either been shutdown or it\n"
+"disconnected Ardour because Ardour\n"
+"was not fast enough. You can save the\n"
+"session and/or try to reconnect to JACK ."
+msgstr ""
+"Ή ο JACK απενεργοποιήθηκε ή αυτός\n"
+"αποσύνδεσε το Ardour διότι το Ardour\n"
+"δεν ήταν αρκετά γρήγορο. Μπορείτε να αποθηκεύσετε\n"
+"τη συνεδρία και/ή να επανακινήσετε το JACK."
+
+#: ardour_ui.cc:1282
+msgid "Unable to create all required ports"
+msgstr "Ανικανότητα δημιουργίας των επιθυμητών θυρών"
+
+#: ardour_ui.cc:1290
+msgid "Unable to start the session running"
+msgstr "Σφάλμα στην έναρξη της συνεδρίας"
+
+#: ardour_ui.cc:1426
+msgid "No Stream"
+msgstr "Δεν υπάρχει ροή(No stream)"
+
+#: ardour_ui.cc:1453
+#: ardour_ui.cc:1472
+msgid "none"
+msgstr "Κανένα"
+
+#: ardour_ui.cc:1462
+#: ardour_ui.cc:1481
+msgid "off"
+msgstr "εκτός"
+
+#: ardour_ui.cc:1505
+msgid "Name of New Snapshot"
+msgstr "Όνομα νέου στιγμιοτύπου"
+
+#: ardour_ui.cc:1651
+msgid "Name for mix template:"
+msgstr "Όνομα για προσχεδίο μίξεως:"
+
+#: ardour_ui.cc:1652
+msgid "-template"
+msgstr "-προσχέδιο"
+
+#: ardour_ui.cc:1809
+msgid ""
+"You do not have write access to this session.\n"
+"This prevents the session from being loaded."
+msgstr ""
+"Δεν έχετε πρόσβαση εγγραφής σε αυτή τη συνεδρία.\n"
+"Η συνεδρία δεν θα ανοιχτεί."
+
+#: ardour_ui.cc:1822
+#: ardour_ui.cc:1877
+msgid "Session \"%1 (snapshot %2)\" did not load successfully"
+msgstr "Η Συνεδρία \"%1 (στιγμιότυπο %2)\" δεν φορτώθηκε επιτυχώς"
+
+#: ardour_ui.cc:1933
+msgid "No audio files were ready for cleanup"
+msgstr "Δεν υπάρχει αρχείο ήχου για εκκαθάριση"
+
+#: ardour_ui.cc:1937
+msgid ""
+"If this seems suprising, \n"
+"check for any existing snapshots.\n"
+"These may still include regions that\n"
+"require some unused files to continue to exist."
+msgstr ""
+"Αν σας φαίνεται παράξενο,\n"
+"κοιτάξτε για τυχόν στιγμιότυπα,\n"
+"τα οποία μπορεί να έχουν περιοχές που\n"
+"χρειάζονται κάποια αρχεία που δεν\n"
+"χρησιμοποιούνται αλλού."
+
+#: ardour_ui.cc:1946
+msgid "ardour: cleanup"
+msgstr "ardour: εκκαθάριση"
+
+#: ardour_ui.cc:1982
+#: ardour_ui.cc:1988
+msgid "files were"
+msgstr "αρχεία ήταν"
+
+#: ardour_ui.cc:1984
+#: ardour_ui.cc:1990
+msgid "file was"
+msgstr "αρχείο ήταν"
+
+#: ardour_ui.cc:2031
+msgid "Are you sure you want to cleanup?"
+msgstr "Στ'αλήθεια θέλετε να κάνετε εκκαθάριση?"
+
+#: ardour_ui.cc:2036
+msgid ""
+"Cleanup is a destructive operation.\n"
+"ALL undo/redo information will be lost if you cleanup.\n"
+"After cleanup, unused audio files will be moved to a \"dead sounds\" location."
+msgstr ""
+"Η εκκαθάριση είναι καταστροφική διαδικασία.\n"
+"ΟΛΕΣ οι undo/redo πληροφορίες θα χαθούν.\n"
+"Μετά την εκκαθάριση, τα άχρηστα αρχεία μεταφέρονται στην\n"
+"\"dead sounds\" τοποθεσία."
+
+#: ardour_ui.cc:2042
+#, fuzzy
+msgid "Clean Up"
+msgstr "Εκκαθάριση"
+
+#: ardour_ui.cc:2045
+#, fuzzy
+msgid "CleanupDialog"
+msgstr "Εκκαθάριση"
+
+#: ardour_ui.cc:2046
+#, fuzzy
+msgid "ardour_cleanup"
+msgstr "ardour: εκκαθάριση"
+
+#: ardour_ui.cc:2065
+msgid "cleaned files"
+msgstr "καθαρισμένα αρχεία"
+
+#: ardour_ui.cc:2066
+msgid ""
+"The following %1 %2 not in use and \n"
+"have been moved to:\n"
+"%3. \n"
+"\n"
+"Flushing the wastebasket will \n"
+"release an additional\n"
+"%4 %5bytes of disk space.\n"
+msgstr ""
+"Τα ακόλουθα %1 %2 δεν χρησιμοποιούνταν και\n"
+"εστάλησαν στο:%3\n"
+"Αν αδειάσετε τον κάδο\n"
+"θα ελευθερωθούν %4 %5bytes\n"
+"στο δίσκο.\n"
+
+#: ardour_ui.cc:2091
+msgid "deleted file"
+msgstr "διαγραμμένα αρχεία"
+
+#: ardour_ui.cc:2092
+msgid ""
+"The following %1 %2 deleted from\n"
+"%3,\n"
+"releasing %4 %5bytes of disk space"
+msgstr ""
+"Τα ακόλουθα %1 file%2 διεγράφησαν από\n"
+"%3,\n"
+"ελευθερώνοντας %4 %5bytes χώρου στο δίσκο"
+
+#: ardour_ui.cc:2215
+msgid "Recording was stopped because your system could not keep up."
+msgstr "η Εγγραφή διεκόπη διότι το σύστημά δεν μπορούσε να ανταπεξέλθει."
+
+#: ardour_ui.cc:2238
+msgid ""
+"The disk system on your computer\n"
+"was not able to keep up with Ardour.\n"
+"\n"
+"Specifically, it failed to write data to disk\n"
+"quickly enough to keep up with recording.\n"
+msgstr ""
+"Το σύστημα δίσκων στον υπολογιστή σας\n"
+"δεν μπόρεσε να προλάβει το Ardour.\n"
+"\n"
+"Συγκεκριμένα, απέτυχε να γράψει δεδομένα\n"
+"αρκετά γρήγορα για να προλάβει την ηχογράφηση.\n"
+
+#: ardour_ui.cc:2257
+msgid ""
+"The disk system on your computer\n"
+"was not able to keep up with Ardour.\n"
+"\n"
+"Specifically, it failed to read data from disk\n"
+"quickly enough to keep up with playback.\n"
+msgstr ""
+"Οι δίσκοι στον υπολογιστή σας\n"
+"δεν μπόρεσαν να προλάβουν το Ardour.\n"
+"\n"
+"Συγκεκριμένα, απέτυχε να διαβάσει δεδομένα\n"
+"αρκετά γρήγορα για να προλάβει την αναπαραγωγή.\n"
+
+#: ardour_ui.cc:2283
+msgid ""
+"This session appears to have been in\n"
+"middle of recording when ardour or\n"
+"the computer was shutdown.\n"
+"\n"
+"Ardour can recover any captured audio for\n"
+"you, or it can ignore it. Please decide\n"
+"what you would like to do.\n"
+msgstr ""
+"Η συνεδρία ήταν εν μέσω ηχογραφήσεως\n"
+"όταν ο υπολογιστής έσβησε.\n"
+"\n"
+"Το Ardour μπορεί να ανακαλέσει τυχον\n"
+"ηχογραφημένα αρχεία, ή να τα αγνοήσει.\n"
+"Παρακαλώ αποφασίστε τί θέλετε να κάνετε.\n"
+
+#: ardour_ui.cc:2293
+msgid "Recover from crash"
+msgstr "Ανάκληση από 'κρασάρισμα'"
+
+#: ardour_ui.cc:2294
+msgid "Ignore crash data"
+msgstr "Διαγραφή τυχόν δεδομένων"
+
+#: ardour_ui.cc:2312
+msgid "Could not disconnect from JACK"
+msgstr "Αποσύνδεση απ'το JACK είναι αδύνατη"
+
+#: ardour_ui.cc:2325
+msgid "Could not reconnect to JACK"
+msgstr "Επανασύνδεση στο JACK αδύνατη"
+
+#: ardour_ui2.cc:60
+msgid "UI: cannot setup editor"
+msgstr "UI: Ο 'editor' δεν μπορεί να εγερθεί"
+
+#: ardour_ui2.cc:65
+msgid "UI: cannot setup mixer"
+msgstr "UI: ο μίκτης δεν μπορεί να εγερθεί"
+
+#: ardour_ui2.cc:91
+msgid "MMC + Local"
+msgstr "MMC + Τοπικό"
+
+#: ardour_ui2.cc:92
+msgid "MMC"
+msgstr "MMC"
+
+#: ardour_ui2.cc:93
+msgid "Local"
+msgstr "Τοπικό"
+
+#: ardour_ui2.cc:110
+msgid "MMC ID"
+msgstr "MMC ID"
+
+#: ardour_ui2.cc:291
+msgid "Play from playhead"
+msgstr "Αναπαρ/γή από τον Αναπαραγωγέα"
+
+#: ardour_ui2.cc:292
+msgid "Stop playback"
+msgstr "Διακοπή Αναπαρ/γής"
+
+#: ardour_ui2.cc:293
+msgid "Play range/selection"
+msgstr "Αναπαρ/γή διαστήματος/επιλογής"
+
+#: ardour_ui2.cc:294
+msgid "Go to start of session"
+msgstr "Αρχή της συνεδρίας"
+
+#: ardour_ui2.cc:295
+msgid "Go to end of session"
+msgstr "Τέλος του συνεδρίας"
+
+#: ardour_ui2.cc:296
+msgid "Play loop range"
+msgstr "Επαναληπτική αναπαρ/γή διαστήματος"
+
+#: ardour_ui2.cc:297
+msgid "Return to last playback start when stopped"
+msgstr "Επιστροφή στην τελευταία θεση μετα απο παύση"
+
+#: ardour_ui2.cc:298
+msgid "Start playback after any locate"
+msgstr "Αρχή αναπαρ/γής μετά από κάθε τοποθέτηση"
+
+#: ardour_ui2.cc:299
+msgid "Be sensible about input monitoring"
+msgstr "Προσοχή στο input monitoring"
+
+#: ardour_ui2.cc:300
+msgid "Start recording at auto-punch start"
+msgstr "Έναρξη εγγραφής στην αρχή αυτο-εναπόθεσης"
+
+#: ardour_ui2.cc:301
+msgid "Stop recording at auto-punch end"
+msgstr "Λήξη εγγραφής στο τέλος αυτο-εναπόθεσης"
+
+#: ardour_ui2.cc:302
+msgid "Enable/Disable audio click"
+msgstr "Άρση/Παύση μετρονόμου"
+
+#: ardour_ui2.cc:303
+msgid "Positional sync source"
+msgstr ""
+
+#: ardour_ui2.cc:304
+msgid "Does Ardour control the time?"
+msgstr "Ελέγχει το χρόνο το Ardour?"
+
+#: ardour_ui2.cc:305
+msgid "Shuttle speed control"
+msgstr "Έλεγχος ταχύτητας Shuttle"
+
+#: ardour_ui2.cc:306
+#, c-format
+msgid "Select semitones or %%-age for speed display"
+msgstr "Επιλογή ημιτονίων ή %%-age για απεικόνιση ταχύτητος"
+
+#: ardour_ui2.cc:307
+msgid "Current transport speed"
+msgstr "Τρέχουσα ταχύτητα μεταφοράς"
+
+#: ardour_ui2.cc:330
+msgid "Primary clock"
+msgstr "Πρωτεύον ωρολόγιον"
+
+#: ardour_ui2.cc:331
+msgid "secondary clock"
+msgstr "Δευτερέυον ωρολόγιον"
+
+#. XXX: this should really be saved in instant.xml or something similar and restored from there
+#. Combo's are stupid - they steal space from the entry for the button
+#: ardour_ui2.cc:388
+#: ardour_ui2.cc:833
+#: ardour_ui2.cc:846
+#: ardour_ui2.cc:909
+#: ardour_ui2.cc:911
+msgid "sprung"
+msgstr "έλασμα"
+
+#: ardour_ui2.cc:389
+#: ardour_ui2.cc:835
+#: ardour_ui2.cc:857
+msgid "wheel"
+msgstr "τροχός"
+
+#: ardour_ui2.cc:451
+msgid "ardour: clock"
+msgstr "ardour: Ωρολόγιον"
+
+#: ardour_ui2.cc:596
+msgid "Maximum speed"
+msgstr "μέγιστη ταχύτητα"
+
+#: ardour_ui2.cc:823
+msgid "st"
+msgstr "st"
+
+#: ardour_ui2.cc:867
+#: ardour_ui2.cc:890
+#: ardour_ui2.cc:907
+msgid "stopped"
+msgstr "παύση"
+
+#: ardour_ui_dialogs.cc:153
+#: playlist_selector.cc:70
+#, fuzzy
+msgid "close"
+msgstr "Κλείσιμο"
+
+#: ardour_ui_dialogs.cc:360
+#: ardour_ui_ed.cc:184
+msgid "Sound File Browser"
+msgstr "Αναζήτηση Soundfiles"
+
+#. menus + submenus that need action items
+#: ardour_ui_ed.cc:72
+msgid "Session"
+msgstr "Συνεδρία"
+
+#: ardour_ui_ed.cc:73
+#: ardour_ui_ed.cc:130
+#: editor.cc:1836
+#: export_dialog.cc:350
+#: export_dialog.cc:1059
+#: export_dialog.cc:1063
+msgid "Export"
+msgstr "Εξαγωγή"
+
+#: ardour_ui_ed.cc:74
+msgid "Cleanup"
+msgstr "Εκκαθάριση"
+
+#: ardour_ui_ed.cc:75
+#: option_editor.cc:126
+msgid "Sync"
+msgstr "Sync"
+
+#: ardour_ui_ed.cc:76
+#: ardour_ui_ed.cc:77
+msgid "Options"
+msgstr "Επιλογές"
+
+#: ardour_ui_ed.cc:78
+msgid "Help"
+msgstr "Βοήθεια!"
+
+#: ardour_ui_ed.cc:79
+msgid "KeyMouse Actions"
+msgstr "Ενέργειες ποντικιού"
+
+#: ardour_ui_ed.cc:80
+msgid "Audio File Format"
+msgstr ""
+
+#: ardour_ui_ed.cc:81
+msgid "Header"
+msgstr ""
+
+#: ardour_ui_ed.cc:82
+msgid "Data"
+msgstr "Δεδομένα"
+
+#: ardour_ui_ed.cc:83
+msgid "Control Surfaces"
+msgstr "Επιφάνειες ελέγχου"
+
+#. the real actions
+#: ardour_ui_ed.cc:87
+#: audio_time_axis.cc:1854
+#: new_session_dialog.cc:529
+msgid "New"
+msgstr "Νέο"
+
+#: ardour_ui_ed.cc:89
+#: new_session_dialog.cc:517
+msgid "Open"
+msgstr "Άνοιγμα"
+
+#: ardour_ui_ed.cc:90
+msgid "Recent"
+msgstr "Πρόσφατο"
+
+#: ardour_ui_ed.cc:91
+#: io_selector.cc:58
+#: io_selector.cc:792
+msgid "Close"
+msgstr "Κλείσιμο"
+
+#: ardour_ui_ed.cc:94
+#: route_params_ui.cc:514
+msgid "Add Track/Bus"
+msgstr "Πρόσθεση καναλιού/διαύλου"
+
+#: ardour_ui_ed.cc:105
+msgid "Connect"
+msgstr "Σύνδεση"
+
+#. </CMT Additions>
+#: ardour_ui_ed.cc:113
+msgid "Snapshot"
+msgstr "Στιγμιότυπο"
+
+#: ardour_ui_ed.cc:116
+msgid "Save Template..."
+msgstr "Αποθήκευση προσχεδίου..."
+
+#: ardour_ui_ed.cc:119
+msgid "Export session to audiofile..."
+msgstr "Εξαγωγή συνεδρίας σε αρχείο..."
+
+#: ardour_ui_ed.cc:122
+msgid "Export selection to audiofile..."
+msgstr "Εξαγωγή επιλογής σε ηχο-αρχείο..."
+
+#: ardour_ui_ed.cc:126
+msgid "Export range markers to audiofile..."
+msgstr "Εξαγωγή διαστήματος σε audio αρχείο..."
+
+#: ardour_ui_ed.cc:133
+msgid "Cleanup unused sources"
+msgstr "Εκκαθάριση αχρήστων πηγών"
+
+#: ardour_ui_ed.cc:135
+msgid "Flush wastebasket"
+msgstr "Άδειασμα κάδου"
+
+#: ardour_ui_ed.cc:141
+#: ardour_ui_options.cc:408
+#: ardour_ui_options.cc:417
+#: ardour_ui_options.cc:489
+msgid "JACK"
+msgstr ""
+
+#: ardour_ui_ed.cc:142
+msgid "Latency"
+msgstr ""
+
+#: ardour_ui_ed.cc:144
+msgid "Reconnect"
+msgstr "Επανασύνδεση"
+
+#: ardour_ui_ed.cc:147
+#: mixer_strip.cc:497
+#: mixer_strip.cc:565
+msgid "Disconnect"
+msgstr "Αποσύνδεση"
+
+#: ardour_ui_ed.cc:174
+msgid "Windows"
+msgstr "Παράθυρα"
+
+#: ardour_ui_ed.cc:175
+msgid "start prefix"
+msgstr ""
+
+#: ardour_ui_ed.cc:176
+msgid "Quit"
+msgstr "Έξοδος"
+
+#. windows visibility actions
+#: ardour_ui_ed.cc:180
+msgid "Maximise Editor Space"
+msgstr "Μεγιστοποίηση χώρου για τον Editor"
+
+#: ardour_ui_ed.cc:182
+msgid "Show Editor"
+msgstr "Ανάδειξη Editor"
+
+#: ardour_ui_ed.cc:183
+msgid "Show Mixer"
+msgstr "Ανάδειξη Μίκτη"
+
+#: ardour_ui_ed.cc:185
+msgid "Options Editor"
+msgstr "Επεξ/στης Ρυθμίσεων"
+
+#: ardour_ui_ed.cc:186
+msgid "Track/Bus Inspector"
+msgstr "επιθεώρηση καναλιών/διαύλων "
+
+#: ardour_ui_ed.cc:188
+msgid "Connections"
+msgstr "Συνδέσεις"
+
+#: ardour_ui_ed.cc:190
+msgid "Locations"
+msgstr "Τοποθεσίες"
+
+#: ardour_ui_ed.cc:192
+msgid "Big Clock"
+msgstr "Μεγάλο ωρολόγιον"
+
+#: ardour_ui_ed.cc:194
+msgid "About"
+msgstr "Πληροφορίες"
+
+#: ardour_ui_ed.cc:195
+#, fuzzy
+msgid "Colors"
+msgstr "Χρώμα"
+
+#: ardour_ui_ed.cc:197
+msgid "Add Audio Track"
+msgstr "Πρόσθεση καναλιού"
+
+#: ardour_ui_ed.cc:199
+msgid "Add Audio Bus"
+msgstr "Πρόσθεση Audio Διαύλου"
+
+#: ardour_ui_ed.cc:201
+msgid "Save"
+msgstr "Αποθήκευση"
+
+#: ardour_ui_ed.cc:203
+#: editor_actions.cc:255
+#, fuzzy
+msgid "Remove Last Capture"
+msgstr "Απαλοιφή τελευταίας λήψης"
+
+#. do-nothing action for the "transport" menu bar item
+#: ardour_ui_ed.cc:210
+msgid "Transport"
+msgstr ""
+
+#. these two are not used by key bindings, instead use ToggleRoll for that. these two do show up in
+#. menus and via button proxies.
+#.
+#: ardour_ui_ed.cc:216
+#: sfdb_ui.cc:57
+msgid "Stop"
+msgstr "Παύση"
+
+#: ardour_ui_ed.cc:219
+msgid "Roll"
+msgstr ""
+
+#: ardour_ui_ed.cc:223
+msgid "Start/Stop"
+msgstr ""
+
+#: ardour_ui_ed.cc:226
+msgid "Stop + Forget Capture"
+msgstr "Stop + ξέχασε τη λήψη"
+
+#: ardour_ui_ed.cc:229
+#, fuzzy
+msgid "Play Loop Range"
+msgstr "Επαναληπτική αναπαρ/γή διαστήματος"
+
+#: ardour_ui_ed.cc:232
+msgid "Play Selection"
+msgstr "Αναπαρ/γή επιλογής"
+
+#: ardour_ui_ed.cc:236
+msgid "Enable Record"
+msgstr "Ενεργοποίηση Εγγραφής"
+
+#: ardour_ui_ed.cc:239
+msgid "Rewind"
+msgstr ""
+
+#: ardour_ui_ed.cc:242
+msgid "Rewind (Slow)"
+msgstr ""
+
+#: ardour_ui_ed.cc:245
+msgid "Rewind (Fast)"
+msgstr ""
+
+#: ardour_ui_ed.cc:248
+msgid "Forward"
+msgstr ""
+
+#: ardour_ui_ed.cc:251
+msgid "Forward (Slow)"
+msgstr ""
+
+#: ardour_ui_ed.cc:254
+msgid "Forward (Fast)"
+msgstr ""
+
+#: ardour_ui_ed.cc:257
+msgid "Goto Zero"
+msgstr ""
+
+#: ardour_ui_ed.cc:260
+msgid "Goto Start"
+msgstr "Πήγαινε στην Αρχή"
+
+#: ardour_ui_ed.cc:263
+msgid "Goto End"
+msgstr ""
+
+#. XXX the newline in the displayed names of these action is really wrong, but its because we want the button
+#. that proxies for these action to be more compact. It would be nice to find a way to override the action
+#. name appearance on the buttons.
+#.
+#: ardour_ui_ed.cc:272
+msgid ""
+"Punch\n"
+"in"
+msgstr ""
+
+#: ardour_ui_ed.cc:275
+msgid ""
+"Punch\n"
+"out"
+msgstr ""
+
+#: ardour_ui_ed.cc:278
+#: option_editor.cc:129
+msgid "Click"
+msgstr "Μετρονόμος"
+
+#: ardour_ui_ed.cc:281
+msgid ""
+"Auto\n"
+"input"
+msgstr ""
+
+#: ardour_ui_ed.cc:284
+#, fuzzy
+msgid ""
+"Auto\n"
+"play"
+msgstr ""
+"αυτόματη\n"
+"αναπαρ/γή"
+
+#: ardour_ui_ed.cc:287
+msgid ""
+"Auto\n"
+"return"
+msgstr ""
+
+#: ardour_ui_ed.cc:291
+msgid ""
+"Time\n"
+"master"
+msgstr ""
+
+#: ardour_ui_ed.cc:294
+msgid "Toggle Record Enable Track1"
+msgstr "Απ/Ενεργοποίηση Καναλιού 1"
+
+#: ardour_ui_ed.cc:296
+msgid "Toggle Record Enable Track2"
+msgstr "Απ/Ενεργοποίηση Καναλιού 2"
+
+#: ardour_ui_ed.cc:298
+msgid "Toggle Record Enable Track3"
+msgstr "Απ/Ενεργοποίηση Καναλιού 3"
+
+#: ardour_ui_ed.cc:300
+msgid "Toggle Record Enable Track4"
+msgstr "Απ/Ενεργοποίηση Καναλιού 4"
+
+#: ardour_ui_ed.cc:302
+msgid "Toggle Record Enable Track5"
+msgstr "Απ/Ενεργοποίηση Καναλιού 5"
+
+#: ardour_ui_ed.cc:304
+msgid "Toggle Record Enable Track6"
+msgstr "Απ/Ενεργοποίηση Καναλιού 6"
+
+#: ardour_ui_ed.cc:306
+msgid "Toggle Record Enable Track7"
+msgstr "Απ/Ενεργοποίηση Καναλιού 7"
+
+#: ardour_ui_ed.cc:308
+msgid "Toggle Record Enable Track8"
+msgstr "Απ/Ενεργοποίηση Καναλιού 8"
+
+#: ardour_ui_ed.cc:310
+msgid "Toggle Record Enable Track9"
+msgstr "Απ/Ενεργοποίηση Καναλιού 9"
+
+#: ardour_ui_ed.cc:312
+msgid "Toggle Record Enable Track10"
+msgstr "Απ/Ενεργοποίηση Καναλιού 10"
+
+#: ardour_ui_ed.cc:314
+msgid "Toggle Record Enable Track11"
+msgstr "Απ/Ενεργοποίηση Καναλιού 11"
+
+#: ardour_ui_ed.cc:316
+msgid "Toggle Record Enable Track12"
+msgstr "Απ/Ενεργοποίηση Καναλιού 12"
+
+#: ardour_ui_ed.cc:318
+msgid "Toggle Record Enable Track13"
+msgstr "Απ/Ενεργοποίηση Καναλιού 13"
+
+#: ardour_ui_ed.cc:320
+msgid "Toggle Record Enable Track14"
+msgstr "Απ/Ενεργοποίηση Καναλιού 14"
+
+#: ardour_ui_ed.cc:322
+msgid "Toggle Record Enable Track15"
+msgstr "Απ/Ενεργοποίηση Καναλιού 15"
+
+#: ardour_ui_ed.cc:324
+msgid "Toggle Record Enable Track16"
+msgstr "Απ/Ενεργοποίηση Καναλιού 16"
+
+#: ardour_ui_ed.cc:326
+msgid "Toggle Record Enable Track17"
+msgstr "Απ/Ενεργοποίηση Καναλιού 17"
+
+#: ardour_ui_ed.cc:328
+msgid "Toggle Record Enable Track18"
+msgstr "Απ/Ενεργοποίηση Καναλιού 18"
+
+#: ardour_ui_ed.cc:330
+msgid "Toggle Record Enable Track19"
+msgstr "Απ/Ενεργοποίηση Καναλιού 19"
+
+#: ardour_ui_ed.cc:332
+msgid "Toggle Record Enable Track20"
+msgstr "Απ/Ενεργοποίηση Καναλιού 20"
+
+#: ardour_ui_ed.cc:334
+msgid "Toggle Record Enable Track21"
+msgstr "Απ/Ενεργοποίηση Καναλιού 21"
+
+#: ardour_ui_ed.cc:336
+msgid "Toggle Record Enable Track22"
+msgstr "Απ/Ενεργοποίηση Καναλιού 22"
+
+#: ardour_ui_ed.cc:338
+msgid "Toggle Record Enable Track23"
+msgstr "Απ/Ενεργοποίηση Καναλιού 23"
+
+#: ardour_ui_ed.cc:340
+msgid "Toggle Record Enable Track24"
+msgstr "Απ/Ενεργοποίηση Καναλιού 24"
+
+#: ardour_ui_ed.cc:342
+msgid "Toggle Record Enable Track25"
+msgstr "Απ/Ενεργοποίηση Καναλιού 25"
+
+#: ardour_ui_ed.cc:344
+msgid "Toggle Record Enable Track26"
+msgstr "Απ/Ενεργοποίηση Καναλιού 26"
+
+#: ardour_ui_ed.cc:346
+msgid "Toggle Record Enable Track27"
+msgstr "Απ/Ενεργοποίηση Καναλιού 27"
+
+#: ardour_ui_ed.cc:348
+msgid "Toggle Record Enable Track28"
+msgstr "Απ/Ενεργοποίηση Καναλιού 28"
+
+#: ardour_ui_ed.cc:350
+msgid "Toggle Record Enable Track29"
+msgstr "Απ/Ενεργοποίηση Καναλιού 29"
+
+#: ardour_ui_ed.cc:352
+msgid "Toggle Record Enable Track30"
+msgstr "Απ/Ενεργοποίηση Καναλιού 30"
+
+#: ardour_ui_ed.cc:354
+msgid "Toggle Record Enable Track31"
+msgstr "Απ/Ενεργοποίηση Καναλιού 31"
+
+#: ardour_ui_ed.cc:356
+msgid "Toggle Record Enable Track32"
+msgstr "Απ/Ενεργοποίηση Καναλιού 32"
+
+#: ardour_ui_ed.cc:361
+msgid "Percentage"
+msgstr "Ποσοστό"
+
+#: ardour_ui_ed.cc:362
+msgid "Semitones"
+msgstr "Ημιτόνια"
+
+#: ardour_ui_ed.cc:366
+msgid "Send MTC"
+msgstr "Αποστολή MTC"
+
+#: ardour_ui_ed.cc:368
+msgid "Send MMC"
+msgstr "Αποστολή MMC"
+
+#: ardour_ui_ed.cc:370
+msgid "Use MMC"
+msgstr ""
+
+#: ardour_ui_ed.cc:372
+msgid "Send MIDI feedback"
+msgstr "Αποστολή MIDI feedback"
+
+#: ardour_ui_ed.cc:374
+msgid "Use MIDI control"
+msgstr ""
+
+#: ardour_ui_ed.cc:377
+msgid "Connect new track inputs to hardware"
+msgstr "Σύνδεση νέων inputs καναλιού στο hardware"
+
+#: ardour_ui_ed.cc:396
+msgid "Connect new track outputs to hardware"
+msgstr "Σύνδεση νέων output καναλιού στο hardware"
+
+#: ardour_ui_ed.cc:398
+msgid "Connect new track outputs to master"
+msgstr "Σύνδεση νέων outputs καναλιου στο master"
+
+#: ardour_ui_ed.cc:400
+msgid "Manually connect new track outputs"
+msgstr "χειροκίνητη σύνδεση νέων outputs καναλιού"
+
+#: ardour_ui_ed.cc:405
+msgid "Hardware monitoring"
+msgstr ""
+
+#: ardour_ui_ed.cc:406
+msgid "Software monitoring"
+msgstr "Software Monitoring"
+
+#: ardour_ui_ed.cc:407
+msgid "External monitoring"
+msgstr ""
+
+#. Configuration object options (i.e. not session specific)
+#: ardour_ui_ed.cc:411
+msgid "Stop plugins with transport"
+msgstr "Λήξη των plugins με την παύση"
+
+#: ardour_ui_ed.cc:412
+msgid "Verify remove last capture"
+msgstr "Επιβεβαιώστε διαγραφή τελευταίας λήψης"
+
+#: ardour_ui_ed.cc:413
+msgid "Stop recording on xrun"
+msgstr "Παύση εγγραφής στα xrun"
+
+#: ardour_ui_ed.cc:414
+msgid "Stop transport at session end"
+msgstr "Παύση αναπαραγωγέα στο τέλος της συνεδρίας"
+
+#: ardour_ui_ed.cc:415
+msgid "-12dB gain reduce ffwd/rewind"
+msgstr ""
+
+#: ardour_ui_ed.cc:416
+msgid "Rec-enable stays engaged at stop"
+msgstr "Το Rec-enable παραμένει ενεργό στο stop"
+
+#. session options
+#: ardour_ui_ed.cc:420
+msgid "Do not run plugins while recording"
+msgstr "Απενεργοποίηση plugins κατα την εγγραφή"
+
+#: ardour_ui_ed.cc:423
+msgid "Latched solo"
+msgstr "Προσκολλημένο σόλο"
+
+#: ardour_ui_ed.cc:428
+msgid "Solo in-place"
+msgstr ""
+
+#: ardour_ui_ed.cc:430
+msgid "Solo via bus"
+msgstr "Solo μέσω διαύλου"
+
+#: ardour_ui_ed.cc:433
+msgid "Automatically create crossfades"
+msgstr "Αυτόματη δημιουργία crossfades"
+
+#: ardour_ui_ed.cc:435
+msgid "Unmute new full crossfades"
+msgstr "Unmute νέων full crossfades"
+
+#: ardour_ui_options.cc:406
+#: ardour_ui_options.cc:416
+#: ardour_ui_options.cc:483
+msgid "Internal"
+msgstr "Εσωτερικό"
+
+#: ardour_ui_options.cc:407
+#: ardour_ui_options.cc:486
+msgid "MTC"
+msgstr ""
+
+#: audio_clock.cc:1742
+#: editor.cc:188
+msgid "SMPTE"
+msgstr "SMPTE"
+
+#: audio_clock.cc:1743
+#: editor.cc:187
+#: editor_rulers.cc:360
+msgid "Bars:Beats"
+msgstr "Μπάρες:Κτύποι"
+
+#: audio_clock.cc:1744
+msgid "Minutes:Seconds"
+msgstr "Λεπτά:Δεύτερα"
+
+#: audio_clock.cc:1745
+msgid "Audio Frames"
+msgstr "Ηχητικά frames"
+
+#.
+#. Slowest = 6.6dB/sec falloff at update rate of 40ms
+#. Slow    = 6.8dB/sec falloff at update rate of 40ms
+#.
+#: audio_clock.cc:1746
+#: editor_actions.cc:375
+#: editor_actions.cc:383
+#: gain_meter.cc:172
+#: panner_ui.cc:89
+#: plugin_ui.cc:392
+#: plugin_ui.cc:635
+msgid "Off"
+msgstr "Εκτός"
+
+#: audio_clock.cc:1748
+msgid "Mode"
+msgstr "Λειτουργία"
+
+#: audio_time_axis.cc:91
+msgid "m"
+msgstr "m"
+
+#: audio_time_axis.cc:91
+msgid "s"
+msgstr "s"
+
+#: audio_time_axis.cc:91
+msgid "r"
+msgstr "r"
+
+#: audio_time_axis.cc:95
+msgid "g"
+msgstr "g"
+
+#. group
+#: audio_time_axis.cc:96
+msgid "p"
+msgstr "p"
+
+#: audio_time_axis.cc:97
+#: automation_time_axis.cc:32
+#: visual_time_axis.cc:74
+msgid "h"
+msgstr "h"
+
+#. height
+#: audio_time_axis.cc:98
+msgid "a"
+msgstr "a"
+
+#: audio_time_axis.cc:99
+#: visual_time_axis.cc:73
+msgid "v"
+msgstr "v"
+
+#: audio_time_axis.cc:168
+#: mixer_strip.cc:86
+msgid "Record"
+msgstr "Εγγραφή"
+
+#: audio_time_axis.cc:169
+#: editor_actions.cc:37
+#: mixer_strip.cc:86
+msgid "Solo"
+msgstr "Σόλο"
+
+#: audio_time_axis.cc:170
+#: editor.cc:1760
+#: editor.cc:1859
+#: mixer_strip.cc:86
+#: panner_ui.cc:427
+msgid "Mute"
+msgstr "Σιγή"
+
+#: audio_time_axis.cc:171
+msgid "Edit Group"
+msgstr "Διαμόρφωση Group"
+
+#: audio_time_axis.cc:172
+#: visual_time_axis.cc:92
+msgid "Display Height"
+msgstr "Απεικόνιση ύψους"
+
+#: audio_time_axis.cc:173
+msgid "Playlist"
+msgstr "Playlist"
+
+#: audio_time_axis.cc:174
+#: audio_time_axis.cc:741
+msgid "Automation"
+msgstr "Αυτοματισμός"
+
+#: audio_time_axis.cc:175
+#: visual_time_axis.cc:93
+msgid "Visual options"
+msgstr "Επιλογές Εμφανίσεως"
+
+#: audio_time_axis.cc:176
+#: visual_time_axis.cc:94
+msgid "Hide this track"
+msgstr "Απόκρυψη παρόντος καναλιού"
+
+#: audio_time_axis.cc:333
+#: mixer_strip.cc:927
+msgid "No group"
+msgstr "Χωρίς group"
+
+#: audio_time_axis.cc:702
+#: automation_time_axis.cc:450
+#: imageframe_time_axis.cc:255
+#: marker_time_axis.cc:211
+msgid "Height"
+msgstr "Ύψος"
+
+#: audio_time_axis.cc:703
+#: color_manager.cc:41
+#: imageframe_time_axis.cc:256
+#: marker_time_axis.cc:212
+msgid "Color"
+msgstr "Χρώμα"
+
+#: audio_time_axis.cc:707
+msgid "Hide all crossfades"
+msgstr "Απόκρυψη όλων των crossfades"
+
+#: audio_time_axis.cc:708
+msgid "Show all crossfades"
+msgstr "Επαναφορά όλων των crossfades"
+
+#: audio_time_axis.cc:712
+#: mixer_strip.cc:1011
+msgid "Remote Control ID"
+msgstr ""
+
+#: audio_time_axis.cc:718
+#, fuzzy
+msgid "Show all automation"
+msgstr "Ανάδειξη όλων των αυτοματισμών"
+
+#: audio_time_axis.cc:721
+#, fuzzy
+msgid "Show existing automation"
+msgstr "Ανάδειξη υπαρχόντων αυτοματισμών"
+
+#: audio_time_axis.cc:724
+#, fuzzy
+msgid "Hide all automation"
+msgstr "Κρύψιμο όλων των αυτοματισμών"
+
+#: audio_time_axis.cc:729
+msgid "Fader"
+msgstr ""
+
+#: audio_time_axis.cc:734
+msgid "Pan"
+msgstr ""
+
+#: audio_time_axis.cc:739
+msgid "Plugins"
+msgstr "Plugins"
+
+#: audio_time_axis.cc:747
+msgid "Show waveforms"
+msgstr "Ανάδειξη κυματομορφών"
+
+#: audio_time_axis.cc:755
+msgid "Traditional"
+msgstr "Παραδοσιακή"
+
+#: audio_time_axis.cc:758
+msgid "Rectified"
+msgstr "Ανορθωμένή"
+
+#: audio_time_axis.cc:761
+msgid "Waveform"
+msgstr "Κυματομορφή"
+
+#: audio_time_axis.cc:771
+msgid "Align with existing material"
+msgstr "Ευθυγράμμιση με το υπάρχον υλικό"
+
+#: audio_time_axis.cc:776
+msgid "Align with capture time"
+msgstr "Ευθυγράμμιση με το χρόνο λήψεως"
+
+#: audio_time_axis.cc:782
+#, fuzzy
+msgid "Alignment"
+msgstr "Ευθυγράμμιση"
+
+#: audio_time_axis.cc:788
+#: editor.cc:527
+#: editor_actions.cc:60
+#: mixer_strip.cc:1000
+#: mixer_ui.cc:111
+msgid "Active"
+msgstr "Ενεργό"
+
+#: audio_time_axis.cc:793
+#: editor.cc:1922
+#: editor_actions.cc:320
+#: editor_markers.cc:508
+#: imageframe_time_axis.cc:259
+#: location_ui.cc:57
+#: marker_time_axis.cc:215
+#: mixer_strip.cc:1014
+msgid "Remove"
+msgstr "Απαλοιφή"
+
+#: audio_time_axis.cc:833
+msgid "Name for playlist"
+msgstr "Όνομα για playlist"
+
+#: audio_time_axis.cc:835
+#: audio_time_axis.cc:1851
+#: editor_markers.cc:827
+#: editor_mouse.cc:4673
+#: imageframe_time_axis.cc:248
+#: marker_time_axis.cc:208
+#: meter_bridge_strip.cc:224
+#: mixer_strip.cc:998
+#: redirect_box.cc:751
+#: redirect_box.cc:1065
+#: route_ui.cc:739
+#: visual_time_axis.cc:326
+msgid "Rename"
+msgstr "Μετονομασία"
+
+#: audio_time_axis.cc:868
+#: audio_time_axis.cc:908
+#, fuzzy
+msgid "Name for Playlist"
+msgstr "Όνομα για playlist"
+
+#: audio_time_axis.cc:1126
+#: visual_time_axis.cc:383
+msgid "a track already exists with that name"
+msgstr "Κανάλι με αυτό το όνομα ήδη υπάρχει"
+
+#: audio_time_axis.cc:1167
+#: editor.cc:218
+msgid "gain"
+msgstr "gain"
+
+#: audio_time_axis.cc:1207
+msgid "pan"
+msgstr "pan"
+
+#: audio_time_axis.cc:1410
+#: editor.cc:1483
+#: selection.cc:634
+msgid "programming error: "
+msgstr "σφάλμα προγραμματισμού: "
+
+#: audio_time_axis.cc:1848
+msgid "Current: %1"
+msgstr "Τρέχον: %1"
+
+#: audio_time_axis.cc:1855
+msgid "New Copy"
+msgstr "Νέο αντίγραφο"
+
+#: audio_time_axis.cc:1857
+msgid "Clear Current"
+msgstr "Εκκαθάριση τρέχοντος"
+
+#: audio_time_axis.cc:1859
+#: editor.cc:2024
+#: editor.cc:2100
+msgid "Select"
+msgstr "Επιλογή"
+
+#: automation_line.cc:884
+msgid "automation event move"
+msgstr "μετακίνηση συμβάντος αυτοματισμού"
+
+#: automation_line.cc:886
+msgid "automation range drag"
+msgstr "έλξη διαστήματος αυτοματισμού"
+
+#: automation_line.cc:1015
+#: region_gain_line.cc:62
+msgid "remove control point"
+msgstr "απαλοιφή σημείου ελέγχου"
+
+#: automation_time_axis.cc:33
+#: editor_ops.cc:2885
+msgid "clear"
+msgstr "εκκαθάριση"
+
+#: automation_time_axis.cc:75
+msgid "track height"
+msgstr "Υψος track"
+
+#: automation_time_axis.cc:76
+msgid "automation state"
+msgstr "Κατάσταση αυτοματισμού"
+
+#: automation_time_axis.cc:77
+msgid "clear track"
+msgstr "Εκκαθάριση καναλιού"
+
+#: automation_time_axis.cc:78
+msgid "hide track"
+msgstr "απόκρυψη καναλιού"
+
+#: automation_time_axis.cc:184
+#: automation_time_axis.cc:213
+#: automation_time_axis.cc:461
+msgid "Manual"
+msgstr ""
+
+#: automation_time_axis.cc:186
+#: automation_time_axis.cc:224
+#: automation_time_axis.cc:465
+#: editor.cc:2001
+#: editor.cc:2082
+#: gain_meter.cc:174
+#: panner_ui.cc:91
+#: plugin_ui.cc:395
+#: plugin_ui.cc:637
+#: sfdb_ui.cc:56
+msgid "Play"
+msgstr "Αναπαρ/γή"
+
+#: automation_time_axis.cc:188
+#: automation_time_axis.cc:235
+#: automation_time_axis.cc:469
+#: gain_meter.cc:176
+#: panner_ui.cc:93
+#: plugin_ui.cc:398
+#: plugin_ui.cc:639
+msgid "Write"
+msgstr "Γράψε"
+
+#: automation_time_axis.cc:190
+#: automation_time_axis.cc:246
+#: automation_time_axis.cc:473
+#: gain_meter.cc:178
+#: panner_ui.cc:95
+#: plugin_ui.cc:401
+#: plugin_ui.cc:641
+msgid "Touch"
+msgstr "Αγγιγμα"
+
+#: automation_time_axis.cc:257
+#: option_editor.cc:183
+#: option_editor.cc:189
+#: plugin_ui.cc:404
+msgid "???"
+msgstr "???"
+
+#: automation_time_axis.cc:271
+msgid "clear automation"
+msgstr "εκκαθάριση αυτοματισμού"
+
+#: automation_time_axis.cc:452
+#: editor_actions.cc:318
+msgid "Hide"
+msgstr "Κρύψιμο"
+
+#: automation_time_axis.cc:454
+#: crossfade_edit.cc:78
+#: redirect_box.cc:1057
+msgid "Clear"
+msgstr "Εκκαθάριση"
+
+#: automation_time_axis.cc:477
+msgid "State"
+msgstr "Κατάσταση"
+
+#: canvas-imageframe.c:104
+msgid "pixbuf"
+msgstr ""
+
+#: canvas-imageframe.c:105
+msgid "the pixbuf"
+msgstr ""
+
+#: canvas-imageframe.c:110
+msgid "x"
+msgstr ""
+
+#: canvas-imageframe.c:111
+#: canvas-simpleline.c:111
+#: canvas-simplerect.c:107
+msgid "x coordinate of upper left corner of rect"
+msgstr "x συντεταγμένη άνω αριστερής γωνίας του τετ"
+
+#: canvas-imageframe.c:120
+msgid "y"
+msgstr ""
+
+#: canvas-imageframe.c:121
+#: canvas-simpleline.c:121
+#: canvas-simplerect.c:117
+msgid "y coordinate of upper left corner of rect "
+msgstr "y συντεταγμένη άνω αριστερής γωνίας του τετ"
+
+#: canvas-imageframe.c:129
+msgid "width"
+msgstr "πλάτος"
+
+#: canvas-imageframe.c:130
+msgid "the width"
+msgstr "πλάτος"
+
+#: canvas-imageframe.c:139
+msgid "drawwidth"
+msgstr "σχημάτ.πλάτος"
+
+#: canvas-imageframe.c:140
+msgid "drawn width"
+msgstr "νέο πλάτος"
+
+#: canvas-imageframe.c:148
+#, fuzzy
+msgid "height"
+msgstr "Ύψος"
+
+#: canvas-imageframe.c:149
+msgid "the height"
+msgstr "Το ύψος"
+
+#: canvas-imageframe.c:157
+msgid "anchor"
+msgstr "άγκυρα"
+
+#: canvas-imageframe.c:158
+msgid "the anchor"
+msgstr "η άγκυρα"
+
+#: canvas-simpleline.c:110
+#: canvas-simplerect.c:106
+msgid "x1"
+msgstr ""
+
+#: canvas-simpleline.c:120
+#: canvas-simplerect.c:116
+msgid "y1"
+msgstr ""
+
+#: canvas-simpleline.c:131
+#: canvas-simplerect.c:127
+msgid "x2"
+msgstr ""
+
+#: canvas-simpleline.c:132
+#: canvas-simplerect.c:128
+msgid "x coordinate of lower right corner of rect"
+msgstr "x συντεταγμένη κάτω δεξιάς γωνίας του τετ"
+
+#: canvas-simpleline.c:141
+#: canvas-simplerect.c:137
+msgid "y2"
+msgstr ""
+
+#: canvas-simpleline.c:142
+#: canvas-simplerect.c:138
+msgid "y coordinate of lower right corner of rect "
+msgstr "y συντεταγμένη κάτω δεξιάς γωνίας του τετ"
+
+#: canvas-simpleline.c:150
+msgid "color rgba"
+msgstr ""
+
+#: canvas-simpleline.c:151
+msgid "color of line"
+msgstr "χρώμα της γραμμής"
+
+#: canvas-simplerect.c:148
+msgid "outline pixels"
+msgstr ""
+
+#: canvas-simplerect.c:149
+msgid "width in pixels of outline"
+msgstr "πλάτος σε pixels περιμέτρου"
+
+#: canvas-simplerect.c:159
+msgid "outline what"
+msgstr "κύκλωσε τι"
+
+#: canvas-simplerect.c:160
+msgid "which boundaries to outline (mask)"
+msgstr "ποιά όρια να κυκλώσω (mask)"
+
+#: canvas-simplerect.c:171
+msgid "fill"
+msgstr "γέμισμα"
+
+#: canvas-simplerect.c:172
+msgid "fill rectangle"
+msgstr "γέμιση τετραγώνου"
+
+#: canvas-simplerect.c:179
+msgid "draw"
+msgstr "σχημάτισε"
+
+#: canvas-simplerect.c:180
+msgid "draw rectangle"
+msgstr "σχηματισμός τετραγώνου"
+
+#: canvas-simplerect.c:188
+msgid "outline color rgba"
+msgstr ""
+
+#: canvas-simplerect.c:189
+msgid "color of outline"
+msgstr ""
+
+#: canvas-simplerect.c:199
+msgid "fill color rgba"
+msgstr ""
+
+#: canvas-simplerect.c:200
+msgid "color of fill"
+msgstr ""
+
+#: color_manager.cc:40
+#, fuzzy
+msgid "Object"
+msgstr "αντικείμενο"
+
+#: color_manager.cc:78
+msgid "cannot open color definition file %1: %2"
+msgstr "το αρχείο καθορισμού χρωμάτων %1: %2 δεν ανοίγει"
+
+#: crossfade_edit.cc:75
+msgid "ardour: x-fade edit"
+msgstr "ardour: επεξεργασία x-fade"
+
+#: crossfade_edit.cc:79
+#: panner_ui.cc:443
+msgid "Reset"
+msgstr ""
+
+#: crossfade_edit.cc:80
+msgid "Fade"
+msgstr ""
+
+#: crossfade_edit.cc:81
+msgid "Out (dry)"
+msgstr ""
+
+#: crossfade_edit.cc:82
+msgid "Out"
+msgstr ""
+
+#: crossfade_edit.cc:83
+msgid "In (dry)"
+msgstr ""
+
+#: crossfade_edit.cc:84
+msgid "In"
+msgstr ""
+
+#: crossfade_edit.cc:86
+#, fuzzy
+msgid "With Pre-roll"
+msgstr "με pre-roll"
+
+#: crossfade_edit.cc:87
+#, fuzzy
+msgid "With Post-roll"
+msgstr "με post-roll"
+
+#: crossfade_edit.cc:95
+msgid "Fade In"
+msgstr "Fade In"
+
+#: crossfade_edit.cc:96
+msgid "Fade Out"
+msgstr "Fade Out"
+
+#: crossfade_edit.cc:172
+#: editor.cc:1835
+#: editor_actions.cc:316
+#: option_editor.cc:130
+msgid "Audition"
+msgstr "Ακρόαση"
+
+#: editor.cc:104
+#: editor.cc:3616
+msgid "Slide"
+msgstr "Ολίσθηση"
+
+#: editor.cc:105
+#: editor.cc:3614
+msgid "Splice"
+msgstr "Splice"
+
+#. note that this menu list starts at zero, not 1, because zero
+#. is a valid, if useless, ID.
+#.
+#. leave some breathing room
+#: editor.cc:110
+#: editor.cc:3671
+#: export_dialog.cc:78
+#: export_dialog.cc:92
+#: export_dialog.cc:893
+#: export_dialog.cc:1225
+#: route_ui.cc:437
+msgid "None"
+msgstr "Ουδέν"
+
+#: editor.cc:111
+#: editor.cc:3659
+msgid "CD Frames"
+msgstr ""
+
+#: editor.cc:112
+#: editor.cc:3661
+msgid "SMPTE Frames"
+msgstr "SMPTE Frames"
+
+#: editor.cc:113
+#: editor.cc:3663
+msgid "SMPTE Seconds"
+msgstr "SMPTE Δευτερόλεπτα"
+
+#: editor.cc:114
+#: editor.cc:3665
+msgid "SMPTE Minutes"
+msgstr "SMPTE Λεπτά"
+
+#: editor.cc:115
+#: editor.cc:3667
+msgid "Seconds"
+msgstr "Δευτερόλεπτα"
+
+#: editor.cc:116
+#: editor.cc:3669
+msgid "Minutes"
+msgstr "Λεπτά"
+
+#: editor.cc:117
+#: editor.cc:3641
+msgid "Beats/32"
+msgstr "Κτύποι/32"
+
+#: editor.cc:118
+#: editor.cc:3639
+msgid "Beats/16"
+msgstr "Κτύποι/16"
+
+#: editor.cc:119
+#: editor.cc:3637
+msgid "Beats/8"
+msgstr "Κτύποι/8"
+
+#: editor.cc:120
+#: editor.cc:3635
+msgid "Beats/4"
+msgstr "Κτύποι/4"
+
+#: editor.cc:121
+#: editor.cc:3633
+msgid "Beats/3"
+msgstr "Κτύποι/3"
+
+#: editor.cc:122
+#: editor.cc:3643
+msgid "Beats"
+msgstr "Κτύποι"
+
+#: editor.cc:123
+#: editor.cc:3645
+msgid "Bars"
+msgstr "Μπάρες"
+
+#: editor.cc:124
+#: editor.cc:3647
+msgid "Marks"
+msgstr "Στίγματα"
+
+#: editor.cc:125
+#: editor.cc:144
+#: editor.cc:3649
+#: editor.cc:3715
+msgid "Edit Cursor"
+msgstr "Κέρσορας επεξεργασίας"
+
+#: editor.cc:126
+#: editor.cc:3651
+msgid "Region starts"
+msgstr "Αρχές Περιοχών"
+
+#: editor.cc:127
+#: editor.cc:3653
+msgid "Region ends"
+msgstr "Τέλη Περιοχών"
+
+#: editor.cc:128
+#: editor.cc:3657
+msgid "Region syncs"
+msgstr "Συγχρονισμός Περιοχών"
+
+#: editor.cc:129
+#: editor.cc:3655
+msgid "Region bounds"
+msgstr "Όρια περιοχών"
+
+#: editor.cc:135
+#: editor.cc:3690
+msgid "Magnetic"
+msgstr "Μαγνητικό"
+
+#: editor.cc:140
+#: editor.cc:3707
+#: export_dialog.cc:140
+#: export_dialog.cc:156
+#: export_dialog.cc:1068
+#: export_dialog.cc:1072
+msgid "Left"
+msgstr "Αριστερό"
+
+#: editor.cc:141
+#: editor.cc:3709
+#: export_dialog.cc:141
+#: export_dialog.cc:157
+msgid "Right"
+msgstr "Δεξιό"
+
+#: editor.cc:142
+#: editor.cc:3711
+msgid "Center"
+msgstr "Κέντρο"
+
+#: editor.cc:143
+#: editor.cc:3713
+msgid "Playhead"
+msgstr ""
+
+#. time display buttons
+#: editor.cc:186
+msgid "Mins:Secs"
+msgstr "Λεπτά:Δέυτερα"
+
+#: editor.cc:189
+#: editor_rulers.cc:354
+msgid "Frames"
+msgstr "Frames"
+
+#: editor.cc:190
+#: editor_rulers.cc:374
+msgid "Tempo"
+msgstr "Χρόνος"
+
+#: editor.cc:191
+#: editor_rulers.cc:368
+msgid "Meter"
+msgstr "Μετρητής"
+
+#: editor.cc:192
+#: editor_rulers.cc:380
+msgid "Location Markers"
+msgstr "Στίγματα Τοποθεσίας"
+
+#: editor.cc:193
+#: editor_rulers.cc:386
+msgid "Range Markers"
+msgstr "Στίγματα διαστημάτων"
+
+#: editor.cc:194
+#: editor_rulers.cc:392
+msgid "Loop/Punch Ranges"
+msgstr "Διαστήματα Loop/Punch"
+
+#: editor.cc:216
+msgid "range"
+msgstr "διάστημα"
+
+#: editor.cc:217
+msgid "object"
+msgstr "αντικείμενο"
+
+#: editor.cc:219
+msgid "zoom"
+msgstr "zoom"
+
+#: editor.cc:220
+msgid "timefx"
+msgstr "timefx"
+
+#: editor.cc:221
+msgid "listen"
+msgstr "άκου"
+
+#: editor.cc:223
+msgid "mode"
+msgstr "λειτουργία"
+
+#: editor.cc:224
+msgid "automation"
+msgstr "αυτοματισμός"
+
+#: editor.cc:226
+msgid "Edit Mode"
+msgstr "Λειτουργία Επεξ/σίας"
+
+#: editor.cc:227
+#: editor_actions.cc:284
+msgid "Snap To"
+msgstr "Έλξη σε"
+
+#: editor.cc:228
+msgid "Snap Mode"
+msgstr "Λειτουργία Έλξεως"
+
+#: editor.cc:229
+msgid "Zoom Focus"
+msgstr "Εστίαση Zoom"
+
+#. </CMT Additions>
+#. nudge
+#: editor.cc:237
+#: editor.cc:1900
+#: editor.cc:2066
+#: editor.cc:2122
+msgid "Nudge"
+msgstr "Νύξη"
+
+#: editor.cc:470
+msgid "Zoom in"
+msgstr "Zoom in"
+
+#: editor.cc:471
+msgid "Zoom out"
+msgstr "Zoom out"
+
+#: editor.cc:474
+msgid "Zoom to session"
+msgstr "Zoom στη συνεδρία"
+
+#: editor.cc:489
+msgid "Zoom Span"
+msgstr "Εύρος Zoom"
+
+#: editor.cc:502
+#: editor.cc:528
+#: editor_actions.cc:62
+#: mixer_ui.cc:86
+#: mixer_ui.cc:112
+#, fuzzy
+msgid "Visible"
+msgstr "ορατό"
+
+#: editor.cc:503
+#: editor.cc:526
+msgid "Name"
+msgstr ""
+
+#: editor.cc:602
+#: editor.cc:669
+msgid "Regions"
+msgstr "Περιοχές"
+
+#: editor.cc:642
+#: editor.cc:681
+msgid "Chunks"
+msgstr ""
+
+#: editor.cc:672
+msgid "Tracks/Busses"
+msgstr "Κανάλια/Δίαυλοι"
+
+#: editor.cc:675
+msgid "Snapshots"
+msgstr "Στιγμιότυπα"
+
+#: editor.cc:678
+msgid "Edit Groups"
+msgstr "επεξερ/σία Groups"
+
+#: editor.cc:727
+msgid "Nudge region/selection forwards"
+msgstr "Νύξη περιοχής/επιλογής εμπρός"
+
+#: editor.cc:728
+msgid "Nudge region/selection backwards"
+msgstr "Νύξη περιοχής/επιλογής πίσω"
+
+#: editor.cc:735
+#: editor_mixer.cc:299
+msgid "ardour: editor"
+msgstr "ardour: επεξεργαστής"
+
+#: editor.cc:736
+msgid "ardour_editor"
+msgstr "ardour_επεξεργαστής"
+
+#: editor.cc:1183
+msgid "ardour: editor: "
+msgstr "ardour: επεξεργαστής: "
+
+#. force name
+#: editor.cc:1268
+#: editor.cc:1277
+#: editor_markers.cc:870
+msgid "Loop"
+msgstr "Loop"
+
+#. force name
+#: editor.cc:1282
+#: editor.cc:1291
+#: editor_markers.cc:896
+msgid "Punch"
+msgstr "Punch"
+
+#: editor.cc:1439
+#: editor_mouse.cc:1742
+msgid "programming error: fade in canvas item has no regionview data pointer!"
+msgstr "Σφάλμα προγραμματισμού: το αντικείμενο 'fade in canvas' δεν διαθέτει δείκτη δεδομένων οπτικής περιοχών!"
+
+#: editor.cc:1451
+#: editor.cc:1468
+#: redirect_box.cc:1073
+msgid "Deactivate"
+msgstr "Απενεργοποίηση"
+
+#. activation
+#: editor.cc:1453
+#: editor.cc:1470
+#: redirect_box.cc:1071
+msgid "Activate"
+msgstr "Ενεργοποίηση"
+
+#: editor.cc:1458
+#: editor.cc:1475
+msgid "Linear"
+msgstr "Γραμμικό"
+
+#: editor.cc:1459
+#: editor.cc:1476
+#: editor_actions.cc:376
+msgid "Slowest"
+msgstr "Αργότατο"
+
+#: editor.cc:1460
+#: editor.cc:1477
+#: editor_actions.cc:377
+msgid "Slow"
+msgstr "Αργό"
+
+#: editor.cc:1461
+#: editor.cc:1478
+#: editor_actions.cc:379
+msgid "Fast"
+msgstr "Ταχύ"
+
+#: editor.cc:1462
+#: editor.cc:1479
+#: editor_actions.cc:381
+msgid "Fastest"
+msgstr "Ταχύτατο"
+
+#: editor.cc:1589
+#: editor.cc:1597
+msgid "Freeze"
+msgstr "Πάγωμα"
+
+#: editor.cc:1593
+msgid "Unfreeze"
+msgstr "Ξεπάγωμα"
+
+#: editor.cc:1762
+#: editor.cc:1857
+msgid "Unmute"
+msgstr ""
+
+#. non-operative menu items for menu bar
+#. show editors
+#: editor.cc:1766
+#: editor.cc:2046
+#: editor.cc:2748
+#: editor_actions.cc:27
+#: editor_markers.cc:507
+#: mixer_strip.cc:495
+#: mixer_strip.cc:563
+#: redirect_box.cc:1079
+msgid "Edit"
+msgstr "Επεξεργασία"
+
+#: editor.cc:1771
+msgid "Convert to short"
+msgstr ""
+
+#: editor.cc:1773
+msgid "Convert to full"
+msgstr ""
+
+#: editor.cc:1784
+msgid "Crossfade"
+msgstr ""
+
+#: editor.cc:1827
+msgid "Popup region editor"
+msgstr "Εμφάνιση του ρυθμιστή περιοχής"
+
+#: editor.cc:1828
+msgid "Raise to top layer"
+msgstr "Ανόρθωση στο ανώτατο στρώμα"
+
+#: editor.cc:1829
+msgid "Lower to bottom layer"
+msgstr "Υποβίβαση στο κατώτατο στρώμα"
+
+#: editor.cc:1831
+msgid "Define sync point"
+msgstr "Προσδιορισμός σημείου συγχρονισμού"
+
+#: editor.cc:1832
+msgid "Remove sync point"
+msgstr "Απαλοιφή σημείου συγχρονισμού"
+
+#: editor.cc:1837
+msgid "Bounce"
+msgstr "Αναπήδηση"
+
+#: editor.cc:1840
+msgid "Analyze region"
+msgstr "Ανάλυση περιοχής"
+
+#: editor.cc:1852
+msgid "Lock"
+msgstr "Κλείδωμα"
+
+#: editor.cc:1853
+msgid "Unlock"
+msgstr "Ξεκλείδωμα"
+
+#: editor.cc:1863
+msgid "Original position"
+msgstr "Πρωταρχική θέση"
+
+#: editor.cc:1869
+msgid "Toggle envelope visibility"
+msgstr ""
+
+#: editor.cc:1870
+msgid "Toggle envelope active"
+msgstr "Επανενεργοποίηση γραφήματος"
+
+#: editor.cc:1874
+msgid "DeNormalize"
+msgstr ""
+
+#: editor.cc:1876
+msgid "Normalize"
+msgstr "Εξομάλυνση"
+
+#: editor.cc:1879
+msgid "Reverse"
+msgstr "Αντιστροφή"
+
+#. range related stuff
+#: editor.cc:1885
+msgid "Add Range Markers"
+msgstr "Πρόσθεση Στιγμάτων Διαστήματος"
+
+#: editor.cc:1886
+msgid "Set Range"
+msgstr "Καθορισμός Διαστήματος"
+
+#: editor.cc:1895
+#, fuzzy
+msgid "Nudge fwd"
+msgstr "νύξη εμπρός"
+
+#: editor.cc:1896
+msgid "Nudge bwd"
+msgstr "Νύξη πίσω"
+
+#: editor.cc:1897
+msgid "Nudge fwd by capture offset"
+msgstr ""
+
+#: editor.cc:1898
+msgid "Nudge bwd by capture offset"
+msgstr ""
+
+#: editor.cc:1907
+msgid "Start to edit cursor"
+msgstr "Από αρχή μέχρι  κέρσορα επεξεργασίας"
+
+#: editor.cc:1908
+msgid "Edit cursor to end"
+msgstr "Από κέρσορα επεξεργασίας μέχρι τέλους"
+
+#: editor.cc:1910
+#: gain_meter.cc:181
+#: gain_meter.cc:813
+#: panner_ui.cc:98
+#: panner_ui.cc:803
+msgid "Trim"
+msgstr "Ισοστάθμιση"
+
+#: editor.cc:1913
+msgid "Split"
+msgstr "Διαχωρισμός"
+
+#: editor.cc:1916
+msgid "Make mono regions"
+msgstr "Δημιουργία mono περιοχών"
+
+#: editor.cc:1919
+msgid "Duplicate"
+msgstr "Αντιγραφή"
+
+#: editor.cc:1920
+msgid "Fill Track"
+msgstr "Γόμωση καναλιού"
+
+#: editor.cc:1924
+msgid "Destroy"
+msgstr "Καταστροφή"
+
+#: editor.cc:1954
+msgid "Play range"
+msgstr "Αναπαρ/γή διαστήματος"
+
+#: editor.cc:1955
+msgid "Loop range"
+msgstr "Loop διαστήματος"
+
+#: editor.cc:1959
+msgid "Analyze range"
+msgstr "Ανάλυση διαστήματος"
+
+#: editor.cc:1963
+msgid "Separate range to track"
+msgstr "Χωρισμός διαστήματος στο κανάλι"
+
+#: editor.cc:1964
+msgid "Separate range to region list"
+msgstr "Διαχωρισμός διαστήματος στη λίστα περιοχής"
+
+#: editor.cc:1967
+msgid "Select all in range"
+msgstr "Επιλογή όλων στο διάστημα"
+
+#: editor.cc:1969
+#: editor.cc:2014
+msgid "Set range to loop range"
+msgstr "Επιλογή διαστήματος κατά το loop"
+
+#: editor.cc:1970
+#: editor.cc:2015
+msgid "Set range to punch range"
+msgstr "Επιλογή διαστήματος κατά το punch"
+
+#: editor.cc:1972
+msgid "Crop region to range"
+msgstr "Κοπή Περιοχής κατά το διάστημα"
+
+#: editor.cc:1973
+msgid "Fill range with region"
+msgstr "Γέμισμα περιοχής με το διάστημα"
+
+#: editor.cc:1974
+msgid "Duplicate range"
+msgstr "Αντιγραφή διαστήματος"
+
+#: editor.cc:1975
+msgid "Create chunk from range"
+msgstr "Δημιουργία chunk από διάστημα"
+
+#: editor.cc:1977
+msgid "Bounce range"
+msgstr "Αναπήδηση διαστήματος"
+
+#: editor.cc:1978
+msgid "Export range"
+msgstr "Εξαγωγή διαστήματος"
+
+#: editor.cc:1980
+msgid "Range"
+msgstr "Διάστημα"
+
+#: editor.cc:1995
+#: editor.cc:2080
+msgid "Play from edit cursor"
+msgstr "Αναπαρ/γή από Κέρσορα Επεξεργασίας"
+
+#: editor.cc:1996
+#: editor.cc:2081
+msgid "Play from start"
+msgstr "Αναπαρ/γή από αρχή"
+
+#: editor.cc:1997
+#, fuzzy
+msgid "Play region"
+msgstr "Αναπαρ/γή Περιοχής"
+
+#: editor.cc:1999
+msgid "Loop Region"
+msgstr "Loop Περιοχής"
+
+#: editor.cc:2009
+#: editor.cc:2090
+msgid "Select All in track"
+msgstr "Επιλογή όλων στο  κανάλι"
+
+#: editor.cc:2010
+#: editor.cc:2091
+#: redirect_box.cc:1067
+msgid "Select All"
+msgstr "Επιλογή όλων"
+
+#: editor.cc:2011
+#: editor.cc:2092
+msgid "Invert selection in track"
+msgstr "Αντιστροφή επιλογής στο κανάλι"
+
+#: editor.cc:2012
+#: editor.cc:2093
+msgid "Invert selection"
+msgstr "Αντιστροφή επιλογής"
+
+#: editor.cc:2017
+#: editor.cc:2095
+msgid "Select all after edit cursor"
+msgstr "Επιλογή όλων μετά τον κέρσορα επεξεργασίας"
+
+#: editor.cc:2018
+#: editor.cc:2096
+msgid "Select all before edit cursor"
+msgstr "Επιλογή όλων πρίν τον κέρσορα επεξεργασίας"
+
+#: editor.cc:2019
+#: editor.cc:2097
+msgid "Select all after playhead"
+msgstr "Επιλογή όλων μετά την playhead"
+
+#: editor.cc:2020
+#: editor.cc:2098
+msgid "Select all before playhead"
+msgstr "Επιλογή όλων πριν την playhead"
+
+#: editor.cc:2021
+msgid "Select all between cursors"
+msgstr "Επιλογή Ολων μεταξύ κερσόρων"
+
+#. standard editing stuff
+#: editor.cc:2032
+#: editor.cc:2108
+#: editor.cc:3483
+#: editor_actions.cc:214
+#: redirect_box.cc:1060
+msgid "Cut"
+msgstr "Κοπή"
+
+#: editor.cc:2033
+#: editor.cc:2109
+#: editor.cc:3485
+#: editor_actions.cc:219
+#: redirect_box.cc:1062
+msgid "Copy"
+msgstr "Αντιγραφή"
+
+#: editor.cc:2034
+msgid "Paste at edit cursor"
+msgstr "Επικόλληση στον κέρσορα επεξεργασίας"
+
+#: editor.cc:2035
+msgid "Paste at mouse"
+msgstr "Επικόλληση στο ποντίκι"
+
+#: editor.cc:2039
+#: editor.cc:3490
+msgid "Align"
+msgstr "Ευθυγράμμιση"
+
+#: editor.cc:2040
+#: editor.cc:3492
+msgid "Align Relative"
+msgstr "Ευθυγράμμιση σχετικών"
+
+#: editor.cc:2044
+msgid "Insert chunk"
+msgstr "Προσθήκη chunk"
+
+#: editor.cc:2051
+msgid "Insert Selected Region"
+msgstr "Εισαγωγή επιλεγμένης περιοχής"
+
+#: editor.cc:2052
+msgid "Insert Existing Audio"
+msgstr "Εισαγωγή Υπάρχοντος Audio"
+
+#: editor.cc:2061
+#: editor.cc:2117
+msgid "Nudge entire track fwd"
+msgstr "Νύξη ολόκληρου καναλιού εμπρός"
+
+#: editor.cc:2062
+#: editor.cc:2118
+msgid "Nudge track after edit cursor fwd"
+msgstr "Νύξη καναλιού μετά του κέρσορα επεξεργασίας εμπρός"
+
+#: editor.cc:2063
+#: editor.cc:2119
+msgid "Nudge entire track bwd"
+msgstr "Νύξη ολοκλήρου καναλιού πίσω"
+
+#: editor.cc:2064
+#: editor.cc:2120
+msgid "Nudge track after edit cursor bwd"
+msgstr "Νύξη κανάλι μετά του κέρσορα επεξεργασίας  πίσω"
+
+#: editor.cc:2110
+#: editor.cc:3487
+#: editor_actions.cc:221
+#: redirect_box.cc:1064
+msgid "Paste"
+msgstr "Επικόλληση"
+
+#: editor.cc:2630
+msgid "select/move objects"
+msgstr "επιλογή/μετακίνηση αντικειμένων"
+
+#: editor.cc:2631
+msgid "select/move ranges"
+msgstr "επιλογή/μετακίνηση διαστημάτων"
+
+#: editor.cc:2632
+msgid "draw gain automation"
+msgstr "σχεδιασμός αυτοματισμού του gain"
+
+#: editor.cc:2633
+msgid "select zoom range"
+msgstr "επιλογή διαστήματος zoom"
+
+#: editor.cc:2634
+msgid "stretch/shrink regions"
+msgstr "μεγέθυνση/σμίκρυνση περιοχών"
+
+#: editor.cc:2635
+msgid "listen to specific regions"
+msgstr "ακρόαση συγκεκριμένων περιοχών"
+
+#: editor.cc:2746
+msgid "Start:"
+msgstr "Αρχή:"
+
+#: editor.cc:2747
+msgid "End:"
+msgstr "Τέλος:"
+
+#: editor.cc:3362
+#: editor.cc:3402
+msgid "set selected regions"
+msgstr "καθορισμός επιλεγμένων περιοχών"
+
+#: editor.cc:3458
+#: editor_actions.cc:204
+msgid "Undo"
+msgstr "Undo"
+
+#: editor.cc:3460
+msgid "Undo (%1)"
+msgstr "Undo (%1)"
+
+#: editor.cc:3470
+#: editor_actions.cc:206
+msgid "Redo"
+msgstr "Redo"
+
+#: editor.cc:3472
+msgid "Redo (%1)"
+msgstr "Redo (%1)"
+
+#: editor.cc:3506
+msgid "... as new track"
+msgstr "...ώς νέο κανάλι"
+
+#: editor.cc:3507
+msgid "... as new region"
+msgstr "... ως νέα περιοχή"
+
+#: editor.cc:3509
+msgid "Import audio (copy)"
+msgstr "Εισαγωγή ήχου (αντίγραφο)"
+
+#: editor.cc:3512
+msgid "Remove last capture"
+msgstr "Απαλοιφή τελευταίας λήψης"
+
+#: editor.cc:3536
+msgid "Duplicate how many times?"
+msgstr "Αντιγραφή πόσες φορές?"
+
+#: editor.cc:4022
+msgid ""
+"Playlist %1 is currently unused.\n"
+"If left alone, no audio files used by it will be cleaned.\n"
+"If deleted, audio files used by it alone by will cleaned."
+msgstr ""
+"Η Λίστα Αναπαρ/γής %1 προς το παρόν δε χρησιμοποιείται.\n"
+"Εάν μείνει έτσι, κανένα ηχητικό αρχείο που χρησιμοποιείται απο αυτήν δεν θα διαγραφεί.\n"
+"Εάν διαγραφεί, τα ηχητικά αρχεία που χρησιμοποιούνται μόνο απ'αυτήν θα διαγραφούν."
+
+#: editor.cc:4030
+msgid "Delete playlist"
+msgstr "Διαγραφή λίστας αναπαρ/γής"
+
+#: editor.cc:4031
+msgid "Keep playlist"
+msgstr "Διατήρηση λίστας αναπαρ/γής"
+
+#: editor.cc:4032
+#: editor_audio_import.cc:236
+#: editor_ops.cc:2048
+#: editor_timefx.cc:71
+#: export_dialog.cc:971
+#: io_selector.cc:59
+#: io_selector.cc:793
+#: redirect_box.cc:903
+#: tempo_dialog.cc:20
+#: tempo_dialog.cc:37
+#: tempo_dialog.cc:202
+#: tempo_dialog.cc:220
+msgid "Cancel"
+msgstr "Ακύρωση"
+
+#: editor.cc:4199
+msgid "new playlists"
+msgstr "νέες playlists"
+
+#: editor.cc:4207
+msgid "copy playlists"
+msgstr "Αντιγραφή playlists"
+
+#: editor.cc:4215
+msgid "clear playlists"
+msgstr "εκκαθάριση playlists"
+
+#: editor_actions.cc:28
+#, fuzzy
+msgid "Select regions"
+msgstr "επιλογή περιοχών"
+
+#: editor_actions.cc:29
+msgid "Select range operations"
+msgstr "επιλογή ενεργειών διαστήματος"
+
+#: editor_actions.cc:30
+msgid "Move edit cursor"
+msgstr "Μετακίνηση κέρσορα επεξεργασίας"
+
+#: editor_actions.cc:31
+msgid "Region operations"
+msgstr "Ενέργειες Περιοχών"
+
+#: editor_actions.cc:32
+msgid "Tools"
+msgstr "Εργαλεία"
+
+#: editor_actions.cc:33
+msgid "View"
+msgstr "Οψη"
+
+#: editor_actions.cc:34
+#, fuzzy
+msgid "ZoomFocus"
+msgstr "Εστίαση Zoom"
+
+#: editor_actions.cc:35
+msgid "Meter hold"
+msgstr "Παύση Μετρητή"
+
+#: editor_actions.cc:36
+msgid "Meter falloff"
+msgstr ""
+
+#: editor_actions.cc:38
+msgid "Crossfades"
+msgstr ""
+
+#: editor_actions.cc:39
+msgid "Monitoring"
+msgstr ""
+
+#: editor_actions.cc:40
+msgid "Autoconnect"
+msgstr "ΑυτόματηΣύνδεση"
+
+#: editor_actions.cc:41
+msgid "Layering"
+msgstr "Στρωματοποίηση"
+
+#: editor_actions.cc:42
+msgid "Metering"
+msgstr "Μέτρηση"
+
+#: editor_actions.cc:43
+msgid "Fall off rate"
+msgstr "Fall off χρόνος"
+
+#: editor_actions.cc:44
+msgid "Hold Time"
+msgstr ""
+
+#: editor_actions.cc:45
+msgid "Add Existing Audio"
+msgstr "Πρόσθεση Υπάρχοντος Audio"
+
+#. add named actions for the editor
+#: editor_actions.cc:50
+msgid "Show Editor Mixer"
+msgstr "Ανάδειξη Μίκτη του Editor"
+
+#: editor_actions.cc:55
+msgid "Span Entire Overlap"
+msgstr "Διασκορπισμός όλου του Overlap"
+
+#: editor_actions.cc:57
+#: editor_actions.cc:384
+msgid "Short"
+msgstr ""
+
+#: editor_actions.cc:64
+msgid "Created Automatically"
+msgstr "Δημιουργήθηκε αυτόματα"
+
+#: editor_actions.cc:67
+msgid "Playhead to Next Region Start"
+msgstr "Playhead στην επόμενη Region Start"
+
+#: editor_actions.cc:69
+msgid "Playhead to Next Region End"
+msgstr "Playhead στην επόμενη Region End"
+
+#: editor_actions.cc:71
+msgid "Playhead to Next Region Sync"
+msgstr "Playhead στην επόμενη Region Sync"
+
+#: editor_actions.cc:74
+msgid "Playhead to Previous Region Start"
+msgstr "Playhead στην προηγούμενη Region Start"
+
+#: editor_actions.cc:76
+msgid "Playhead to Previous Region End"
+msgstr "Playhead στην προηγούμενη Region End"
+
+#: editor_actions.cc:78
+msgid "Playhead to Previous Region Sync"
+msgstr "Playhead στην προηγούμενη Region Sync"
+
+#: editor_actions.cc:81
+msgid "Edit Cursor to Next Region Start"
+msgstr "Ο Κέρσορας επεξεργασίας στην αρχή της επόμενης Περιοχής"
+
+#: editor_actions.cc:83
+msgid "Edit Cursor to Next Region End"
+msgstr "Ο Κέρσορας επεξεργασίας στο τέλος της επόμενης Περιοχής"
+
+#: editor_actions.cc:85
+msgid "Edit Cursor to Next Region Sync"
+msgstr "Ο Κέρσορας επεξεργασίας στο sync της επόμενης Περιοχής"
+
+#: editor_actions.cc:88
+msgid "Edit Cursor to Previous Region Start"
+msgstr "Edit Cursor στην προηγούμενη Region Start"
+
+#: editor_actions.cc:90
+msgid "Edit Cursor to Previous Region End"
+msgstr "Ο Κέρσορας επεξεργασίας στο τέλος της προηγούμενης Περιοχής"
+
+#: editor_actions.cc:92
+msgid "Edit Cursor to Previous Region Sync"
+msgstr "Ο Κέρσορας επεξεργασίας στο sync της προηγούμενης Περιοχής"
+
+#: editor_actions.cc:95
+msgid "Playhead to Range Start"
+msgstr "Playhead στην Αρχή Διαστήματος"
+
+#: editor_actions.cc:97
+msgid "Playhead to Range End"
+msgstr "Η playhead στο τέλος του διαστήματος"
+
+#: editor_actions.cc:100
+msgid "Edit Cursor to Range Start"
+msgstr "Ο Κέρσορας επεξεργασίας στην αρχή του διαστήματος"
+
+#: editor_actions.cc:102
+msgid "Edit Cursor to Range End"
+msgstr "Ο Κέρσορας επεξεργασίας στο τέλος του διαστήματος"
+
+#: editor_actions.cc:105
+#: editor_ops.cc:1363
+#, fuzzy
+msgid "select all"
+msgstr "Επιλογή όλων"
+
+#: editor_actions.cc:107
+msgid "Select All After Edit Cursor"
+msgstr "Επιλογή όλων μετά το Κερσ.Επεξεργασίας"
+
+#: editor_actions.cc:109
+msgid "Select All Before Edit Cursor"
+msgstr "Επιλογή όλων πρίν τον Edit Cursor"
+
+#: editor_actions.cc:112
+msgid "Select All After Playhead"
+msgstr "Επιλογή όλων μετά την playhead"
+
+#: editor_actions.cc:114
+msgid "Select All Before Playhead"
+msgstr "Επιλογή όλων πριν την playhead"
+
+#: editor_actions.cc:116
+msgid "Select All Between Cursors"
+msgstr "Επιλογή όλων μεταξύ κερσόρων"
+
+#: editor_actions.cc:119
+msgid "Select All in Punch Range"
+msgstr "Επιλογή όλων μέσα στο punch όριο"
+
+#: editor_actions.cc:121
+#, fuzzy
+msgid "Select All in Loop Range"
+msgstr "Επιλογή διαστήματος loop"
+
+#: editor_actions.cc:124
+msgid "Jump Forward to Mark"
+msgstr "Μετάθεση εμπρός στο Σημάδι"
+
+#: editor_actions.cc:126
+msgid "Jump Backward to Mark"
+msgstr "Μετάθεση πίσω στο Σημάδι"
+
+#: editor_actions.cc:128
+msgid "Add Location from Playhead"
+msgstr "Πρόσθεση Θέσεως από την playhead"
+
+#: editor_actions.cc:131
+#, fuzzy
+msgid "Nudge Forward"
+msgstr "νύξη εμπρός"
+
+#: editor_actions.cc:133
+msgid "Nudge Next Forward"
+msgstr "νύξη επόμενη εμπρός"
+
+#: editor_actions.cc:135
+msgid "Nudge Backward"
+msgstr "Νύξη πίσω"
+
+#: editor_actions.cc:137
+msgid "Nudge Next Backward"
+msgstr "Νύξη επόμενη πίσω"
+
+#: editor_actions.cc:140
+msgid "Zoom Out"
+msgstr ""
+
+#: editor_actions.cc:142
+msgid "Zoom In"
+msgstr ""
+
+#: editor_actions.cc:144
+#, fuzzy
+msgid "Zoom to Session"
+msgstr "Zoom στη συνεδρία"
+
+#: editor_actions.cc:147
+msgid "Scroll Tracks Up"
+msgstr "Κύλιση Καναλιών επάνω"
+
+#: editor_actions.cc:149
+msgid "Scroll Tracks Down"
+msgstr "Κύλιση Καναλιών Κάτω"
+
+#: editor_actions.cc:151
+msgid "Step Tracks Up"
+msgstr "Μετακίνηση Καναλιών επάνω"
+
+#: editor_actions.cc:153
+msgid "Step Tracks Down"
+msgstr "Μετάθεση Καναλιών κάτω"
+
+#: editor_actions.cc:156
+msgid "Scroll Backward"
+msgstr "Κύλιση πίσω"
+
+#: editor_actions.cc:158
+msgid "Scroll Forward"
+msgstr "Κύλιση εμπρός"
+
+#: editor_actions.cc:160
+msgid "goto"
+msgstr "πήγαινε στο"
+
+#: editor_actions.cc:162
+msgid "Center Playhead"
+msgstr "Playhead στο κέντρο"
+
+#: editor_actions.cc:164
+msgid "Center Edit Cursor"
+msgstr "Κέρσορας επεξεργασίας στο κέντρο"
+
+#: editor_actions.cc:166
+msgid "Playhead Forward"
+msgstr "Playhead εμπρός"
+
+#: editor_actions.cc:168
+msgid "Playhead Backward"
+msgstr "Playhead πίσω"
+
+#: editor_actions.cc:170
+msgid "Playhead to Edit"
+msgstr "Playhead στο Κέρσ.Επεξ."
+
+#: editor_actions.cc:172
+msgid "Edit to Playhead"
+msgstr "Κέρσ.Επεξ. στην Playhead"
+
+#: editor_actions.cc:175
+msgid "Align Regions Start"
+msgstr "Ευθυγράμμιση αρχής Περιοχών"
+
+#: editor_actions.cc:177
+msgid "Align Regions Start Relative"
+msgstr "ευθυγράμμιση αρχής περιοχών(σχετική)"
+
+#: editor_actions.cc:179
+msgid "Align Regions End"
+msgstr "ευθυγράμμιση τέλους περιοχών"
+
+#: editor_actions.cc:181
+msgid "Align Regions End Relative"
+msgstr "Ευθυγράμμιση τέλους περιοχών(σχετική)"
+
+#: editor_actions.cc:184
+msgid "Align Regions Sync"
+msgstr "ευθυγράμμιση του sync των περιοχών"
+
+#: editor_actions.cc:186
+msgid "Align Regions Sync Relative"
+msgstr "Ευθυγράμμιση του sync των περιοχών(σχετική)"
+
+#: editor_actions.cc:189
+msgid "Audition at Mouse"
+msgstr "Ακρόαση στο ποντίκι"
+
+#: editor_actions.cc:191
+msgid "Brush at Mouse"
+msgstr "Brush στο ποντίκι"
+
+#: editor_actions.cc:193
+msgid "Set Edit Cursor"
+msgstr "Θέση Κέρσορα επεξεργασίας"
+
+#: editor_actions.cc:195
+msgid "Mute/Unmute Region"
+msgstr "Σιγή/Ενεργοποίηση Περιοχής"
+
+#: editor_actions.cc:197
+msgid "Set Playhead"
+msgstr "Θέση playhead"
+
+#: editor_actions.cc:199
+#, fuzzy
+msgid "Split Region"
+msgstr "Διαχωρισμός περιοχής"
+
+#: editor_actions.cc:201
+msgid "Set Region Sync Position"
+msgstr "Θέση sync της Περιοχής"
+
+#: editor_actions.cc:209
+msgid "Export Session"
+msgstr "Εξαγωγή Συνεδρίας"
+
+#: editor_actions.cc:211
+msgid "Export Range"
+msgstr "Εξαγωγή διαστήματος"
+
+#. Note: for now, editor-delete does the exact same thing as editor-cut
+#: editor_actions.cc:217
+#, fuzzy
+msgid "Delete"
+msgstr "διαγραφή"
+
+#: editor_actions.cc:223
+#, fuzzy
+msgid "Duplicate Region"
+msgstr "αντιγραφή περιοχής"
+
+#: editor_actions.cc:225
+msgid "Duplicate Range"
+msgstr "Αντιγραφή διαστήματος"
+
+#: editor_actions.cc:227
+msgid "Insert Region"
+msgstr "Προσθήκη περιοχής"
+
+#: editor_actions.cc:229
+msgid "Reverse Region"
+msgstr "αντιστροφή περιοχής"
+
+#: editor_actions.cc:231
+msgid "Normalize Region"
+msgstr "Κανονικοποίηση περιοχής"
+
+#: editor_actions.cc:233
+msgid "crop"
+msgstr "κοψιμο"
+
+#: editor_actions.cc:235
+msgid "Insert Chunk"
+msgstr "Προσθήκη Chunk"
+
+#: editor_actions.cc:238
+msgid "Split at edit cursor"
+msgstr "Κόψιμο στον κέρσορα επεξεργασίας"
+
+#: editor_actions.cc:241
+msgid "Start Range"
+msgstr "Εναρκτήριο διάστημα"
+
+#: editor_actions.cc:243
+msgid "Finish Range"
+msgstr "Ολοκλήρωση Διαστήματος"
+
+#: editor_actions.cc:245
+msgid "Finish add Range"
+msgstr "Ολοκλήρωση πρόσθεσης Διαστήματος"
+
+#: editor_actions.cc:248
+msgid "Extend Range to End of Region"
+msgstr "Επέκταση Διαστήματος στο τέλος της Περιοχής"
+
+#: editor_actions.cc:250
+msgid "Extend Range to Start of Region"
+msgstr "Επέκταση Διαστήματος στην Αρχή της Περιοχής"
+
+#: editor_actions.cc:253
+msgid "Follow Playhead"
+msgstr "Ακολουθώντας την playhead"
+
+#: editor_actions.cc:261
+msgid "Zoom Focus Left"
+msgstr "Εστίαση Zoom αριστερά"
+
+#: editor_actions.cc:263
+msgid "Zoom Focus Right"
+msgstr "Εστίαση Zoom δεξιά"
+
+#: editor_actions.cc:265
+msgid "Zoom Focus Center"
+msgstr "Εστίαση Zoom κέντρο"
+
+#: editor_actions.cc:267
+msgid "Zoom Focus Playhead"
+msgstr "Εστίαση Zoom στην playhead"
+
+#: editor_actions.cc:269
+msgid "Zoom Focus Edit"
+msgstr "Εστίαση Zoom Κερσ.Επεξ."
+
+#: editor_actions.cc:275
+msgid "Object Tool"
+msgstr "Εργαλείο Object"
+
+#: editor_actions.cc:276
+msgid "Range Tool"
+msgstr "Εργαλείο Διαστήματος"
+
+#: editor_actions.cc:277
+msgid "Gain Tool"
+msgstr "Εργαλείο Gain"
+
+#: editor_actions.cc:278
+msgid "Zoom Tool"
+msgstr "Εργαλείο Zoom"
+
+#: editor_actions.cc:279
+msgid "Timefx Tool"
+msgstr "Εργαλείο Timefx"
+
+#: editor_actions.cc:286
+msgid "Snap to frame"
+msgstr "Snap σε frame"
+
+#: editor_actions.cc:287
+msgid "Snap to cd frame"
+msgstr "Snap σε cd frame"
+
+#: editor_actions.cc:288
+msgid "Snap to SMPTE frame"
+msgstr "Snap σε SMPTE Frame"
+
+#: editor_actions.cc:289
+msgid "Snap to SMPTE seconds"
+msgstr "Snap σε SMPTE Δευτερόλεπτα"
+
+#: editor_actions.cc:290
+msgid "Snap to SMPTE minutes"
+msgstr "Snap σε SMPTE Λεπτά"
+
+#: editor_actions.cc:291
+msgid "Snap to seconds"
+msgstr "Snap σε Δευτερόλεπτα"
+
+#: editor_actions.cc:292
+msgid "Snap to minutes"
+msgstr "Snap σε λεπτά"
+
+#: editor_actions.cc:293
+msgid "Snap to thirtyseconds"
+msgstr "Snap σε τριακοστα-δεύτερα (32)"
+
+#: editor_actions.cc:294
+msgid "Snap to asixteenthbeat"
+msgstr "Snap σε δέκατο-έκτο"
+
+#: editor_actions.cc:295
+msgid "Snap to eighths"
+msgstr "Snap σε όγδοα"
+
+#: editor_actions.cc:296
+msgid "Snap to quarters"
+msgstr "Snap σε τέταρτα"
+
+#: editor_actions.cc:297
+msgid "Snap to thirds"
+msgstr "Snap σε τρίτα"
+
+#: editor_actions.cc:298
+msgid "Snap to beat"
+msgstr "Snap σε beat"
+
+#: editor_actions.cc:299
+msgid "Snap to bar"
+msgstr "Snap σε μπάρες"
+
+#: editor_actions.cc:300
+msgid "Snap to mark"
+msgstr "Snap σε στίγματα"
+
+#: editor_actions.cc:301
+msgid "Snap to edit cursor"
+msgstr "Snap στο κέρσορα επεξεργασίας"
+
+#: editor_actions.cc:302
+msgid "Snap to region start"
+msgstr "Snap στην αρχή περιοχής"
+
+#: editor_actions.cc:303
+msgid "Snap to region end"
+msgstr "Snap στο Τέλος Περιοχης"
+
+#: editor_actions.cc:304
+msgid "Snap to region sync"
+msgstr "Snap στο συγχρονισμό περιοχής"
+
+#: editor_actions.cc:305
+msgid "Snap to region boundary"
+msgstr "Snap στο Όριο περιοχης"
+
+#. the region list popup menu
+#: editor_actions.cc:314
+msgid "Sort"
+msgstr "Ταξινόμηση"
+
+#: editor_actions.cc:322
+msgid "Show all"
+msgstr "Ανάδειξη όλων"
+
+#: editor_actions.cc:323
+msgid "Show automatic regions"
+msgstr "Ανάδειξη αυτομάτων περιοχών"
+
+#: editor_actions.cc:325
+msgid "Ascending"
+msgstr "Αύξουσα"
+
+#: editor_actions.cc:327
+msgid "Descending"
+msgstr "Φθίνουσα"
+
+#: editor_actions.cc:330
+msgid "By Region Name"
+msgstr "Με Όνομα Περιοχής"
+
+#: editor_actions.cc:332
+msgid "By Region Length"
+msgstr "Με Μέγεθος Περιοχής"
+
+#: editor_actions.cc:334
+msgid "By Region Position"
+msgstr "Με Θέση Περιοχής"
+
+#: editor_actions.cc:336
+msgid "By Region Timestamp"
+msgstr "Με Χρονο-στάμπα Περιοχής"
+
+#: editor_actions.cc:338
+msgid "By Region Start in File"
+msgstr "Με Αρχή-στο-αρχείο της Περιοχής"
+
+#: editor_actions.cc:340
+msgid "By Region End in File"
+msgstr "Με Τέλος-στο -αρχείο της Περιοχής"
+
+#: editor_actions.cc:342
+msgid "By Source File Name"
+msgstr "Με Όνομα Αρχείου Πηγής"
+
+#: editor_actions.cc:344
+msgid "By Source File Length"
+msgstr "Με Μέγεθος Αρχείου Πηγής"
+
+#: editor_actions.cc:346
+msgid "By Source File Creation Date"
+msgstr "Με Ημ/νία Αρχείου Πηγής"
+
+#: editor_actions.cc:348
+msgid "By Source Filesystem"
+msgstr "Με Filesystem Πηγής"
+
+#. the next two are duplicate items with different names for use in two different contexts
+#: editor_actions.cc:354
+msgid "Add External Audio"
+msgstr "Πρόσθεση Εξωγενούς Audio"
+
+#: editor_actions.cc:356
+msgid "as Region(s)"
+msgstr "ως περιοχή(ές)"
+
+#: editor_actions.cc:358
+msgid "as Tracks"
+msgstr "ως Κανάλια"
+
+#: editor_actions.cc:360
+msgid "to Tracks"
+msgstr "σε Κανάλια"
+
+#: editor_actions.cc:363
+#, fuzzy
+msgid "Show Waveforms"
+msgstr "Ανάδειξη κυματομορφών"
+
+#: editor_actions.cc:364
+#, fuzzy
+msgid "Show Waveforms While Recording"
+msgstr "Ανάδειξη κυματομορφών κατά την εγγραφή"
+
+#: editor_actions.cc:365
+#, fuzzy
+msgid "Show Measures"
+msgstr "Ανάδειξη γραμμών μετρήσεων"
+
+#: editor_actions.cc:378
+#: editor_actions.cc:385
+msgid "Medium"
+msgstr ""
+
+#: editor_actions.cc:380
+msgid "Faster"
+msgstr "Ταχύτερα"
+
+#: editor_actions.cc:386
+msgid "Long"
+msgstr ""
+
+#: editor_actions.cc:390
+msgid "Later is Higher"
+msgstr "το τελευταίο ψηλότερα"
+
+#: editor_actions.cc:391
+msgid "Most Recently Moved/Added is Higher"
+msgstr "Το μετακινημένο/προσθεμένο πιό πρόσφατα ψηλοτερα"
+
+#: editor_actions.cc:392
+msgid "Most Recently Added is Higher"
+msgstr "Το προσθεμένο πιό πρόσφατα ψηλοτερα"
+
+#: editor_audio_import.cc:72
+#, fuzzy
+msgid "You can't import or embed an audiofile until you have a session loaded."
+msgstr "Δεν γίνεται να εισαχθεί ήχος χωρίς να έχει φορτωθεί πρώτα Συνεδρία."
+
+#: editor_audio_import.cc:77
+msgid "Add existing audio to session"
+msgstr "Εισαγωγή υπάρχοντος audio στη συνεδρία"
+
+#: editor_audio_import.cc:142
+msgid "ardour: importing %1"
+msgstr "ardour: εισαγωγή εν εξελίξι %1"
+
+#: editor_audio_import.cc:146
+msgid "Cancel Import"
+msgstr "Ακύρωση Εισαγωγής"
+
+#: editor_audio_import.cc:224
+msgid "Editor: cannot open file \"%1\", (%2)"
+msgstr "Editor: δεν γίνεται να ανοίξει το αρχείο \"%1\",(%2)"
+
+#: editor_audio_import.cc:232
+msgid "Cancel entire import"
+msgstr "Ακύρωση όλης της Εισαγωγής"
+
+#: editor_audio_import.cc:233
+msgid "Don't embed it"
+msgstr "Μη το εμφυτεύσεις"
+
+#: editor_audio_import.cc:234
+msgid "Embed all without questions"
+msgstr ""
+
+#: editor_audio_import.cc:239
+msgid "Embed it anyway"
+msgstr "Εμφύτευσέ το ούτως ή άλλως"
+
+#: editor_audio_import.cc:242
+msgid ""
+"%1\n"
+"This audiofile's sample rate doesn't match the session sample rate!"
+msgstr ""
+"%1\n"
+"Ο ρυθμός δειγματοληψίας αυτού του αρχείου δεν ταιριάζει με αυτόν της συνεδρίας!"
+
+#: editor_audio_import.cc:275
+msgid "could not open %1"
+msgstr "δεν μπόρεσα να ανοίξω το %1"
+
+#: editor_audio_import.cc:320
+msgid "insert sndfile"
+msgstr "προσθήκη ηχο-αρχείου"
+
+#. stuff for the verbose canvas cursor
+#: editor_canvas.cc:118
+msgid "VerboseCanvasCursor"
+msgstr ""
+
+#: editor_edit_groups.cc:53
+#: mixer_ui.cc:736
+msgid "Activate All"
+msgstr "Ενεργοποίηση όλων"
+
+#: editor_edit_groups.cc:54
+#: mixer_ui.cc:737
+msgid "Disable All"
+msgstr "Απενεργοποίηση Όλων"
+
+#: editor_edit_groups.cc:56
+#: mixer_ui.cc:739
+msgid "Add group"
+msgstr "Πρόσθεση group"
+
+#: editor_edit_groups.cc:229
+#: mixer_ui.cc:970
+msgid "unnamed"
+msgstr "Χωρίς όνομα"
+
+#: editor_edit_groups.cc:258
+#: mixer_ui.cc:834
+msgid "-all-"
+msgstr "-όλα-"
+
+#: editor_export_audio.cc:65
+msgid ""
+"There is no selection to export.\n"
+"\n"
+"Select a selection using the range mouse mode"
+msgstr ""
+"Δεν υπάρχει επιλογή προς εξαγωγή.\n"
+"\n"
+"Επιλέξτε ένα κομμάτι με το ποντίκι σε λειτουργία 'διαστήματος'"
+
+#: editor_export_audio.cc:110
+msgid ""
+"There are no ranges to export.\n"
+"\n"
+"Create 1 or more ranges by dragging the mouse in the range bar"
+msgstr ""
+"Δεν υπάρχουν διαστήματα προς εξαγωγή.\n"
+"\n"
+"Δημιουργήστε 1 ή περισσότερα διαστήματα τραβώντας το ποντίκι\n"
+"πάνω στη μπάρα Διαστημάτων"
+
+#: editor_imageframe.cc:625
+#: editor_imageframe.cc:655
+msgid "programming error: no ImageFrameView selected"
+msgstr "Σφάλμα προγραμματισμού: δεν επιλέχθηκε οπτική καρέ εικόνας"
+
+#: editor_imageframe.cc:848
+#: editor_imageframe.cc:870
+msgid "programming error: no MarkerView selected"
+msgstr "Σφάλμα προγραμματισμού: δεν επιλέχθηκε οπτική στίγματος"
+
+#: editor_keyboard.cc:104
+msgid "mute region"
+msgstr "σιγή περιοχής"
+
+#: editor_keys.cc:46
+msgid "keyboard selection"
+msgstr "επιλογή πληκτρολογίου"
+
+#: editor_markers.cc:292
+#: editor_ops.cc:1290
+#: editor_ops.cc:1303
+#: editor_ops.cc:1321
+#: location_ui.cc:774
+msgid "add marker"
+msgstr "πρόσθεση στίγματος"
+
+#: editor_markers.cc:307
+#: editor_markers.cc:380
+#: editor_markers.cc:552
+#: editor_markers.cc:570
+#: editor_markers.cc:589
+#: editor_markers.cc:608
+#: editor_markers.cc:638
+#: editor_markers.cc:666
+#: editor_markers.cc:694
+#: editor_markers.cc:732
+#: editor_markers.cc:759
+#: editor_markers.cc:782
+#: editor_markers.cc:801
+#: editor_mouse.cc:2015
+#: editor_mouse.cc:4275
+msgid "programming error: marker canvas item has no marker object pointer!"
+msgstr "Σφάλμα προγραμματισμού: ο καμβάς στιγμάτων δεν έχει δείκτη αντικειμένου στιγμάτων!"
+
+#: editor_markers.cc:331
+#: location_ui.cc:656
+msgid "remove marker"
+msgstr "απαλοιφή στίγματος"
+
+#: editor_markers.cc:458
+msgid "Locate to Mark"
+msgstr "Τοποθέτηση στο Στίγμα"
+
+#: editor_markers.cc:459
+msgid "Play from Mark"
+msgstr "Αναπαρ/γή από Στίγμα"
+
+#: editor_markers.cc:460
+msgid "Set Mark from Playhead"
+msgstr "Θέση Στίγματος από playhead"
+
+#: editor_markers.cc:464
+msgid "Rename Mark"
+msgstr "Μετονομασία Στίγματος"
+
+#: editor_markers.cc:465
+msgid "Hide Mark"
+msgstr "Απόκρυψη Στίγματος"
+
+#: editor_markers.cc:466
+msgid "Remove Mark"
+msgstr "Απαλοιφή Στίγματος"
+
+#: editor_markers.cc:479
+#: editor_markers.cc:535
+msgid "Locate to Range Mark"
+msgstr "Εύρεση σε Στίγματα Διαστημάτων"
+
+#: editor_markers.cc:480
+#: editor_markers.cc:536
+msgid "Play from Range Mark"
+msgstr "Αναπαρ/γή από Στίγματα Διαστημάτων"
+
+#: editor_markers.cc:481
+#, fuzzy
+msgid "Loop Range"
+msgstr "Loop διαστήματος"
+
+#: editor_markers.cc:482
+#: editor_markers.cc:537
+msgid "Set Range Mark from Playhead"
+msgstr "Ορισμός Στίγματος Διαστήματος από playhead"
+
+#: editor_markers.cc:483
+#: editor_markers.cc:538
+msgid "Set Range from Range Selection"
+msgstr "Ορισμός διαστήματος από επιλογή"
+
+#: editor_markers.cc:487
+msgid "Rename Range"
+msgstr "Μετονομασία Διαστήματος"
+
+#: editor_markers.cc:488
+#: editor_markers.cc:540
+msgid "Hide Range"
+msgstr "Απόκρυψη Διαστήματος"
+
+#: editor_markers.cc:489
+msgid "Remove Range"
+msgstr "Απαλοιφή Διαστήματος"
+
+#: editor_markers.cc:493
+#: editor_markers.cc:542
+msgid "Separate Regions in Range"
+msgstr "Διαχωρισμός περιοχών στο διάστημα"
+
+#: editor_markers.cc:494
+#: editor_markers.cc:543
+msgid "Select All in Range"
+msgstr "Επιλογή όλων στο διάστημα"
+
+#: editor_markers.cc:520
+msgid "Set Loop Range"
+msgstr "Θέση Loop Διαστήματος"
+
+#: editor_markers.cc:521
+msgid "Set Punch Range"
+msgstr "Θέση Punch Διαστήματος"
+
+#: editor_markers.cc:815
+#, fuzzy
+msgid "New Name:"
+msgstr "νέο όνομα: "
+
+#: editor_markers.cc:818
+msgid "ardour: rename mark"
+msgstr "ardour: μετονομασία στίγματος"
+
+#: editor_markers.cc:820
+msgid "ardour: rename range"
+msgstr "ardour: μετονομασία διαστήματος"
+
+#: editor_markers.cc:840
+msgid "rename marker"
+msgstr "μετονομασία στίγματος"
+
+#: editor_markers.cc:865
+msgid "set loop range"
+msgstr "Θέση loop διαστήματος"
+
+#: editor_markers.cc:891
+msgid "set punch range"
+msgstr "θέση punch διαστήματος"
+
+#: editor_mouse.cc:103
+msgid "Editor::event_frame() used on unhandled event type %1"
+msgstr "Επαξεργαστής::event_frame() χρησιμοποιήθηκε στο αδιαχείριστο συμβάν τύπου %1"
+
+#: editor_mouse.cc:313
+msgid "select on click"
+msgstr "επιλογή στο μετρονόμο"
+
+#: editor_mouse.cc:1590
+msgid "programming error: start_grab called without drag item"
+msgstr "σφάλμα προγραμματισμού: η ρουτίνα start_grab εκλήθη δίχως 'drag' αντικείμενο"
+
+#: editor_mouse.cc:1814
+msgid "change fade in length"
+msgstr "αλλαγή μήκους fade in"
+
+#: editor_mouse.cc:1832
+msgid "programming error: fade out canvas item has no regionview data pointer!"
+msgstr "σφάλμα προγραμματισμού: ο καμβάς fade out δεν έχει δείκτη δεδομένων της οπτικής περιοχών!"
+
+#: editor_mouse.cc:1906
+msgid "change fade out length"
+msgstr "αλλαγή μήκους fade out"
+
+#: editor_mouse.cc:1925
+msgid "programming error: cursor canvas item has no cursor data pointer!"
+msgstr "σφάλμα προγραμματισμού: ο καμβάς του κέρσορα δεν έχει δείκτη δεδομένων του κέρσορα!"
+
+#: editor_mouse.cc:2142
+msgid "move marker"
+msgstr "μετακίνηση στίγματος"
+
+#: editor_mouse.cc:2165
+#: editor_mouse.cc:2196
+#: editor_tempodisplay.cc:459
+msgid "programming error: meter marker canvas item has no marker object pointer!"
+msgstr "σφάλμα προγραμματισμού: ο καμβάς του μετρητή στιγμάτων δεν έχει δείκτη αντικειμένου στιγμάτων!"
+
+#: editor_mouse.cc:2264
+msgid "copy meter mark"
+msgstr "αντιγραφή στίγματος μετρητή"
+
+#: editor_mouse.cc:2274
+msgid "move meter mark"
+msgstr "μετακίνηση στίγματος μετρητή"
+
+#: editor_mouse.cc:2289
+#: editor_mouse.cc:2322
+#: editor_tempodisplay.cc:331
+#: editor_tempodisplay.cc:409
+#: editor_tempodisplay.cc:428
+msgid "programming error: tempo marker canvas item has no marker object pointer!"
+msgstr "σφάλμα προγραμματισμού: ο καμβάς στίξης του tempo δεν έχει δείκτη αντικειμένου στιγμάτων!"
+
+#: editor_mouse.cc:2294
+#: editor_mouse.cc:2327
+#: editor_tempodisplay.cc:336
+#: editor_tempodisplay.cc:414
+msgid "programming error: marker for tempo is not a tempo marker!"
+msgstr "σφάλμα προγραμματισμού: το στίγμα για το  tempo δεν είναι στιγμα για tempo!"
+
+#: editor_mouse.cc:2394
+msgid "copy tempo mark"
+msgstr "αντιγραφή στίγματος tempo"
+
+#: editor_mouse.cc:2404
+msgid "move tempo mark"
+msgstr "μετακίνηση στίγματος tempo"
+
+#: editor_mouse.cc:2418
+#: editor_mouse.cc:2437
+#: editor_mouse.cc:2450
+msgid "programming error: control point canvas item has no control point object pointer!"
+msgstr "Σφάλμα Προγραμματισμού: ο καμβάς του σημείου ελέγχου δεν έχει  δείκτη αναφοράς!"
+
+#: editor_mouse.cc:2555
+msgid "programming error: line canvas item has no line pointer!"
+msgstr "σφάλμα προγραμματισμού: ο καμβάς γραμμών δεν έχει δείκτη γραμμών!"
+
+#: editor_mouse.cc:2664
+msgid "move region(s)"
+msgstr "μετακίνηση περιοχής(ών)"
+
+#: editor_mouse.cc:2727
+msgid "Drag region brush"
+msgstr "Έλξη βούρτσας περιοχής(ων)"
+
+#. don't copy again
+#. this is committed in the grab finished callback.
+#: editor_mouse.cc:2751
+msgid "Drag region copy"
+msgstr "Έλξη αντιγραφής περιοχής"
+
+#. A selection grab currently creates two undo/redo operations, one for
+#. creating the new region and another for moving it.
+#.
+#: editor_mouse.cc:3609
+msgid "selection grab"
+msgstr "αρπαγή επιλεγμένων"
+
+#: editor_mouse.cc:3650
+msgid "cancel selection"
+msgstr "ακύρωση επιλογής"
+
+#: editor_mouse.cc:3760
+msgid "range selection"
+msgstr "επιλογή διαστήματος"
+
+#: editor_mouse.cc:3776
+msgid "trim selection start"
+msgstr "αρχή επιλογής προς ισοστάθμιση"
+
+#: editor_mouse.cc:3792
+msgid "trim selection end"
+msgstr "τέλος επιλογής προς ισοστάθμιση"
+
+#: editor_mouse.cc:3809
+msgid "move selection"
+msgstr "μετακίνηση επιλογής"
+
+#: editor_mouse.cc:4195
+msgid "Start point trim"
+msgstr "Αρχή σημείου ισοσταθμίσεως"
+
+#: editor_mouse.cc:4223
+msgid "End point trim"
+msgstr "Τέλος σημείου ισοσταθμίσεως"
+
+#: editor_mouse.cc:4262
+msgid "trimmed region"
+msgstr "ισοσταθμισμένη περιοχή"
+
+#: editor_mouse.cc:4400
+msgid "new range marker"
+msgstr "νέο στίγμα διαστήματος"
+
+#: editor_mouse.cc:4642
+msgid "select regions"
+msgstr "επιλογή περιοχών"
+
+#: editor_mouse.cc:4671
+msgid "Name for region:"
+msgstr "Όνομα για περιοχή:"
+
+#: editor_mouse.cc:4735
+msgid "timestretch"
+msgstr "κάμψη χρόνου"
+
+#: editor_ops.cc:195
+msgid "split"
+msgstr "διαχωρισμός"
+
+#: editor_ops.cc:231
+msgid "remove region"
+msgstr "απαλοιφή περιοχής"
+
+#: editor_ops.cc:250
+msgid ""
+" This is destructive, will possibly delete audio files\n"
+"It cannot be undone\n"
+"Do you really want to destroy %1 ?"
+msgstr ""
+"Αυτό είναι καταστροφικό, πιθανότατα να διαγραφούν audio\n"
+"αρχεία.\n"
+"Δεν μπορεί να ανακληθεί\n"
+"Πραγματικά θέλετε να καταστρέψετε το %1 ?"
+
+#: editor_ops.cc:254
+msgid "these regions"
+msgstr "αυτές τις περιοχές"
+
+#: editor_ops.cc:254
+msgid "this region"
+msgstr "αυτή την περιοχή"
+
+#: editor_ops.cc:256
+#: editor_ops.cc:3318
+#: route_ui.cc:707
+#: visual_time_axis.cc:278
+msgid "No, do nothing."
+msgstr "Όχι, να μην γίνει τίποτα."
+
+#: editor_ops.cc:259
+msgid "Yes, destroy them."
+msgstr "Ναι,κατάστρεψέ τις."
+
+#: editor_ops.cc:261
+#: editor_ops.cc:3319
+msgid "Yes, destroy it."
+msgstr "Ναι, να καταστραφεί."
+
+#: editor_ops.cc:352
+#: editor_ops.cc:380
+msgid "extend selection"
+msgstr "επέκταση επιλογής"
+
+#: editor_ops.cc:396
+#: editor_ops.cc:430
+#: editor_ops.cc:474
+#: editor_ops.cc:500
+msgid "nudge forward"
+msgstr "νύξη εμπρός"
+
+#: editor_ops.cc:564
+msgid "build_region_boundary_cache called with snap_type = %1"
+msgstr "build_region_boundary_cache εκλήθη με snap_type = %1"
+
+#: editor_ops.cc:1420
+msgid "select all within"
+msgstr "Επιλογή όλων εν μέσω"
+
+#: editor_ops.cc:1452
+msgid "set selection from region"
+msgstr "θέση επιλογής από περιοχή"
+
+#: editor_ops.cc:1485
+msgid "set selection from range"
+msgstr "θέση επιλογής από διάστημα"
+
+#: editor_ops.cc:1515
+msgid "select all from range"
+msgstr "επιλογή όλων από διάστημα"
+
+#: editor_ops.cc:1537
+msgid "select all from punch"
+msgstr "Επιλογή όλων από punch"
+
+#: editor_ops.cc:1559
+msgid "select all from loop"
+msgstr "Επιλογή όλων από loop"
+
+#: editor_ops.cc:1573
+msgid "select all after cursor"
+msgstr "επιλογή όλων μετά κέρσ.επεξ."
+
+#: editor_ops.cc:1578
+msgid "select all before cursor"
+msgstr "επιλογή όλων πριν κέρσ.επεξ."
+
+#: editor_ops.cc:1608
+msgid "select all between cursors"
+msgstr "επιλογή όλων μετάξυ κερσόρων"
+
+#: editor_ops.cc:1739
+msgid "clear markers"
+msgstr "εκκαθάριση στιγμάτων"
+
+#: editor_ops.cc:1751
+msgid "clear ranges"
+msgstr "διαγραφή διαστημάτων"
+
+#: editor_ops.cc:1770
+msgid "clear locations"
+msgstr "διαγραφή τοποθεσιών"
+
+#: editor_ops.cc:1820
+msgid "insert dragged region"
+msgstr "προσθήκη ελκομένης περιοχής"
+
+#: editor_ops.cc:1856
+msgid "insert region"
+msgstr "προσθήκη περιοχής"
+
+#: editor_ops.cc:2047
+#: io_selector.cc:58
+#: io_selector.cc:792
+msgid "OK"
+msgstr "OK"
+
+#: editor_ops.cc:2054
+msgid "ardour: rename region"
+msgstr "ardour: μετονομασία περιοχής"
+
+#: editor_ops.cc:2277
+#: editor_ops.cc:2326
+msgid "separate"
+msgstr "διαχωρισμός"
+
+#: editor_ops.cc:2388
+msgid "trim to selection"
+msgstr "ισοστάθμιση προς τα επιλεγμένα"
+
+#: editor_ops.cc:2428
+msgid "region fill"
+msgstr "γόμωση περιοχής"
+
+#: editor_ops.cc:2487
+msgid "fill selection"
+msgstr "γόμωση επιλογής"
+
+#: editor_ops.cc:2508
+msgid "Programming error. that region doesn't cover that position"
+msgstr ""
+"Σφάλμα προγραμματισμού. αυτή η περιοχή δεν καλύπτει\n"
+"αυτή τη θέση"
+
+#: editor_ops.cc:2511
+msgid "set region sync position"
+msgstr "ορισμός θέσης sync περιοχής"
+
+#: editor_ops.cc:2526
+msgid "Place the edit cursor at the desired sync point"
+msgstr "Τοποθετήστε τον κερσορα επεξερ/σίας στο επιθύμητό σημείο συγχρονισμού"
+
+#: editor_ops.cc:2531
+msgid "set sync from edit cursor"
+msgstr "Θέση συγχρονισμού(sync) απο κέρσορα επεξερ/σίας"
+
+#: editor_ops.cc:2543
+msgid "remove sync"
+msgstr "απαλοιφή συγχρονισμού(sync)"
+
+#: editor_ops.cc:2557
+msgid "naturalize"
+msgstr "φυσικοποίηση"
+
+#: editor_ops.cc:2621
+msgid "align selection (relative)"
+msgstr "ευθυγράμμιση επιλογής (σχετική)"
+
+#: editor_ops.cc:2649
+msgid "align selection"
+msgstr "ευθυγράμμιση επιλογής"
+
+#: editor_ops.cc:2661
+msgid "align region"
+msgstr "ευθυγράμμιση περιοχής"
+
+#: editor_ops.cc:2708
+#: editor_ops.cc:2733
+msgid "trim to edit"
+msgstr "ισοστάθμιση προς σύνταξη"
+
+#: editor_ops.cc:2784
+msgid "ardour: freeze"
+msgstr "ardour: πάγωμα"
+
+#: editor_ops.cc:2789
+msgid "Cancel Freeze"
+msgstr "Ακύρωση παγώματος"
+
+#: editor_ops.cc:2826
+msgid "bounce range"
+msgstr "αναπήδηση διαστήματο"
+
+#: editor_ops.cc:2879
+msgid "cut"
+msgstr "κοπή"
+
+#: editor_ops.cc:2882
+msgid "copy"
+msgstr "αντιγραφή"
+
+#: editor_ops.cc:2895
+msgid " objects"
+msgstr " αντικειμένων"
+
+#: editor_ops.cc:2921
+msgid " range"
+msgstr " διαστήματος"
+
+#: editor_ops.cc:3078
+msgid "paste"
+msgstr "επικόλληση"
+
+#: editor_ops.cc:3116
+msgid "paste chunk"
+msgstr "επικόλληση chunk"
+
+#. clear (below) will clear the argument list
+#: editor_ops.cc:3157
+msgid "duplicate region"
+msgstr "αντιγραφή περιοχής"
+
+#: editor_ops.cc:3202
+msgid "duplicate selection"
+msgstr "αντιγραφή επιλογής"
+
+#: editor_ops.cc:3259
+msgid "clear playlist"
+msgstr "εκκαθάριση playlist"
+
+#: editor_ops.cc:3288
+msgid "nudge track"
+msgstr "νύξη καναλιού"
+
+#: editor_ops.cc:3315
+msgid ""
+"Do you really want to destroy the last capture?\n"
+"(This is destructive and cannot be undone)"
+msgstr ""
+"Στ'αλήθεια θέλετε να καταστρέψετε την τελευταία λήψη?\n"
+"(Η πράξη είνα‎ι καταστρεπτική και δεν γίνεται επαναφορά της)"
+
+#: editor_ops.cc:3343
+msgid "normalize"
+msgstr "εξομάλυνση"
+
+#: editor_ops.cc:3390
+msgid "reverse regions"
+msgstr "αντιστροφή περιοχών"
+
+#: editor_region_list.cc:98
+#: editor_region_list.cc:103
+#: editor_region_list.cc:106
+#: location_ui.cc:56
+msgid "Hidden"
+msgstr "Κρυμμένο"
+
+#. added a new fresh one at the end
+#: editor_route_list.cc:102
+#: editor_route_list.cc:103
+#: editor_route_list.cc:247
+msgid "editor"
+msgstr "επεξεργαστής"
+
+#: editor_route_list.cc:310
+#: mixer_ui.cc:699
+msgid "Show All"
+msgstr "Εμφάνιση Όλων"
+
+#: editor_route_list.cc:311
+#: mixer_ui.cc:700
+msgid "Hide All"
+msgstr "Απόκρυψη όλων"
+
+#: editor_route_list.cc:312
+#: mixer_ui.cc:701
+msgid "Show All Audio Tracks"
+msgstr "Ανάδειξη όλων των Audio Καναλιών"
+
+#: editor_route_list.cc:313
+#: mixer_ui.cc:702
+msgid "Hide All Audio Tracks"
+msgstr "Απόκρυψη όλων των Audio Καναλιών"
+
+#: editor_route_list.cc:314
+#: mixer_ui.cc:703
+msgid "Show All Audio Busses"
+msgstr "Ανάδειξη όλων των Audio διαύλων"
+
+#: editor_route_list.cc:315
+#: mixer_ui.cc:704
+msgid "Hide All Audio Busses"
+msgstr "Απόκρυψη όλων των Audio διαύλων"
+
+#: editor_rulers.cc:312
+msgid "New location marker"
+msgstr "Νέο στίγμα θέσεως"
+
+#: editor_rulers.cc:313
+msgid "Clear all locations"
+msgstr "Εκκαθάριση όλων των θέσεων"
+
+#. ruler_items.push_back (MenuElem (_("New Range")));
+#: editor_rulers.cc:318
+msgid "Clear all ranges"
+msgstr "Εκκαθάριση όλων των διαστημάτων"
+
+#: editor_rulers.cc:327
+msgid "New Tempo"
+msgstr "Νέος Χρόνος"
+
+#: editor_rulers.cc:328
+msgid "Clear tempo"
+msgstr "Εκκαθάριση Χρόνου"
+
+#: editor_rulers.cc:333
+msgid "New Meter"
+msgstr "Νέο μέτρο"
+
+#: editor_rulers.cc:334
+msgid "Clear meter"
+msgstr "Εκκαθάριση μέτρου"
+
+#: editor_rulers.cc:342
+msgid "Min:Secs"
+msgstr "Λεπ:Δεύτ"
+
+#: editor_selection_list.cc:108
+msgid "Name for Chunk:"
+msgstr "όνομα για Chunk:"
+
+#: editor_selection_list.cc:111
+msgid "Create Chunk"
+msgstr "Δημιουργία Chunk"
+
+#: editor_selection_list.cc:111
+msgid "Forget it"
+msgstr "Ξέχασέ το"
+
+#: editor_tempodisplay.cc:253
+#: editor_tempodisplay.cc:293
+msgid "add"
+msgstr "πρόσθεση"
+
+#: editor_tempodisplay.cc:275
+msgid "add tempo mark"
+msgstr "πρόσθεση στίγματος χρόνου"
+
+#: editor_tempodisplay.cc:315
+msgid "add meter mark"
+msgstr "πρόσθεση στίγματος μέτρου"
+
+#: editor_tempodisplay.cc:348
+#: editor_tempodisplay.cc:376
+msgid "done"
+msgstr "έγινε"
+
+#: editor_tempodisplay.cc:366
+#: editor_tempodisplay.cc:394
+msgid "replace tempo mark"
+msgstr "αντικατάσταση στίγματος χρόνου"
+
+#: editor_tempodisplay.cc:433
+#: editor_tempodisplay.cc:464
+msgid "programming error: marker for meter is not a meter marker!"
+msgstr "Σφάλμα προγραμματισμού: το στίγμα για το μέτρο δεν είναι στίγμα μέτρου!"
+
+#: editor_tempodisplay.cc:443
+#: editor_tempodisplay.cc:476
+msgid "remove tempo mark"
+msgstr "απαλοιφή στίγματος χρόνου"
+
+#: editor_timefx.cc:51
+msgid "Quick but Ugly"
+msgstr "Γρήγορο αλλά  Άσχημο"
+
+#: editor_timefx.cc:52
+msgid "Skip Anti-aliasing"
+msgstr "Παράκαμψη Anti-aliasing"
+
+#: editor_timefx.cc:56
+msgid "ardour: timestretch"
+msgstr "ardour: χρονοκάμψη"
+
+#: editor_timefx.cc:57
+msgid "TimeStretchDialog"
+msgstr "ΔιάλογοςΧρονοκάμψης"
+
+#: editor_timefx.cc:70
+msgid "Stretch/Shrink it"
+msgstr "Μεγέθυνέ/Σμίκρυνέ το"
+
+#: editor_timefx.cc:73
+#: editor_timefx.cc:74
+msgid "TimeStretchButton"
+msgstr "ΚουμπίΧρονοκάμψης"
+
+#: editor_timefx.cc:75
+msgid "TimeStretchProgress"
+msgstr "ΠρόοδοςΧρονοκάμψης"
+
+#: editor_timefx.cc:139
+msgid "timestretch cannot be started - thread creation error"
+msgstr "timestretch δεν μπορεί να αρχίσει - σφάλμα δημιουργίας thread"
+
+#: export_dialog.cc:59
+#: export_dialog.cc:399
+#: export_dialog.cc:1027
+#: export_dialog.cc:1195
+msgid "22.05kHz"
+msgstr "22.05kHz"
+
+#: export_dialog.cc:60
+#: export_dialog.cc:402
+#: export_dialog.cc:417
+#: export_dialog.cc:1029
+#: export_dialog.cc:1197
+msgid "44.1kHz"
+msgstr "44.1kHz"
+
+#: export_dialog.cc:61
+#: export_dialog.cc:405
+#: export_dialog.cc:1031
+#: export_dialog.cc:1199
+msgid "48kHz"
+msgstr "48kHz"
+
+#: export_dialog.cc:62
+#: export_dialog.cc:408
+#: export_dialog.cc:1033
+#: export_dialog.cc:1201
+msgid "88.2kHz"
+msgstr "88.2kHz"
+
+#: export_dialog.cc:63
+#: export_dialog.cc:411
+#: export_dialog.cc:1035
+#: export_dialog.cc:1203
+msgid "96kHz"
+msgstr "96kHz"
+
+#: export_dialog.cc:64
+#: export_dialog.cc:414
+#: export_dialog.cc:1037
+#: export_dialog.cc:1205
+msgid "192kHz"
+msgstr "192kHz"
+
+#: export_dialog.cc:69
+msgid "best"
+msgstr "βέλτιστη"
+
+#: export_dialog.cc:70
+#: export_dialog.cc:1212
+msgid "fastest"
+msgstr "ταχύτατη"
+
+#: export_dialog.cc:71
+#: export_dialog.cc:1214
+msgid "linear"
+msgstr "γραμμική"
+
+#: export_dialog.cc:72
+#: export_dialog.cc:1216
+msgid "better"
+msgstr "καλύτερη"
+
+#: export_dialog.cc:73
+#: export_dialog.cc:1218
+msgid "intermediate"
+msgstr "ενδιάμεση"
+
+#: export_dialog.cc:79
+#: export_dialog.cc:1227
+msgid "Rectangular"
+msgstr "Τετράγωνη"
+
+#: export_dialog.cc:80
+msgid "Shaped Noise"
+msgstr "Μορφοποιημένος Θόρυβος"
+
+#: export_dialog.cc:81
+#: export_dialog.cc:1229
+msgid "Triangular"
+msgstr "Τρίγωνη"
+
+#: export_dialog.cc:86
+msgid "stereo"
+msgstr "stereo"
+
+#. default is to use all
+#: export_dialog.cc:87
+#: export_dialog.cc:486
+#: export_dialog.cc:1055
+#: export_dialog.cc:1177
+msgid "mono"
+msgstr "mono"
+
+#: export_dialog.cc:93
+msgid "CUE"
+msgstr ""
+
+#: export_dialog.cc:94
+msgid "TOC"
+msgstr ""
+
+#: export_dialog.cc:102
+msgid "Format"
+msgstr ""
+
+#: export_dialog.cc:103
+msgid "CD Marker File Type"
+msgstr ""
+
+#: export_dialog.cc:104
+msgid "Channels"
+msgstr "Κανάλια"
+
+#: export_dialog.cc:105
+msgid "File Type"
+msgstr ""
+
+#: export_dialog.cc:106
+msgid "Sample Format"
+msgstr ""
+
+#: export_dialog.cc:107
+msgid "Sample Endianness"
+msgstr ""
+
+#: export_dialog.cc:108
+msgid "Sample Rate"
+msgstr ""
+
+#: export_dialog.cc:109
+msgid "Conversion Quality"
+msgstr "Ποιότητα Μετατροπής"
+
+#: export_dialog.cc:110
+msgid "Dither Type"
+msgstr ""
+
+#: export_dialog.cc:111
+msgid "Export CD Marker File Only"
+msgstr "Εξαγωγή αρχείου CD Marker μόνο"
+
+#: export_dialog.cc:112
+msgid "Export to File"
+msgstr "Εξαγωγή σε αρχείο"
+
+#: export_dialog.cc:113
+#: option_editor.cc:83
+#: option_editor.cc:84
+msgid "Browse"
+msgstr "Αναζήτηση"
+
+#: export_dialog.cc:114
+msgid "Specific tracks ..."
+msgstr "Συγκεκριμένα κανάλια"
+
+#: export_dialog.cc:125
+msgid "ardour: export"
+msgstr "ardour: εξαγωγή"
+
+#: export_dialog.cc:126
+msgid "ardour_export"
+msgstr "ardour_εξαγωγή"
+
+#: export_dialog.cc:139
+#: export_dialog.cc:155
+#: mixer_strip.cc:124
+#: mixer_strip.cc:767
+msgid "Output"
+msgstr ""
+
+#: export_dialog.cc:633
+msgid "Editor: cannot open \"%1\" as export file for CD toc file"
+msgstr "Επεξεργαστής: δεν γίνεται να ανοιχτεί το \"%1\" ως αρχείο εξαγωγής για CD toc αρχείο"
+
+#: export_dialog.cc:759
+msgid "Editor: cannot open \"%1\" as export file for CD cue file"
+msgstr "Επεξεργαστής: δεν γίνεται να ανοιχτεί το \"%1\" ως αρχείο εξαγωγής για CD cue αρχείο"
+
+#: export_dialog.cc:778
+msgid "WAV"
+msgstr ""
+
+#: export_dialog.cc:912
+msgid "Stop Export"
+msgstr "Παύση Εξαγωγής"
+
+#: export_dialog.cc:1131
+msgid "Please enter a valid filename."
+msgstr "Παρακαλώ δώστε ένα ισχύον όνομα."
+
+#: export_dialog.cc:1141
+msgid "Please specify a complete filename for the audio file."
+msgstr "Παρακαλώ δώστε ολόκληρο το όνομα του audio αρχείου."
+
+#: export_dialog.cc:1147
+msgid "File already exists, do you want to overwrite it?"
+msgstr "Το αρχείο ήδη υπάρχει, θέλετε να σώστε από πάνω?"
+
+#: export_dialog.cc:1159
+#: export_range_markers_dialog.cc:153
+msgid "Cannot write file in: "
+msgstr "Αδύνατη η εγγραφή αρχείου σε:"
+
+#. warning dialog
+#: export_range_markers_dialog.cc:135
+msgid "Please enter a valid target directory."
+msgstr "Παρακαλώ δώστε ένα υπάρχον directory. "
+
+#: export_range_markers_dialog.cc:143
+msgid ""
+"Please select an existing target directory. Files\n"
+"are not allowed!"
+msgstr ""
+"ΠΑρακαλώ επιλέξτε ένα υπάρχον directory.Αρχεία\n"
+"δεν επιτρέπονται!"
+
+#: gain_automation_time_axis.cc:62
+msgid "add gain automation event"
+msgstr "πρόσθεση συμβάντος αυτοματισμού gain"
+
+#: gain_meter.cc:67
+msgid "cannot find images for fader slider"
+msgstr "δεν ευρέθησαν εικόνες για το fader slider"
+
+#: gain_meter.cc:74
+msgid "cannot find images for fader rail"
+msgstr "δεν ευρέθησαν εικόνες για το fader rail"
+
+#: gain_meter.cc:130
+#: gain_meter.cc:339
+#: gain_meter.cc:494
+#: gain_meter.cc:539
+msgid "-inf"
+msgstr "-inf"
+
+#: gain_meter.cc:140
+msgid "Fader automation mode"
+msgstr "Λειτουργία αυτοματισμού Fader"
+
+#: gain_meter.cc:141
+msgid "Fader automation type"
+msgstr "Τύπος αυτοματισμού Fader"
+
+#. XXX it might different in different languages
+#: gain_meter.cc:182
+#: gain_meter.cc:817
+#: panner_ui.cc:99
+#: panner_ui.cc:807
+#, fuzzy
+msgid "Abs"
+msgstr "abs"
+
+#: gain_meter.cc:472
+#, fuzzy
+msgid "-Inf"
+msgstr "-inf"
+
+#: gain_meter.cc:781
+#: mixer_strip.cc:770
+#: panner_ui.cc:771
+msgid "O"
+msgstr ""
+
+#: gain_meter.cc:784
+#: panner_ui.cc:774
+msgid "P"
+msgstr ""
+
+#: gain_meter.cc:787
+#: panner_ui.cc:777
+msgid "T"
+msgstr ""
+
+#: gain_meter.cc:790
+#: panner_ui.cc:780
+msgid "W"
+msgstr ""
+
+#: gtk-custom-ruler.c:126
+msgid "Lower"
+msgstr "Κατώτερο"
+
+#: gtk-custom-ruler.c:127
+msgid "Lower limit of ruler"
+msgstr "Κατώτερο όριο κλίμακας"
+
+#: gtk-custom-ruler.c:136
+msgid "Upper"
+msgstr "Ανώτατο"
+
+#: gtk-custom-ruler.c:137
+msgid "Upper limit of ruler"
+msgstr "Ανώτατο όριο κλίμακας"
+
+#: gtk-custom-ruler.c:146
+msgid "Position"
+msgstr "Θέση"
+
+#: gtk-custom-ruler.c:147
+msgid "Position of mark on the ruler"
+msgstr "Θέση στίγματος στην κλίμακα"
+
+#: gtk-custom-ruler.c:156
+msgid "Max Size"
+msgstr "Μέγ.μέγεθος"
+
+#: gtk-custom-ruler.c:157
+msgid "Maximum size of the ruler"
+msgstr "Μέγιστο μέγεθος κίμακας"
+
+#: gtk-custom-ruler.c:166
+msgid "Show Position"
+msgstr "Ανάδειξη Θέσεως"
+
+#: gtk-custom-ruler.c:167
+msgid "Draw current ruler position"
+msgstr "Σχηματισμός τρέχουσας θέσης κλίμακας"
+
+#. end-of-file, other end closed or shutdown?
+#: imageframe_socket_handler.cc:127
+msgid "Image Compositor Socket has been shutdown/closed"
+msgstr "Η  Socket για τον Image Compositor έχει τερματιστεί/κλείσει"
+
+#: imageframe_time_axis.cc:286
+msgid "0.5 seconds"
+msgstr "0.5 Δευτερόλεπτα"
+
+#: imageframe_time_axis.cc:287
+#: marker_time_axis.cc:242
+msgid "1 seconds"
+msgstr "1 Δευτερόλεπτα"
+
+#: imageframe_time_axis.cc:288
+#: marker_time_axis.cc:243
+msgid "1.5 seconds"
+msgstr "1.5 Δευτερόλεπτα"
+
+#: imageframe_time_axis.cc:289
+#: marker_time_axis.cc:244
+msgid "2 seconds"
+msgstr "2 Δευτερόλεπτα"
+
+#: imageframe_time_axis.cc:290
+#: marker_time_axis.cc:245
+msgid "2.5 seconds"
+msgstr "2.5 Δευτερόλεπτα"
+
+#: imageframe_time_axis.cc:291
+#: marker_time_axis.cc:246
+msgid "3 seconds"
+msgstr "3 Δευτερόλεπτα"
+
+#. duration_items.push_back(SeparatorElem()) ;
+#. duration_items.push_back(MenuElem (_("custom"), mem_fun(*this, &ImageFrameTimeAxis::set_marker_duration_custom))) ;
+#: imageframe_time_axis.cc:296
+#: marker_time_axis.cc:251
+msgid "Duration (sec)"
+msgstr "Διάρκεια (δευτ)"
+
+#: imageframe_time_axis.cc:301
+msgid "Remove Frame"
+msgstr "Απαλοιφή Frame"
+
+#: imageframe_time_axis.cc:304
+msgid "Image Frame"
+msgstr ""
+
+#: imageframe_time_axis.cc:305
+#: marker_time_axis.cc:257
+msgid "Rename Track"
+msgstr "Μετονομασία Καναλιού"
+
+#: io_selector.cc:60
+#: io_selector.cc:794
+#, fuzzy
+msgid "Rescan"
+msgstr "Επανα-ανίχνευση"
+
+#: io_selector.cc:68
+msgid "%1 input"
+msgstr "%1 είσοδος"
+
+#: io_selector.cc:70
+msgid "%1 output"
+msgstr "%1 έξοδος"
+
+#: io_selector.cc:142
+#: route_params_ui.cc:107
+msgid "Inputs"
+msgstr "Είσοδοι"
+
+#: io_selector.cc:142
+#: route_params_ui.cc:108
+msgid "Outputs"
+msgstr "Έξοδοι"
+
+#: io_selector.cc:143
+msgid "Add Input"
+msgstr "πρόσθεση Input"
+
+#: io_selector.cc:143
+msgid "Add Output"
+msgstr "πρόσθεση Output"
+
+#: io_selector.cc:144
+msgid "Remove Input"
+msgstr "Απαλοιφή Input"
+
+#: io_selector.cc:144
+msgid "Remove Output"
+msgstr "Απαλοιφή Output"
+
+#: io_selector.cc:145
+msgid "Disconnect All"
+msgstr "Αποσύνδεση Όλων"
+
+#: io_selector.cc:159
+msgid "Available connections"
+msgstr "Διαθέσιμες Συνδέσεις"
+
+#: io_selector.cc:555
+#: io_selector.cc:574
+msgid "There are no more JACK ports available."
+msgstr "Δεν υπάρχουν άλλες διαθέσιμες θύρες του JACK."
+
+#: io_selector.cc:649
+#: io_selector.cc:676
+#: io_selector.cc:729
+msgid "port"
+msgstr "θύρα"
+
+#: io_selector.cc:798
+msgid "ardour: "
+msgstr "ardour: "
+
+#: keyboard.cc:299
+msgid "KeyboardTarget: keyname \"%1\" is unknown."
+msgstr "KeyboardTarget: το Όνομα Πλήκτρου \"%1\" είναι άγνωστο."
+
+#: keyboard.cc:525
+msgid "Your system is completely broken - NumLock uses \"%1\"as its modifier. This is madness - see the man page for xmodmap to find out how to fix this."
+msgstr "Το Σύστημά σας έχει χαλάσει τελείως - Το NumLock χρησιμοποιεί το \"%1\"σαν μεταβλητή του. Αυτό είναι τρέλα - ανατρέξτε στην man page του xmodmap για να βρείτε πώς θα το φτιάξετε."
+
+#: keyboard.cc:533
+msgid "Your system generates \"%1\" when the NumLock key is pressed. This can cause problems when editing so Ardour will use %2 to mean Meta rather than %1"
+msgstr "Το Σύστημά σας δημιουργεί \"%1\" όταν το  NumLock είναι εν ενεργεία. Αυτό μπορεί να δημιουργήσει προβλήματα στην επεξεργασία οπότε ο Ardour θα χρησιμοποιήσει %2 για Meta αντί του %1"
+
+#: keyboard.cc:594
+msgid "You have %1 keys bound to \"mod1\""
+msgstr "Υπάρχουν %1 πλήκτρα αναθεμένα στο \"mod1\""
+
+#: keyboard.cc:609
+msgid "You have %1 keys bound to \"mod2\""
+msgstr "Υπάρχουν %1 πλήκτρα αναθεμένα στο \"mod2\""
+
+#: keyboard.cc:624
+msgid "You have %1 keys bound to \"mod3\""
+msgstr "Υπάρχουν %1 πλήκτρα αναθεμένα στο \"mod3\""
+
+#: keyboard.cc:639
+msgid "You have %1 keys bound to \"mod4\""
+msgstr "Υπάρχουν %1 πλήκτρα αναθεμένα στο \"mod4\""
+
+#: keyboard.cc:654
+msgid "You have %1 keys bound to \"mod5\""
+msgstr "Υπάρχουν %1 πλήκτρα αναθεμένα στο \"mod5\""
+
+#: location_ui.cc:48
+#: location_ui.cc:51
+msgid "Set"
+msgstr "Θέση"
+
+#: location_ui.cc:49
+#: location_ui.cc:52
+msgid "Go"
+msgstr "Πήγαινε"
+
+#: location_ui.cc:55
+msgid "CD"
+msgstr "CD"
+
+#: location_ui.cc:58
+msgid "SCMS"
+msgstr ""
+
+#: location_ui.cc:59
+msgid "Pre-Emphasis"
+msgstr ""
+
+#: location_ui.cc:570
+msgid "Add New Location"
+msgstr "Πρόσθεση νέας τοποθεσίας"
+
+#: location_ui.cc:571
+msgid "Add New Range"
+msgstr "Πρόσθεση νέου διαστήματος"
+
+#: location_ui.cc:575
+msgid "ardour: locations"
+msgstr "ardour: τοποθεσίες"
+
+#: location_ui.cc:576
+msgid "ardour_locations"
+msgstr "ardour_τοποθεσίες"
+
+#: location_ui.cc:604
+msgid "Location (CD Index) Markers"
+msgstr "Στίγματα Τοποθεσίας (CD Index)"
+
+#: location_ui.cc:624
+msgid "Range (CD Track) Markers"
+msgstr "Στίγματα διαστημάτων (CD Track)"
+
+#: location_ui.cc:790
+msgid "add range marker"
+msgstr "πρόσθεση στίγματος διαστήματος"
+
+#: main.cc:72
+msgid "ardour is killing itself for a clean exit\n"
+msgstr "Ο ardour σκοτώνει τον εαυτό του για καθαρή έξοδο\n"
+
+#: main.cc:81
+msgid "stopping user interface\n"
+msgstr "παύση του user interface\n"
+
+#. XXX its doubtful that snprintf() is async-safe
+#: main.cc:100
+#, c-format
+msgid "%d(%d): received signal %d\n"
+msgstr "%d(%d): εδέχθη σήμα %d\n"
+
+#: main.cc:180
+msgid "cannot become new process group leader (%1)"
+msgstr "δεν γίνεται νέος αρχηγός process group (%1)"
+
+#: main.cc:207
+msgid "cannot setup signal handling for %1"
+msgstr "δεν γίνεται να διαμορφώθεί η διαχείρηση σημάτων για %1"
+
+#: main.cc:218
+msgid "cannot set default signal mask (%1)"
+msgstr "δεν γίνεται να διαμορφώθεί η προκαθορισμένη μάσκα σημάτων (%1)"
+
+#: main.cc:248
+msgid ""
+"Without a UI style file, ardour will look strange.\n"
+" Please set ARDOUR2_UI_RC to point to a valid UI style file"
+msgstr ""
+"Δίχως αρχείο εμφάνισεως UI, ο ardour θα φαίνεται παράξενα.\n"
+"Παρακαλώ θέστε το ARDOUR_UI_RC να δείχνει σε ενεργό αρχείο εμφανίσεως UI."
+
+#: main.cc:270
+msgid "Ardour could not connect to JACK."
+msgstr "Το Ardour δεν μπόρεσε να συνδεθεί στον JACK."
+
+#: main.cc:274
+msgid ""
+"There are several possible reasons:\n"
+"\n"
+"1) JACK is not running.\n"
+"2) JACK is running as another user, perhaps root.\n"
+"3) There is already another client called \"ardour\".\n"
+"\n"
+"Please consider the possibilities, and perhaps (re)start JACK."
+msgstr ""
+"Υπάρχουν διάφοροι πιθανοί λόγοι:\n"
+"\n"
+"1) Ο JACK δεν τρέχει.\n"
+"2) JACK τρέχει σαν άλλος Χρήστης, ίσως σαν root.\n"
+"3) Υπάρχει ήδη άλλο πρόγραμμα με το όνομα \"ardour\".\n"
+"\n"
+"Παρακαλώ αναλογιστείτε τις πιθανότητες, ίσως (ξανα)ξεκινήστε τον JACK."
+
+#: main.cc:304
+msgid "could not load command line session \"%1\""
+msgstr "δεν γινόταν να φορτωθεί η συνεδρία γραμμής εντολών  \"%1\""
+
+#. it wasn't new, but we require a new session
+#: main.cc:324
+msgid ""
+"\n"
+"\n"
+"A session named \"%1\" already exists.\n"
+"To avoid this message, start ardour as \"ardour %1"
+msgstr ""
+"\n"
+"\n"
+"Συνεδρία με όνομα \"%1\" ήδη υπάρχει.\n"
+"Προς αποφυγήν αυτού το μηνύματος, αρχίστε\n"
+"το ardour σαν \"ardour %1"
+
+#: main.cc:335
+msgid ""
+"\n"
+"\n"
+"No session named \"%1\" exists.\n"
+"To create it from the command line, start ardour as \"ardour --new %1"
+msgstr ""
+"\n"
+"\n"
+"Συνεδρία με όνομα \"%1\" δεν υπάρχει.\n"
+"Δημιουργήστε τη από command line αρχίζοντας το\n"
+"ardour σαν \"ardour --new %1"
+
+#: main.cc:399
+msgid "Ardour/GTK "
+msgstr "Ardour/GTK "
+
+#: main.cc:401
+msgid ""
+"\n"
+"   (built using "
+msgstr ""
+
+#: main.cc:405
+msgid " with libardour "
+msgstr "με libardour "
+
+#: main.cc:410
+msgid " and GCC version "
+msgstr ""
+
+#: main.cc:420
+#, fuzzy
+msgid "Copyright (C) 1999-2006 Paul Davis"
+msgstr "Πνευματικα Δικαιώματα 1999-2004 Paul Davis"
+
+#: main.cc:421
+msgid "Some portions Copyright (C) Steve Harris, Ari Johnson, Brett Viren, Joel Baker"
+msgstr "Μερικά μέρη Copyright (C) Steve Harris, Ari Johnson, Brett Viren, Joel Baker"
+
+#: main.cc:423
+msgid "Ardour comes with ABSOLUTELY NO WARRANTY"
+msgstr "Ο Ardour έρχεται με απολύτως ΚΑΜΙΑ ΕΓΓΥΗΣΗ"
+
+#: main.cc:424
+msgid "not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE."
+msgstr ""
+
+#: main.cc:425
+msgid "This is free software, and you are welcome to redistribute it "
+msgstr "Το παρόν είναι ελεύθερο λογισμικό, είστε ελεύθεροι να το επαναδιανείμετε "
+
+#: main.cc:426
+msgid "under certain conditions; see the source for copying conditions."
+msgstr ""
+"υπό ορισμένους όρους, ανατρέξτε στον κώδικα για τους όρους\n"
+" αντιγραφής."
+
+#: main.cc:435
+msgid "could not create ARDOUR GUI"
+msgstr "δεν γινόταν να δημιουργηθεί ARDOUR GUI"
+
+#: main.cc:453
+msgid "Could not connect to JACK server as  \"%1\""
+msgstr "Δεν γινόταν να συνδεθώ στον JACK server σαν  \"%1\""
+
+#: main.cc:456
+msgid "could not initialize Ardour."
+msgstr "δεν γινόταν να εκκινηθεί ο  Ardour."
+
+#: marker.cc:244
+msgid "MarkerText"
+msgstr "ΚείμενοΣτίγματος"
+
+#: marker_time_axis.cc:254
+msgid "Remove Marker"
+msgstr "Απαλοιφή Στίγματος"
+
+#: marker_time_axis.cc:256
+msgid "Marker"
+msgstr "Στίγμα"
+
+#: meter_bridge.cc:78
+msgid "ardour: meter bridge"
+msgstr "ardour: γέφυρα μετρήσεων"
+
+#: meter_bridge.cc:79
+msgid "ardour_meter_bridge"
+msgstr "ardour_γέφυρα_μετρήσεων"
+
+#: meter_bridge_strip.cc:80
+#: meter_bridge_strip.cc:94
+#, c-format
+msgid "# of %u-sample overs"
+msgstr "# από %u-sample overs"
+
+#: meter_bridge_strip.cc:222
+#, fuzzy
+msgid "New Name for Meter:"
+msgstr "Νέο όνομα για μετρητή:"
+
+#: mixer_strip.cc:95
+#: mixer_strip.cc:140
+#: mixer_strip.cc:1227
+msgid "pre"
+msgstr "προ"
+
+#: mixer_strip.cc:96
+#: mixer_strip.cc:822
+msgid "Comments"
+msgstr "Σχόλια"
+
+#: mixer_strip.cc:119
+msgid "Input"
+msgstr ""
+
+#: mixer_strip.cc:136
+#: mixer_strip.cc:1223
+msgid "input"
+msgstr ""
+
+#: mixer_strip.cc:144
+#: mixer_strip.cc:1231
+msgid "post"
+msgstr ""
+
+#. TRANSLATORS: this string should be longest of the strings
+#. used to describe meter points. In english, its "input".
+#.
+#: mixer_strip.cc:152
+msgid "tupni"
+msgstr ""
+
+#: mixer_strip.cc:207
+#, fuzzy
+msgid "Varispeed"
+msgstr "μεταβλητή ταχύτητα"
+
+#: mixer_strip.cc:233
+#: mixer_strip.cc:836
+msgid "Click to Add/Edit Comments"
+msgstr "Κλίκ για Πρόσθεση/Επεξεργασία Σχολίων"
+
+#: mixer_strip.cc:374
+msgid "unknown strip width \"%1\" in XML GUI information"
+msgstr "άγνωστο εύρος διαδρόμου \"%1\" στις πληροφορίες του XML GUI"
+
+#: mixer_strip.cc:417
+#, fuzzy
+msgid "record"
+msgstr "Εγγραφή"
+
+#: mixer_strip.cc:418
+#: region_editor.cc:47
+msgid "mute"
+msgstr "σιγή"
+
+#: mixer_strip.cc:419
+msgid "solo"
+msgstr "σόλο"
+
+#: mixer_strip.cc:422
+msgid "comments"
+msgstr "σχόλια"
+
+#: mixer_strip.cc:424
+msgid "*comments*"
+msgstr "*σχόλια*"
+
+#: mixer_strip.cc:438
+msgid "Rec"
+msgstr ""
+
+#: mixer_strip.cc:439
+msgid "M"
+msgstr ""
+
+#: mixer_strip.cc:440
+msgid "S"
+msgstr ""
+
+#: mixer_strip.cc:443
+#: mixer_strip.cc:830
+msgid "Cmt"
+msgstr ""
+
+#: mixer_strip.cc:445
+#: mixer_strip.cc:828
+msgid "*Cmt*"
+msgstr ""
+
+#: mixer_strip.cc:483
+#: mixer_strip.cc:549
+#: redirect_box.cc:1006
+msgid "Not connected to JACK - no I/O changes are possible"
+msgstr "Μη συνδεδεμένο με τον JACK - I/O αλλαγές αδύνατες"
+
+#: mixer_strip.cc:560
+msgid "Track"
+msgstr "Κανάλι"
+
+#: mixer_strip.cc:588
+#: mixer_strip.cc:604
+msgid "could not register new ports required for that connection"
+msgstr ""
+"Αδύνατη η καταγραφή νέων θυρών που απαιτούνται\n"
+"για αυτή τη σύνδεση."
+
+#: mixer_strip.cc:747
+msgid " Input"
+msgstr ""
+
+#: mixer_strip.cc:750
+msgid "I"
+msgstr ""
+
+#: mixer_strip.cc:820
+msgid "*Comments*"
+msgstr "*Σχόλια*"
+
+#: mixer_strip.cc:859
+msgid ": comment editor"
+msgstr ": επεξεργαστής σχολίων"
+
+#: mixer_strip.cc:953
+msgid "Grp"
+msgstr ""
+
+#: mixer_strip.cc:956
+msgid "~G"
+msgstr "~G"
+
+#: mixer_strip.cc:1004
+msgid "Invert Polarity"
+msgstr "Αντιστροφή πολικότητας"
+
+#: mixer_ui.cc:85
+msgid "Strips"
+msgstr "Διάδρομοι"
+
+#: mixer_ui.cc:110
+msgid "Group"
+msgstr ""
+
+#: mixer_ui.cc:211
+#: mixer_ui.cc:370
+msgid "ardour: mixer"
+msgstr "ardour: μίκτης"
+
+#: mixer_ui.cc:212
+msgid "ardour_mixer"
+msgstr "ardour_μίκτης"
+
+#: mixer_ui.cc:346
+msgid "ardour: mixer: "
+msgstr "ardour: μίκτης: "
+
+#: mixer_ui.cc:573
+msgid "signal"
+msgstr "σήμα"
+
+#: mixer_ui.cc:723
+msgid "track display list item for renamed strip not found!"
+msgstr "Λίστα αναδείξεως καναλιών για μετονομασμένο διάδρομο δεν ευρέθη!"
+
+#: new_session_dialog.cc:39
+msgid "New Session Name :"
+msgstr "Νέο Όνομα Συνεδρίας:"
+
+#: new_session_dialog.cc:41
+msgid "Create Session Directory In :"
+msgstr "Δημιουργία Directory Συνεδρίας Στο:"
+
+#: new_session_dialog.cc:43
+msgid "Use Session Template :"
+msgstr "Χρήση Προσχεδίου Συνεδριών"
+
+#: new_session_dialog.cc:45
+msgid "Channel Count"
+msgstr "Αριθμός Καναλιών"
+
+#: new_session_dialog.cc:46
+msgid "Create Monitor Bus"
+msgstr "Δημιουργία Monitor Bus"
+
+#: new_session_dialog.cc:53
+msgid "Create Master Bus"
+msgstr "Δημιουργία Master Bus"
+
+#: new_session_dialog.cc:55
+msgid "Automatically Connect Inputs"
+msgstr "αυτόματη σύνδεση Inputs"
+
+#: new_session_dialog.cc:56
+#: new_session_dialog.cc:67
+msgid "Port Limit"
+msgstr "Όριο θυρών"
+
+#: new_session_dialog.cc:64
+msgid "<b>Track/Bus Inputs</b>"
+msgstr "<b> Inputs καναλιών/διάυλων</b>"
+
+#: new_session_dialog.cc:66
+msgid "Automatically Connect Outputs"
+msgstr "Αυτόματη σύνδεση Οutputs"
+
+#: new_session_dialog.cc:75
+msgid "Connect to Master Bus"
+msgstr "Σύνδεση με Master Δίαυλο"
+
+#: new_session_dialog.cc:76
+msgid "Connect to Physical Outputs"
+msgstr "Συνδεση με Φυσικές Εξόδους"
+
+#: new_session_dialog.cc:80
+msgid "<b>Track/Bus Outputs</b>"
+msgstr "<b> Outputs καναλιών/διάυλων</b>"
+
+#: new_session_dialog.cc:83
+msgid "Advanced Options"
+msgstr "Επιπλέον Ρυθμίσεις"
+
+#: new_session_dialog.cc:91
+msgid "Open Recent Session"
+msgstr "Άνοιγμα Πρόσφατης Συνεδρίας"
+
+#: new_session_dialog.cc:127
+msgid "Open Session File :"
+msgstr "Άνοιγμα Αρχείου Συνεδρίας:"
+
+#: new_session_dialog.cc:274
+msgid "New Session"
+msgstr "Νέα συνεδρία"
+
+#: new_session_dialog.cc:276
+msgid "Open Session"
+msgstr "Άνοιγμα Συνεδρίας"
+
+#: new_session_dialog.cc:281
+msgid "ardour: session control"
+msgstr "ardour: Έλεγχος συνεδρίας"
+
+#: new_session_dialog.cc:310
+msgid "select template"
+msgstr "Επιλογή προσχεδίου"
+
+#: new_session_dialog.cc:316
+msgid "select session file"
+msgstr "επιλογή αρχείου συνεδρίας"
+
+#: new_session_dialog.cc:325
+msgid "select directory"
+msgstr "επιλογή directory"
+
+#: option_editor.cc:76
+msgid "SMPTE offset is negative"
+msgstr "To SMPTE είναι αρνητικό"
+
+#: option_editor.cc:102
+msgid "ardour: options editor"
+msgstr "ardour: επεξεργαστής ρυθμίσεων"
+
+#: option_editor.cc:103
+msgid "ardour_option_editor"
+msgstr "ardour_επεξεργαστής_ρυθμίσεων"
+
+#: option_editor.cc:127
+msgid "Paths/Files"
+msgstr "Paths/Αρχεία"
+
+#: option_editor.cc:128
+msgid "Kbd/Mouse"
+msgstr "Πλκτρ/Ποντίκι"
+
+#: option_editor.cc:131
+msgid "Layers & Fades"
+msgstr ""
+
+#: option_editor.cc:135
+msgid "MIDI"
+msgstr "MIDI"
+
+#: option_editor.cc:177
+msgid "24 FPS"
+msgstr "24 FPS"
+
+#: option_editor.cc:179
+msgid "25 FPS"
+msgstr "25 FPS"
+
+#: option_editor.cc:181
+msgid "30 FPS"
+msgstr ""
+
+#: option_editor.cc:187
+msgid "30 FPS drop"
+msgstr "30 FPS drop"
+
+#: option_editor.cc:244
+msgid "session RAID path"
+msgstr "RAID path συνεδρίας"
+
+#: option_editor.cc:249
+msgid "Soundfile Search Paths"
+msgstr "Μονοπάτια αναζήτησης Soundfiles"
+
+#: option_editor.cc:254
+msgid "Paths"
+msgstr "Μονοπάτια"
+
+#: option_editor.cc:268
+#: option_editor.cc:274
+#: option_editor.cc:723
+#: option_editor.cc:750
+msgid "internal"
+msgstr "εσωτερικό"
+
+#: option_editor.cc:287
+msgid "Short crossfade length (msecs)"
+msgstr "Μικρό μήκος crossfade (msecs)"
+
+#: option_editor.cc:299
+msgid "Destructive crossfade length (msecs)"
+msgstr "Καταστροφικό μήκος crossfade (msecs)"
+
+#: option_editor.cc:367
+msgid "SMPTE Frames/second"
+msgstr "SMPTE Καρέ/δεύτερα"
+
+#: option_editor.cc:368
+msgid "SMPTE Offset"
+msgstr "SMPTE Έναρξη"
+
+#: option_editor.cc:462
+#: option_editor.cc:469
+#: option_editor.cc:472
+#: option_editor.cc:618
+msgid "online"
+msgstr ""
+
+#. remember, we have to handle the i18n case where the relative
+#. lengths of the strings in language N is different than in english.
+#.
+#: option_editor.cc:469
+#: option_editor.cc:470
+#: option_editor.cc:615
+msgid "offline"
+msgstr ""
+
+#: option_editor.cc:670
+msgid "Choose Click"
+msgstr "Επιλογή Μετρονόμου"
+
+#: option_editor.cc:689
+msgid "Choose Click Emphasis"
+msgstr "Επιλογή Έμφασης Μετρονόμου"
+
+#: option_editor.cc:803
+msgid "Click audio file"
+msgstr "Αρχείο ήχου Μετρονόμου"
+
+#: option_editor.cc:809
+msgid "Click emphasis audiofile"
+msgstr "Αρχείο ήχου εμφάσεως Μετρονόμου"
+
+#: option_editor.cc:846
+msgid ""
+"The auditioner is a dedicated mixer strip used\n"
+"for listening to specific regions outside the context\n"
+"of the overall mix. It can be connected just like any\n"
+"other mixer strip."
+msgstr ""
+"Ο 'ακροατής' είναι ένας αφοσιωμένος διάδρομος μίξεως που χρησιμοποιείται\n"
+"για ακρόαση συγκεκριμένων περιοχών εκτός\n"
+"του γενικού μιξαρίσματος. Μπορεί να συνδεθεί σαν άλλος ένας\n"
+"διάδρομος μίξεως ή κανάλι."
+
+#: option_editor.cc:919
+msgid "Edit using"
+msgstr "Επεξεργασία με"
+
+#: option_editor.cc:926
+#: option_editor.cc:953
+msgid "+ button"
+msgstr "+ κουμπί"
+
+#: option_editor.cc:946
+msgid "Delete using"
+msgstr "Διαγραφή με"
+
+#: option_editor.cc:973
+msgid "Ignore snap using"
+msgstr "Άγνοια έλξεως με"
+
+#: opts.cc:46
+msgid "Usage: "
+msgstr "Χρήση: "
+
+#: opts.cc:47
+msgid "  -v, --version                    Show version information\n"
+msgstr "  -v, --version                    Πληροφορίες εκδόσεως\n"
+
+#: opts.cc:48
+msgid "  -h, --help                       Print this message\n"
+msgstr "  -h, --help                       Προβολή του παρόντος\n"
+
+#: opts.cc:49
+msgid "  -b, --bindings                   Print all possible keyboard binding names\n"
+msgstr "  -b, --bindings                   Προβολή όλων των πιθανών δεσμών πληκτρολογίου ονόματα\n"
+
+#: opts.cc:50
+msgid "  -n, --show-splash                Show splash screen\n"
+msgstr "  -n, --show-splash                Ανάδειξη εισαγωγικής εικόνας\n"
+
+#: opts.cc:51
+msgid "  -c, --name  name                 Use a specific jack client name, default is ardour\n"
+msgstr "  -c, --name  name                 Χρήση συγκεκριμένου jack client ονόματος, το default είναι ardour\n"
+
+#: opts.cc:52
+msgid "  -N, --new session-name           Create a new session from the command line\n"
+msgstr "  -N, --new session-name           Δημιουργία νέας συνεδρίας από γραμμή εντολών\n"
+
+#: opts.cc:53
+msgid "  -o, --use-hw-optimizations        Try to use h/w specific optimizations\n"
+msgstr ""
+
+#: opts.cc:55
+msgid "  -V, --novst                      Do not use VST support\n"
+msgstr "  -V, --novst                      Χωρίς υποστήριξη VST\n"
+
+#: opts.cc:57
+msgid "  [session-name]                   Name of session to load\n"
+msgstr "  [όνομα-συνεδρίας]                   Όνομα συνεδρίας προς φόρτωση\n"
+
+#: opts.cc:58
+msgid "  -C, --curvetest filename         Curve algorithm debugger\n"
+msgstr ""
+
+#: opts.cc:59
+msgid "  -g, --gtktheme                   Allow GTK to load a theme\n"
+msgstr "  -g, --gtktheme                   Χρηση theme του GTK\n"
+
+#: pan_automation_time_axis.cc:60
+msgid "You can't graphically edit panning of more than stream"
+msgstr ""
+
+#: pan_automation_time_axis.cc:80
+msgid "add pan automation event"
+msgstr "πρόσθεση συμβάντος αυτοματισμού pan"
+
+#: panner2d.cc:589
+#: panner_ui.cc:435
+#: plugin_ui.cc:834
+msgid "Bypass"
+msgstr ""
+
+#: panner_ui.cc:58
+#: panner_ui.cc:225
+msgid "link"
+msgstr ""
+
+#: panner_ui.cc:69
+msgid "Pan automation mode"
+msgstr "Λειτουργία αυτοματισμού Pan"
+
+#: panner_ui.cc:70
+msgid "Pan automation type"
+msgstr "Τύπος αυτοματισμού Pan"
+
+#: panner_ui.cc:81
+msgid "panning link control"
+msgstr "έλεγχος panning link"
+
+#: panner_ui.cc:83
+msgid "panning link direction"
+msgstr "κατεύθυνση panning link"
+
+#: panner_ui.cc:235
+msgid "L"
+msgstr "L"
+
+#: panner_ui.cc:335
+#, c-format
+msgid "panner for channel %lu"
+msgstr "panner για το κανάλι %lu"
+
+#: panner_ui.cc:337
+#, c-format
+msgid "panner for channel %u"
+msgstr "panner για το κανάλι %u"
+
+#: panner_ui.cc:445
+msgid "Reset all"
+msgstr ""
+
+#: playlist_selector.cc:52
+msgid "ardour: playlists"
+msgstr ""
+
+#: playlist_selector.cc:59
+msgid "Playlists grouped by track"
+msgstr "Playlists ομαδοποιημένες ανά κανάλι"
+
+#: playlist_selector.cc:98
+msgid "ardour: playlist for "
+msgstr "ardour: playlist για"
+
+#: playlist_selector.cc:114
+msgid "Other tracks"
+msgstr "Άλλα κανάλια"
+
+#: playlist_selector.cc:130
+msgid "unassigned"
+msgstr ""
+
+#: plugin_selector.cc:43
+msgid "ardour: plugins"
+msgstr "ardour: plugins"
+
+#: plugin_selector.cc:56
+#, fuzzy
+msgid "Available LADSPA Plugins"
+msgstr "Διαθέσιμα LADSPA plugins"
+
+#: plugin_selector.cc:57
+msgid "Type"
+msgstr "Τύπωση"
+
+#: plugin_selector.cc:58
+#: plugin_selector.cc:81
+msgid "# Inputs"
+msgstr "# Είσοδοι"
+
+#: plugin_selector.cc:59
+#: plugin_selector.cc:82
+msgid "# Outputs"
+msgstr "# Έξοδοι"
+
+#: plugin_selector.cc:68
+msgid "Plugins to be Connected to Insert"
+msgstr "Plugins προς Σύνδεση με Insert"
+
+#: plugin_selector.cc:80
+msgid "Available plugins"
+msgstr "Διαθέσιμα plugins"
+
+#: plugin_selector.cc:98
+msgid "Add a plugin to the effect list"
+msgstr "Πρόσθεση plugin στη λίστα των εφφέ"
+
+#: plugin_selector.cc:102
+msgid "Remove a plugin from the effect list"
+msgstr "Απαλοιφή plugin από τη λίστα των εφφέ"
+
+#: plugin_selector.cc:104
+msgid "Update available plugins"
+msgstr "Ανανέωση διαθέσιμων plugins"
+
+#: plugin_selector.cc:126
+msgid "LADSPA"
+msgstr "LADSPA"
+
+#: plugin_selector.cc:129
+msgid "VST"
+msgstr "VST"
+
+#: plugin_ui.cc:84
+msgid "unknown type of editor-supplying plugin (note: no VST support in this version of ardour)"
+msgstr "άγνωστος τύπος προμηθευμένου plugin για τον editor(σημείωση: δεν υπάρχει υποστήριξη VST στην παρούσα έκδοση του ardour)"
+
+#: plugin_ui.cc:139
+msgid "<span size=\"large\">Presets</span>"
+msgstr ""
+
+#: plugin_ui.cc:230
+msgid "Controls"
+msgstr "Πίνακας Ελέγχου"
+
+#: plugin_ui.cc:267
+msgid "Plugin Editor: could not build control element for port %1"
+msgstr "Επεξεργαστής Plugin: δεν μπόρεσα να κτίσω στοιχείο ελέγχου για τη θύρα %1"
+
+#: plugin_ui.cc:358
+#, fuzzy
+msgid "Automation control"
+msgstr "έλεγχος αυτοματισμού"
+
+#: plugin_ui.cc:854
+msgid "Plugin preset %1 not found"
+msgstr "Προ-ρύθμιση plugin %1 δεν ευρέθη"
+
+#: plugin_ui.cc:864
+msgid "Name of New Preset:"
+msgstr "Όνομα για νέας προρρύθμισης:"
+
+#: redirect_automation_line.cc:54
+msgid "redirect automation created for non-plugin"
+msgstr "προώθηση αυτοματισμού δημιουργημένου για non-plugin"
+
+#: redirect_automation_time_axis.cc:94
+msgid "add automation event to "
+msgstr "πρόσθεση συμβάντος αυτοματισμού σε "
+
+#: redirect_box.cc:223
+msgid "New send"
+msgstr "Nέο send"
+
+#: redirect_box.cc:224
+msgid "Show send controls"
+msgstr "Ανάδειξη ρυθμίσεων send"
+
+#: redirect_box.cc:383
+msgid ""
+"You attempted to add a plugin (%1).\n"
+"The plugin has %2 inputs\n"
+"but at the insertion point, there are\n"
+"%3 active signal streams.\n"
+"\n"
+"This makes no sense - you are throwing away\n"
+"part of the signal."
+msgstr ""
+"Αποπειραθήκατε να προσθέσετε ένα plug-in (%1).\n"
+"Το plugin έχει %2 inputs\n"
+"αλλά στο σημείο υποδοχής, υπάρχουν\n"
+"%3 ενεργά σήματα.\n"
+"\n"
+"Δεν έχει νόημα - έτσι χαραμίζετε\n"
+"μέρος του σήματος."
+
+#: redirect_box.cc:395
+msgid ""
+"You attempted to add a plugin (%1).\n"
+"The plugin has %2 inputs\n"
+"but at the insertion point there are\n"
+"only %3 active signal streams.\n"
+"\n"
+"This makes no sense - unless the plugin supports\n"
+"side-chain inputs. A future version of Ardour will\n"
+"support this type of configuration."
+msgstr ""
+"Αποπειραθήκατε να προσθέσετε ένα plug-in (%1).\n"
+"Το plugin έχει  %2 inputs\n"
+"αλλά στο σημείο υποδοχής, υπάρχουν\n"
+"μόνο %3 ενεργά σήματα..\n"
+"\n"
+"Δεν έχει νόημα - εκτός αν το plug-in υποστηρίζει\n"
+"επι μέρους inputs. Μελλοντική έκδοση του Ardour θα\n"
+"υποστηρίζει αυτον τον τύπο διατάξεως."
+
+#: redirect_box.cc:408
+msgid ""
+"You attempted to add a plugin (%1).\n"
+"\n"
+"The I/O configuration doesn't make sense:\n"
+"\n"
+"The plugin has %2 inputs and %3 outputs.\n"
+"The track/bus has %4 inputs and %5 outputs.\n"
+"The insertion point, has %6 active signals.\n"
+"\n"
+"Ardour does not understand what to do in such situations.\n"
+msgstr ""
+"Αποπειραθήκατε να προσθέσετε ένα plug-in (%1).\n"
+"\n"
+"Η I/O διάταξη δεν έχει νόημα:\n"
+"\n"
+"Το plugin έχει %2 inputs και %3 outputs.\n"
+"Το κανάλι/δίαυλος έχει %4 inputs και %5 outputs.\n"
+"Το σημείο υποδοχής, έχει %6 ενεργά σήματα.\n"
+"\n"
+"Ο Ardour δεν γνωρίζει τι να κάνει σε τέτοιες περιπτώσεις.\n"
+
+#: redirect_box.cc:495
+msgid "Pre-fader inserts, sends & plugins:"
+msgstr "Pre-fader εισαγωγές, sends & plugins:"
+
+#: redirect_box.cc:498
+msgid "Post-fader inserts, sends & plugins:"
+msgstr "Post-fader εισαγωγές, sends & plugins:"
+
+#: redirect_box.cc:644
+msgid ""
+"You cannot reorder this set of redirects\n"
+"in that way because the inputs and\n"
+"outputs do not work correctly."
+msgstr ""
+"Δεν γίνεται η σύνδεση του set των redirects\n"
+"με αυτό τον τροπο γιατί οι εισόδοι\n"
+"κ' εξόδοι δεν λειτουργούν καλά."
+
+#: redirect_box.cc:749
+msgid "rename redirect"
+msgstr "μετονομασία redirect"
+
+#: redirect_box.cc:826
+#: redirect_box.cc:874
+msgid ""
+"Copying the set of redirects on the clipboard failed,\n"
+"probably because the I/O configuration of the plugins\n"
+"could not match the configuration of this track."
+msgstr ""
+"Η αντιγραφή του set των redirects στο clipboard απέτυχε,\n"
+"πιθανόν γιατί το I/O configuration των plugins\n"
+"δεν ταίριαζε το configuration αυτού του καναλιού."
+
+#: redirect_box.cc:896
+msgid ""
+"Do you really want to remove all redirects from this track?\n"
+"(this cannot be undone)"
+msgstr ""
+"Στ'αλήθεια θέλετε να απαλοίψετε όλα τα redirects από το κανάλι?\n"
+"(δεν μπορεί να ανακληθεί)"
+
+#: redirect_box.cc:899
+msgid ""
+"Do you really want to remove all redirects from this bus?\n"
+"(this cannot be undone)"
+msgstr ""
+"Στ'αλήθεια θέλετε να απαλοίψετε όλα τα redirects από το δίαυλο?\n"
+"(δεν μπορεί να ανακληθεί)"
+
+#: redirect_box.cc:904
+msgid "Yes, remove them all"
+msgstr "Ναι, απάλοιψέ τα όλα"
+
+#: redirect_box.cc:940
+msgid "ardour: %1"
+msgstr "ardour: %1"
+
+#: redirect_box.cc:982
+msgid "ardour: %1: %2 (by %3)"
+msgstr "ardour: %1: %2 (by %3)"
+
+#. new stuff
+#: redirect_box.cc:1054
+msgid "New Plugin ..."
+msgstr "Νέο Plugin ..."
+
+#: redirect_box.cc:1055
+msgid "New Insert"
+msgstr "Νέο Προσθήκη"
+
+#: redirect_box.cc:1056
+msgid "New Send ..."
+msgstr "Νέο Send ..."
+
+#: redirect_box.cc:1068
+msgid "Deselect All"
+msgstr "Αποεπιλογή όλων"
+
+#: redirect_box.cc:1075
+#, fuzzy
+msgid "Activate all"
+msgstr "Ενεργοποίηση όλων"
+
+#: redirect_box.cc:1076
+#, fuzzy
+msgid "Deactivate all"
+msgstr "Απενεργοποίηση όλων"
+
+#: region_editor.cc:45
+msgid "NAME:"
+msgstr "ΌΝΟΜΑ:"
+
+#: region_editor.cc:46
+msgid "lock"
+msgstr "κλείδωμα"
+
+#: region_editor.cc:48
+msgid "opaque"
+msgstr "αδιαφανής"
+
+#: region_editor.cc:49
+#: region_editor.cc:192
+#: region_editor.cc:226
+msgid "active"
+msgstr "ενεργό"
+
+#: region_editor.cc:50
+msgid "visible"
+msgstr "ορατό"
+
+#: region_editor.cc:53
+msgid "Layer"
+msgstr "Στρώμα"
+
+#: region_editor.cc:54
+msgid "play"
+msgstr "αναπαραγωγή"
+
+#: region_editor.cc:61
+msgid "ENVELOPE"
+msgstr "ΧΡΟΝΟΔΙΑΓΡΑΜΜΑ"
+
+#: region_editor.cc:107
+msgid "mute this region"
+msgstr "σιγή παρούσας περιοχής"
+
+#: region_editor.cc:108
+msgid "regions underneath this one cannot be heard"
+msgstr "περιοχές κάτωθι της παρούσας δεν μπορούν να ακουστούν"
+
+#: region_editor.cc:109
+msgid "prevent any changes to this region"
+msgstr "αποτροπή αλλαγών σε αυτή την περιοχή"
+
+#: region_editor.cc:110
+msgid "use the gain envelope during playback"
+msgstr "χρήση χρονοδιαγράμματος του gain κατά την αναπαρ/γή"
+
+#: region_editor.cc:111
+msgid "show the gain envelope"
+msgstr "ανάδειξη χρονοδιαγράμματος του gain"
+
+#: region_editor.cc:112
+msgid "use fade in curve during playback"
+msgstr "χρήση της καμπύλης fade in κατά την αναπαρ/γή"
+
+#: region_editor.cc:113
+msgid "use fade out curve during playback"
+msgstr "χρήση της καμπύλης fade out κατά την αναπαρ/γή"
+
+#: region_editor.cc:114
+msgid "audition this region"
+msgstr "ακρόαση της περιοχής"
+
+#: region_editor.cc:147
+msgid "START:"
+msgstr "ΑΡΧΗ:"
+
+#: region_editor.cc:149
+msgid "END:"
+msgstr "ΛΗΞΗ:"
+
+#: region_editor.cc:151
+msgid "LENGTH:"
+msgstr "ΜΗΚΟΣ:"
+
+#: region_editor.cc:191
+msgid "FADE IN"
+msgstr "FADE IN"
+
+#: region_editor.cc:193
+#: region_editor.cc:227
+msgid "msecs"
+msgstr "msecs"
+
+#: region_editor.cc:225
+msgid "FADE OUT"
+msgstr "FADE OUT"
+
+#: region_editor.cc:265
+msgid "ardour: region "
+msgstr "ardour: περιοχή "
+
+#: region_editor.cc:402
+msgid "fade in edit"
+msgstr "επεξερ/σία fade in"
+
+#: region_editor.cc:414
+msgid "fade out edit"
+msgstr "επεξερ/σία fade out"
+
+#: regionview.cc:1146
+msgid "add gain control point"
+msgstr "Προσθεση σημείου ελέγχου gain"
+
+#: route_params_ui.cc:89
+msgid "Tracks/Buses"
+msgstr "κανάλια/δίαυλοι"
+
+#: route_params_ui.cc:109
+msgid "Pre-fader Redirects"
+msgstr ""
+
+#: route_params_ui.cc:110
+msgid "Post-fader Redirects"
+msgstr ""
+
+#: route_params_ui.cc:144
+msgid "ardour: track/bus inspector"
+msgstr "ardour: Επιθεωρητής καναλιών/διαύλων"
+
+#: route_params_ui.cc:145
+msgid "ardour_route_parameters"
+msgstr "ardour_παράμετροι_διαδρομών"
+
+#: route_params_ui.cc:202
+msgid "route display list item for renamed route not found!"
+msgstr "Η λίστα ανάδειξης διαδρομών για μετονομασμένη διαδρομή δεν ευρέθη!"
+
+#: route_params_ui.cc:453
+msgid "NO TRACK"
+msgstr "Κανένα κανάλι"
+
+#: route_params_ui.cc:695
+msgid "ardour: track/bus inspector: "
+msgstr "ardour: Επιθεωρητής καναλιών/διαύλων:"
+
+#: route_params_ui.cc:699
+msgid "No Route Selected"
+msgstr "Δεν επελέχθη διαδρομή"
+
+#: route_params_ui.cc:700
+msgid "ardour: track/bus/inspector: no route selected"
+msgstr "ardour: Επιθεωρητής καναλιών/διαύλων: δεν επελέχθη διαδρομή"
+
+#. ctrl-shift-click applies change to all routes
+#: route_ui.cc:134
+msgid "mute change"
+msgstr "αλλαγή σιγής"
+
+#. ctrl-shift-click applies change to all routes
+#. ctrl-alt-click: exclusively solo this track, not a toggle */
+#: route_ui.cc:209
+#: route_ui.cc:219
+msgid "solo change"
+msgstr "αλλαγή σόλο"
+
+#: route_ui.cc:282
+msgid "rec-enable change"
+msgstr "αλλαγή rec-enable"
+
+#: route_ui.cc:479
+msgid "Solo-safe"
+msgstr ""
+
+#: route_ui.cc:487
+#: route_ui.cc:530
+msgid "MIDI Bind"
+msgstr "MIDI δεσμός"
+
+#: route_ui.cc:501
+msgid "Pre Fader"
+msgstr "Προ Fader"
+
+#: route_ui.cc:508
+msgid "Post Fader"
+msgstr "Μετά Fader"
+
+#: route_ui.cc:515
+msgid "Control Outs"
+msgstr "Control Outs"
+
+#: route_ui.cc:522
+msgid "Main Outs"
+msgstr "Main Outs"
+
+#: route_ui.cc:559
+msgid "mix group solo  change"
+msgstr "αλλαγή  solo του mix group"
+
+#: route_ui.cc:593
+msgid "mix group mute change"
+msgstr "αλλαγή  mute του mix group"
+
+#: route_ui.cc:609
+msgid "mix group rec-enable change"
+msgstr "αλλαγή  rec-enable της mix group"
+
+#: route_ui.cc:626
+#: visual_time_axis.cc:237
+msgid "ardour: color selection"
+msgstr "ardour: επιλογή χρωμάτων"
+
+#: route_ui.cc:702
+msgid ""
+"Do you really want to remove track \"%1\" ?\n"
+"\n"
+"You may also lose the playlist used by this track.\n"
+"(cannot be undone)"
+msgstr ""
+"Στ'αλήθεια θέλετε να απαλοίψετε το κανάλι \"%1\" ?\n"
+"\n"
+"Πιθανόν να χάσετε και τη λίστα που χρησιμοποιείται από το κανάλι.\n"
+"(δεν μπορεί να ανακληθεί)"
+
+#: route_ui.cc:704
+msgid ""
+"Do you really want to remove bus \"%1\" ?\n"
+"(cannot be undone)"
+msgstr ""
+"Στ'αλήθεια θέλετε να απαλοίψετε το κανάλι \"%1\" ?\n"
+"(δεν μπορεί να ανακληθεί)"
+
+#: route_ui.cc:708
+#: visual_time_axis.cc:279
+msgid "Yes, remove it."
+msgstr "Ναι, απάλοιψε το."
+
+#: route_ui.cc:737
+msgid "New Name: "
+msgstr "Νέο Όνομα: "
+
+#: sfdb_ui.cc:58
+msgid "Add Field..."
+msgstr "Πρόσθεση Πεδίου..."
+
+#: sfdb_ui.cc:59
+msgid "Remove Field"
+msgstr "Απαλοιφή Πεδίου"
+
+#: sfdb_ui.cc:62
+msgid "Soundfile Info"
+msgstr "Πληροφορίες για το Soundfile"
+
+#: sfdb_ui.cc:80
+msgid "Field"
+msgstr "Πεδίο"
+
+#: sfdb_ui.cc:81
+msgid "Value"
+msgstr "Αξία"
+
+#: sfdb_ui.cc:161
+msgid "channels"
+msgstr "κανάλια"
+
+#: sfdb_ui.cc:161
+msgid "samplerate"
+msgstr ""
+
+#: sfdb_ui.cc:162
+msgid "resolution"
+msgstr "ανάλυση"
+
+#: sfdb_ui.cc:162
+msgid "format"
+msgstr ""
+
+#: sfdb_ui.cc:183
+msgid "Could not read file: %1 (%2)."
+msgstr "Δεν γινόταν να διαβαστεί το αρχείο: %1 (%2)."
+
+#: sfdb_ui.cc:199
+msgid "Could not access soundfile: "
+msgstr "Δεν γινόταν να διαβαστεί το soundfile: "
+
+#: sfdb_ui.cc:236
+msgid "Name for Field"
+msgstr "Όνομα για Πεδίο:"
+
+#: sfdb_ui.cc:335
+msgid "Split Channels"
+msgstr "Διαχωρισμός Καναλιών"
+
+#: sfdb_ui.cc:342
+msgid "Create a region for each channel"
+msgstr "Δημιουργία μίας περιοχής για κάθε κανάλι"
+
+#: sfdb_ui.cc:344
+msgid "Embed"
+msgstr ""
+
+#: sfdb_ui.cc:346
+msgid "Link to an external file"
+msgstr "Σύνδεση με εξωτερικό αρχείο"
+
+#: sfdb_ui.cc:348
+msgid "Import"
+msgstr "Εισαγωγή"
+
+#: sfdb_ui.cc:350
+msgid "Copy a file to the session folder"
+msgstr "Αντιγραφή αρχείου στο φάκελο της συνεδρίας"
+
+#: sfdb_ui.cc:414
+msgid "programming error: %1"
+msgstr "σφάλμα προγραμματισμού: %1"
+
+#: tempo_dialog.cc:18
+#: tempo_dialog.cc:35
+msgid "Beats per minute"
+msgstr "Κτύποι ανά λεπτό"
+
+#: tempo_dialog.cc:21
+#: tempo_dialog.cc:38
+#: tempo_dialog.cc:203
+#: tempo_dialog.cc:221
+msgid "Bar"
+msgstr "Μπάρα"
+
+#: tempo_dialog.cc:22
+#: tempo_dialog.cc:39
+#: tempo_dialog.cc:204
+#: tempo_dialog.cc:222
+msgid "Beat"
+msgstr "Κτύπος"
+
+#: tempo_dialog.cc:24
+#: tempo_dialog.cc:41
+#: tempo_dialog.cc:205
+#: tempo_dialog.cc:223
+msgid "Location"
+msgstr "Τοποθεσία"
+
+#: tempo_dialog.cc:199
+#: tempo_dialog.cc:217
+msgid "Meter denominator"
+msgstr "Παρονομαστής Μέτρου"
+
+#: tempo_dialog.cc:200
+#: tempo_dialog.cc:218
+msgid "Beats per bar"
+msgstr "Κτύποι ανά μπάρα"
+
+#: tempo_dialog.cc:236
+#: tempo_dialog.cc:247
+msgid "whole (1)"
+msgstr "ολόκληρο (1)"
+
+#: tempo_dialog.cc:237
+#: tempo_dialog.cc:249
+msgid "second (2)"
+msgstr "δεύτερο (2)"
+
+#: tempo_dialog.cc:238
+#: tempo_dialog.cc:251
+msgid "third (3)"
+msgstr "τρίτο (3)"
+
+#: tempo_dialog.cc:239
+#: tempo_dialog.cc:253
+#: tempo_dialog.cc:261
+msgid "quarter (4)"
+msgstr "τέταρτο (4)"
+
+#: tempo_dialog.cc:240
+#: tempo_dialog.cc:255
+msgid "eighth (8)"
+msgstr "όγδοο (8)"
+
+#: tempo_dialog.cc:241
+#: tempo_dialog.cc:257
+msgid "sixteenth (16)"
+msgstr "δέκατο έκτο (16)"
+
+#: tempo_dialog.cc:242
+#: tempo_dialog.cc:259
+msgid "thirty-second (32)"
+msgstr "τριακοστό-όγδοο (32)"
+
+#: tempo_dialog.cc:420
+msgid "garbaged note type entry (%1)"
+msgstr "είσοδος(type entry) άχρηστης σημειώσεως (%1)"
+
+#: tempo_dialog.cc:430
+msgid "incomprehensible note type entry (%1)"
+msgstr "είσοδος(type entry) ακατανόητης σημειώσεως (%1)"
+
+#: time_axis_view.cc:112
+msgid "gTortnam"
+msgstr "gTortnam"
+
+#: time_axis_view.cc:549
+msgid "Largest"
+msgstr "Μέγιστο"
+
+#: time_axis_view.cc:550
+msgid "Large"
+msgstr "Μεγάλο"
+
+#: time_axis_view.cc:551
+msgid "Larger"
+msgstr "Μεγαλύτερο"
+
+#: time_axis_view.cc:553
+msgid "Smaller"
+msgstr "Μικρότερο"
+
+#: time_axis_view.cc:554
+msgid "Small"
+msgstr "Μικρό"
+
+#: time_axis_view.cc:870
+msgid "unknown track height name \"%1\" in XML GUI information"
+msgstr "Άγνωστο όνομα ύψους καναλιού\"%1\" στις XML GUI πληροφορίες"
+
+#. first constructed item sets up font info
+#: time_axis_view_item.cc:79
+msgid "TimeAxisViewItemName"
+msgstr ""
+
+#: time_axis_view_item.cc:298
+msgid "new duration %1 frames is out of bounds for %2"
+msgstr "νέα διάρκεια %1 καρέ είναι εκτός ορίων για %2"
+
+#: time_selection.cc:41
+msgid "programming error: request for non-existent audio range (%1)!"
+msgstr "Σφάλμα προγραμματισμού: request για μη-υπάρχον ηχητικό διάστημα (%1)!"
+
+#: utils.cc:107
+#: utils.cc:150
+msgid "bad XPM header %1"
+msgstr "εσφαλμένος XPM header %1"
+
+#: utils.cc:332
+msgid "missing RGBA style for \"%1\""
+msgstr "ελλειπές RGBA στύλ για \"%1\""
+
+#: visual_time_axis.cc:276
+msgid ""
+"Do you really want to remove track \"%1\" ?\n"
+"(cannot be undone)"
+msgstr ""
+"Στ'αλήθεια θέλετε να απαλοίψετε το κανάλι \"%1\" ?\n"
+"(δεν μπορεί να ανακληθεί)"
+
+#: visual_time_axis.cc:325
+msgid "new name: "
+msgstr "νέο όνομα: "
+
+#: visual_time_axis.cc:336
+msgid "A track already exists with that name"
+msgstr "Κανάλι με αυτό το όνομα ήδη υπάρχει"
+
+#~ msgid "set selected trackview"
+#~ msgstr "θέση επιλεγμένης οπτικής καναλιού"
+
+#, fuzzy
+#~ msgid "set selected control point"
+#~ msgstr "απαλοιφή σημείου ελέγχου"
+#~ msgid "set selected regionview"
+#~ msgstr "θέση επιλεγμένης οπτικής περιοχής"
+#~ msgid "Start a new session\n"
+#~ msgstr "Αρχή καινούριας συνεδρίας\n"
+#~ msgid "via Session menu"
+#~ msgstr "μέσω του μενού Συνεδρίας"
+#~ msgid "dbFS"
+#~ msgstr "dbFS"
+
+#, fuzzy
+#~ msgid "<b>Advanced</b>"
+#~ msgstr "Προχωρημένα..."
+
+#, fuzzy
+#~ msgid "Select a File"
+#~ msgstr "Επιλογή όλων"
+
+#, fuzzy
+#~ msgid "Track/Bus connection options"
+#~ msgstr "κανάλια/δίαυλοι"
+#~ msgid "RECORD"
+#~ msgstr "ΕΓΓΡΑΦΗ"
+#~ msgid "INPUT"
+#~ msgstr "ΕΙΣΟΔΟΣ"
+#~ msgid "OUTPUT"
+#~ msgstr "ΕΞΟΔΟΣ"
+#~ msgid "Gain automation mode"
+#~ msgstr "Λειτουργία αυτοματισμού Gain"
+#~ msgid "Gain automation type"
+#~ msgstr "Τύπος αυτοματισμού Gain"
+#~ msgid "trim"
+#~ msgstr "ισοστάθμιση"
+#~ msgid "gain automation mode"
+#~ msgstr "Λειτουργία αυτοματισμού gain"
+#~ msgid "gain automation state"
+#~ msgstr "Κατάσταση αυτοματισμού gain"
+#~ msgid "pan automation state"
+#~ msgstr "Κατάσταση αυτοματισμού pan"
+#~ msgid "REC"
+#~ msgstr "REC"
+#~ msgid "OUT"
+#~ msgstr "OUT"
+#~ msgid "aplay"
+#~ msgstr "aplay"
+#~ msgid "awrite"
+#~ msgstr "awrite"
+#~ msgid "no group"
+#~ msgstr "καμία ομάδα"
+
+#, fuzzy
+#~ msgid "normal"
+#~ msgstr "Κανονικό"
+#~ msgid "Disk r:%5.1f w:%5.1f MB/s"
+#~ msgstr "Δίσκοι r:%5.1f w:%5.1f MB/s"
+#~ msgid "file"
+#~ msgstr "αρχείο"
+
+#, fuzzy
+#~ msgid "ardour cleanup"
+#~ msgstr "ardour: εκκαθάριση"
+#~ msgid "close session"
+#~ msgstr "κλείσιμο συνεδρίας"
+
+#, fuzzy
+#~ msgid "SetRegionLayerMode"
+#~ msgstr "Τέλη Περιοχών"
+
+#, fuzzy
+#~ msgid "SetCrossfadeModel"
+#~ msgstr "Crossfade"
+#~ msgid "Play from"
+#~ msgstr "Αναπαρ/γή από"
+#~ msgid "Set from range"
+#~ msgstr "Θέση από διάστημα"
+#~ msgid "FORMAT"
+#~ msgstr "FORMAT"
+
+#, fuzzy
+#~ msgid "CD MARKER FILE TYPE"
+#~ msgstr "ΤΥΠΟΣ ΑΡΧΕΙΟΥ"
+#~ msgid "CHANNELS"
+#~ msgstr "ΚΑΝΑΛΙΑ"
+#~ msgid "FILE TYPE"
+#~ msgstr "ΤΥΠΟΣ ΑΡΧΕΙΟΥ"
+#~ msgid "SAMPLE FORMAT"
+#~ msgstr "FORMAT ΔΕΙΓΜΑΤΟΣ"
+#~ msgid "SAMPLE ENDIANNESS"
+#~ msgstr "SAMPLE ENDIANNESS"
+#~ msgid "SAMPLE RATE"
+#~ msgstr "ΡΥΘΜΟΣ ΔΕΙΓΜΑΤ/ΨΙΑΣ"
+#~ msgid "CONVERSION QUALITY"
+#~ msgstr "ΠΟΙΟΤΗΤΑ ΜΕΤΑΤΡΟΠΗΣ"
+#~ msgid "DITHER TYPE"
+#~ msgstr "ΤΥΠΟΣ DITHER"
+
+#, fuzzy
+#~ msgid "EXPORT CD MARKER FILE ONLY"
+#~ msgstr "ΤΥΠΟΣ ΑΡΧΕΙΟΥ"
+#~ msgid "EXPORT TO FILE"
+#~ msgstr "ΕΞΑΓΩΓΗ ΣΕ ΑΡΧΕΙΟ"
+#~ msgid "ardour: unplugged"
+#~ msgstr "ardour: unplugged"
+#~ msgid "pol"
+#~ msgstr "πολ"
+#~ msgid "To be added"
+#~ msgstr "Πρόκειται να προστεθούν"
+#~ msgid "Update"
+#~ msgstr "Ανανέωση"
+#~ msgid "save"
+#~ msgstr "αποθήκευση"
+#~ msgid "bypass"
+#~ msgstr "bypass"
+#~ msgid "Name for plugin settings:"
+#~ msgstr "Όνομα για ρυθμίσεις του plugin:"
+#~ msgid ""
+#~ "\"\n"
+#~ "\t ,<.>/?:;'[{}]~`!@#$%^&*()_-+="
+#~ msgstr ""
+#~ "\"\n"
+#~ "\t ,<.>/?:;'[{}]~`!@#$%^&*()_-+="
+#~ msgid "aeiou"
+#~ msgstr "aeiou"
+#~ msgid "AEIOU"
+#~ msgstr "AEIOU"
+#~ msgid "bcdfghjklmnpqrtvwxyz"
+#~ msgstr "bcdfghjklmnpqrtvwxyz"
+#~ msgid "BCDFGHJKLMNPQRTVWXYZ"
+#~ msgstr "BCDFGHJKLMNPQRTVWXYZ"
+#~ msgid "Authors"
+#~ msgstr "Δημιουργοί"
+#~ msgid "spring"
+#~ msgstr "έλασμα"
+#~ msgid ""
+#~ "follow\n"
+#~ "PH"
+#~ msgstr ""
+#~ "ακολουθία\n"
+#~ "Κερσ."
+#~ msgid "Sprung"
+#~ msgstr "Έλασμα"
+#~ msgid "Wheel"
+#~ msgstr "Τροχός"
+#~ msgid "rescan"
+#~ msgstr "Επανα-ανίχνευση"
+#~ msgid "Session %1 already exists at %2"
+#~ msgstr "Η Συνεδρία %1 υπάρχει ήδη στο %2"
+#~ msgid "UI: cannot setup meter_bridge"
+#~ msgstr "UI: η γέφυρα μετρήσεων δεν μπορεί να εγερθεί"
+#~ msgid "Enable/Disable follow playhead"
+#~ msgstr "Άρση/Παύση ακολουθίας αναπαραγωγέα"
+#~ msgid "Select sprung or wheel behaviour"
+#~ msgstr "Επιλογή συμπεριφοράς ελάσματος ή τροχού"
+#~ msgid "keyboard_target: error setting binding state: invalid node"
+#~ msgstr ""
+#~ "keyboard_target: σφάλμα στη θέση καταστάσεως δεσμού πλήκτρων: ανύπαρκτος "
+#~ "κόμβος"
+#~ msgid "Image Compositor"
+#~ msgstr "Σύνθεση εικόνων"
+#~ msgid "Audio Library"
+#~ msgstr "Ηχητική βιβλιοθήκη"
+#~ msgid "Meter Bridge"
+#~ msgstr "Γέφυρα μετρητή"
+#~ msgid "Input Connections"
+#~ msgstr "Συνδέσεις Εισόδου"
+#~ msgid "Output Connections"
+#~ msgstr "Συνδέσεις Εξόδου"
+
+#, fuzzy
+#~ msgid "New Input"
+#~ msgstr "νέα είσοδος"
+
+#, fuzzy
+#~ msgid "New Output"
+#~ msgstr "νέα έξοδος"
+
+#, fuzzy
+#~ msgid "Add Port"
+#~ msgstr "πρόσθεση θύρας"
+#~ msgid "Available Ports"
+#~ msgstr "Διαθέσιμες Θύρες"
+#~ msgid "ardour: connections"
+#~ msgstr "ardour: συνδέσεις"
+#~ msgid "in %d"
+#~ msgstr "σε %d"
+
+#, fuzzy
+#~ msgid "crossfade editor"
+#~ msgstr "επεξερ/σία fade in"
+#~ msgid "Regions/name"
+#~ msgstr "Περιοχες/όνομα"
+#~ msgid ""
+#~ "editor\n"
+#~ "mixer"
+#~ msgstr ""
+#~ "Μίκτης\n"
+#~ "Επεξεργαστή"
+#~ msgid "Invert"
+#~ msgstr "Αντιστροφή"
+#~ msgid "Edit:"
+#~ msgstr "Σύνταξη:"
+#~ msgid "incorrectly formatted URI list, ignored"
+#~ msgstr "λανθασμένα φορμαρισμένη URI λίστα, αγνοήθηκε"
+#~ msgid "Embed audio (link)"
+#~ msgstr "Εμφύτευση ήχου (link)"
+#~ msgid "Cancel cleanup"
+#~ msgstr "Ακύρωση εκκαθάρισης"
+#~ msgid "programming error: line canvas item has no line object pointer!"
+#~ msgstr ""
+#~ "Σφάλμα Προγραμματισμού: ο καμβάς της γραμμής δεν έχει δείκτη αναφοράς της "
+#~ "γραμμής!"
+#~ msgid ""
+#~ "programming error: no \"rect\" pointer associated with selection item"
+#~ msgstr ""
+#~ "Σφάλμα προγραμματισμού: κανένας  \"rect\" δείκτης δεν σχετίζεται με το "
+#~ "επιλεγμένο αντικείμενο"
+#~ msgid "Name for new edit group"
+#~ msgstr "Όνομα για νέα ομάδα επεξεργασίας"
+
+#, fuzzy
+#~ msgid "Import selected as tracks"
+#~ msgstr "Εισαγωγή επιλεγμένου(ων)"
+#~ msgid "ardour: audio import in progress"
+#~ msgstr "ardour: εισαγωγή ήχων εν εξελίξι"
+#~ msgid "You can't embed an audiofile until you have a session loaded."
+#~ msgstr ""
+#~ "Δεν γίνεται να εμφυτεύσετε ηχο-αρχεία μέχρι να φορτώσετε κάποια συνεδρία."
+
+#, fuzzy
+#~ msgid "Insert selected as new tracks"
+#~ msgstr "θέση επιλεγμένης οπτικής καναλιού"
+#~ msgid "Insert selected"
+#~ msgstr "Προσθήκη επιλεγμένου(ων)"
+
+#, fuzzy
+#~ msgid "hidden"
+#~ msgstr "Κρυμμένο"
+#~ msgid "Sorting"
+#~ msgstr "Ταξινόμηση"
+#~ msgid "Regions/length"
+#~ msgstr "Περιοχές/διάρκεια"
+#~ msgid "Regions/start"
+#~ msgstr "Περιοχές/αρχή"
+#~ msgid "Regions/end"
+#~ msgstr "Περιοχές/τέλος"
+#~ msgid "Regions/file name"
+#~ msgstr "Περιοχές/όνομα αρχείου"
+#~ msgid "Regions/file size"
+#~ msgstr "Περιοχές/μέγεθος αρχείου"
+#~ msgid "Regions/file date"
+#~ msgstr "Περιοχές/ημ/νία αρχείου"
+#~ msgid "Regions/file system"
+#~ msgstr "Περιοχές/file system"
+#~ msgid "Show All AbstractTracks"
+#~ msgstr "Ανάδειξη όλων των Abstractκανάλιs"
+#~ msgid "Hide All AbstractTracks"
+#~ msgstr "Απόκρυψη όλων των Abstractκαναλιών"
+#~ msgid "slereg"
+#~ msgstr "slereg"
+#~ msgid "KeyboardTarget: empty string passed to add_binding."
+#~ msgstr "KeyboardTarget: κενή γραμμή  στην πρόσθεση_δεσμού."
+#~ msgid "KeyboardTarget: no translation found for \"%1\""
+#~ msgstr "KeyboardTarget: δεν ευρέθη μετάφραση για \"%1\""
+#~ msgid "KeyboardTarget: unknown action \"%1\""
+#~ msgstr "KeyboardTarget: άγνωστη ενέργεια \"%1\""
+#~ msgid "misformed binding node - ignored"
+#~ msgstr "παραμορφωμένος πομπός δεσμού - αγνοήθηκε"
+#~ msgid "ardour: soundfile selector"
+#~ msgstr "ardour: επιλογέας Soundfiles"
+#~ msgid "Add to Library..."
+#~ msgstr "Πρόσθεση στη Βιβλιοθήκη..."
+#~ msgid "Remove..."
+#~ msgstr "Απαλοιφή..."
+#~ msgid "Find..."
+#~ msgstr "Εύρεση..."
+#~ msgid "Add Folder"
+#~ msgstr "Πρόσθεση Φακέλου"
+#~ msgid "Add audio file or directory"
+#~ msgstr "Πρόσθεση αρχείου ήχου ή φακέλου"
+#~ msgid "Importing"
+#~ msgstr "Εισαγωγή εν εξελίξι"
+#~ msgid "%1 not added to database"
+#~ msgstr "%1 δεν προστέθηκε στην database"
+#~ msgid "Folder name:"
+#~ msgstr "Όνομα φακέλου:"
+#~ msgid "Should not be reached"
+#~ msgstr "Δεν θα έπρεπε να αγγιχτεί"
+#~ msgid "file \"%1\" could not be opened"
+#~ msgstr "το αρχείο \"%1\" δεν γινόταν να ανοιχτεί"
+#~ msgid "Field name:"
+#~ msgstr "Όνομα Πεδίου:"
+#~ msgid "Field value:"
+#~ msgstr "Αξία Πεδίου:"
+#~ msgid "Find"
+#~ msgstr "Εύρεση"
+#~ msgid "AND"
+#~ msgstr "AND"
+#~ msgid "ardour: locate soundfiles"
+#~ msgstr "ardour: εύρεση soundfiles"
+#~ msgid "Results"
+#~ msgstr "Αποτελέσματα"
+#~ msgid "Uris"
+#~ msgstr "Uris"
+#~ msgid "Create multi-channel region"
+#~ msgstr "Δημιουργία πολυκάναλης περιοχής"
+#~ msgid "Ardour: Search Results"
+#~ msgstr "Ardour: Αποτελέσματα Αναζητήσεως"
+#~ msgid "Hide All AudioTrack MixerStrips"
+#~ msgstr "Απόκρυψη όλων των ΔιαδρόμωνΜίξεως των καναλιών"
+#~ msgid "Show All AudioBus MixerStrips"
+#~ msgstr "Ανάδειξη όλων των ΔιαδρόμωνΜίξεως των διαύλων"
+#~ msgid "Hide All AudioBus MixerStrips"
+#~ msgstr "Απόκρυψη όλων των ΔιαδρόμωνΜίξεως των διαύλων"
+#~ msgid "Name for new mix group"
+#~ msgstr "Όνομα για νέα ομάδα μίξεως"
+#~ msgid "Create"
+#~ msgstr "Δημιουργία"
+#~ msgid "use control outs"
+#~ msgstr "χρήση των control outs"
+#~ msgid "automatically connect track outputs to master outs"
+#~ msgstr "αυτόματη σύνδεση outputs καναλιών σε master outs"
+#~ msgid "automatically connect track outputs to physical ports"
+#~ msgstr "αυτόματη σύνδεση outputs καναλιών σε φυσικές θύρες"
+#~ msgid "show again"
+#~ msgstr "δείξε πάλι"
+#~ msgid "Hardware Inputs: use"
+#~ msgstr "Hardware Είσοδοι: χρήση"
+#~ msgid "Hardware Outputs: use"
+#~ msgstr "Hardware Έξοδοι: χρήση"
+#~ msgid "new session setup"
+#~ msgstr "νέα δαρρύθμιση συνεδρίας"
+#~ msgid "This session will playback and record at %1 Hz"
+#~ msgstr "Αυτή η συνεδρία θα αναπαράγει και θα εγγράφει στα %1 Hz"
+#~ msgid ""
+#~ "This rate is set by JACK and cannot be changed.\n"
+#~ "If you want to use a different sample rate\n"
+#~ "please exit and restart JACK"
+#~ msgstr ""
+#~ "Αυτος ο 'ρυθμός'(sample rate) τίθεται από τον JACK και δεν μπορεί να "
+#~ "αλλάξει.\n"
+#~ "Αν επιθυμείτε να θέσετε διαφορετικό 'ρυθμό'\n"
+#~ "παρακαλώ βγείτε και επανεκκινήστε τον JACK"
+#~ msgid "blank"
+#~ msgstr "κενό"
+#~ msgid "No template - create tracks/busses manually"
+#~ msgstr "Χωρίς προσχέδιο - δημιουργία καναλιών/διαύλων χειροκίνητα"
+#~ msgid "Slave to MTC"
+#~ msgstr "Slave στον MTC"
+#~ msgid "Sync with JACK"
+#~ msgstr "Σύγχρονος με τον JACK"
+#~ msgid "never used but stops crashes"
+#~ msgstr "αχρησιμοποίητο αλλά σταματά τα crashes"
+#~ msgid "Narrow mixer strips"
+#~ msgstr "Στενοί διάδρομοι μείκτη"
+
+#, fuzzy
+#~ msgid "MMC control"
+#~ msgstr "MMC Θύρα"
+#~ msgid "Debug keyboard events"
+#~ msgstr "Debug γεγονότα πληκτρολογίου"
+#~ msgid "Misc"
+#~ msgstr "Διάφορα"
+#~ msgid "Display"
+#~ msgstr "Απεικόνιση"
+#~ msgid "Broadcast WAVE/floating point"
+#~ msgstr "Broadcast WAVE/μεταβλητής υποδ/λής"
+#~ msgid "WAVE/floating point"
+#~ msgstr "WAVE/μεταβλητής υποδ/λής"
+#~ msgid "Native Format"
+#~ msgstr "Εντόπιο Format"
+#~ msgid "--unknown--"
+#~ msgstr "--άγνωστο--"
+#~ msgid "in"
+#~ msgstr "in"
+#~ msgid "ins"
+#~ msgstr "ins"
+#~ msgid "out"
+#~ msgstr "out"
+#~ msgid "outs"
+#~ msgstr "outs"
+#~ msgid "Select all"
+#~ msgstr "Επιλογή όλων"
+
+#, fuzzy
+#~ msgid "Inserts"
+#~ msgstr "Αντιστροφή"
+
+#, fuzzy
+#~ msgid "Sends"
+#~ msgstr "Δευτερόλεπτα"
+#~ msgid "Select all ..."
+#~ msgstr "Επιλογή όλων ..."
+#~ msgid "Pre Redirects"
+#~ msgstr "Προ-Redirects"
+#~ msgid "Post Redirects"
+#~ msgstr "Μετα-Redirects"
+#~ msgid "Seamless Looping"
+#~ msgstr "Αδιάσπαστο Looping"
+
+#, fuzzy
+#~ msgid "Align recorded material with:"
+#~ msgstr "Στοίχιση ληφθέντος υλικού με"
+#~ msgid "No toggle button pixmaps found to match toggle-button-[0-9]*.xpm$"
+#~ msgstr ""
+#~ "Δεν ευρέθησαν 'toggle button pixmaps' να ταιριάζουν στα toggle-button-[0-"
+#~ "9]*.xpm$"
+#~ msgid ""
+#~ "No small push button pixmaps found to match small-round-button-[0-9]*.xpm$"
+#~ msgstr ""
+#~ "Δεν ευρέθησαν 'small push button pixmaps' να ταιριάζουν στα small-round-"
+#~ "button-[0-9]*.xpm$"
+#~ msgid "No pixmaps found to match hslider[0-9]*.xpm$"
+#~ msgstr "Δεν ευρέθησαν 'pixmaps' να ταιριάζουν στα hslider[0-9]*.xpm$"
+#~ msgid "No pixmaps found to match vslider[0-9]*.xpm$"
+#~ msgstr "Δεν ευρέθησαν 'pixmaps' να ταιριάζουν vslider[0-9]*.xpm$"
+#~ msgid "Trace MIDI Input"
+#~ msgstr "Αναζήτηση MIDI Input"
+#~ msgid "Trace MIDI Output"
+#~ msgstr "Αναζήτηση MIDI Output"
+#~ msgid "30 FPS non-drop"
+#~ msgstr "30 FPS non-drop"
+#~ msgid "MTC Port"
+#~ msgstr "MTC Θύρα"
+#~ msgid "attempt to timestretch a non-audio track!"
+#~ msgstr "απόπειρα να χρονοκαμφθεί ένα μη-ηχητικό κανάλι!"
+#~ msgid "cannot create timestretch thread - operation not carried out"
+#~ msgstr ""
+#~ "δεν δημιουργήθηκε σύνδεσμος Χρονοκάμψης - η εργασία δεν ολοκληρώθηκε"
+
+#, fuzzy
+#~ msgid "move region(s) between tracks"
+#~ msgstr "μετακίνηση περιοχής μεταξύ καναλιών"
+
+#, fuzzy
+#~ msgid "copy region(s) between tracks"
+#~ msgstr "αντιγραφή περιοχής μεταξύ καναλιών"
+#~ msgid "ardour: tempo editor"
+#~ msgstr "ardour: επεξεργαστής χρόνου"
+#~ msgid "mouse brush"
+#~ msgstr "βούρτσα ποντικιού"
+#~ msgid "ardour_add_track_bus"
+#~ msgstr "ardour_εισαγωγή_καναλιού_διαύλου"
+#~ msgid "ok"
+#~ msgstr "Εν τάξει"
+#~ msgid "apply"
+#~ msgstr "ενεργοποίηση"
+#~ msgid "fade"
+#~ msgstr "fade"
+#~ msgid "Edit left"
+#~ msgstr "Επεξεργασία αριστερού"
+#~ msgid "Edit right"
+#~ msgstr "Επεξεργασία δεξιού"
+#~ msgid "Edit fade"
+#~ msgstr "Επεξεργασία fade"
+#~ msgid "Bounce region"
+#~ msgstr "Αναπήδηση περιοχής"
+#~ msgid "clear connections"
+#~ msgstr "εκκαθάριση συνδέσεων"
+#~ msgid "add comments/notes here"
+#~ msgstr "πρόσθεση σχολίων/σημειώσεων εδώ"
+#~ msgid "Crossfades in use"
+#~ msgstr "Crossfades εν ενεργεία"
+
+#, fuzzy
+#~ msgid "outside this computer"
+#~ msgstr "Απόκρυψη παρόντος καναλιού"
+
+#, fuzzy
+#~ msgid "inside this computer"
+#~ msgstr "Απόκρυψη παρόντος καναλιού"
+#~ msgid "track %1 has no input connections [This Message To Be Expanded]"
+#~ msgstr "Το κανάλι %1 δεν εχει συνδέσεις  λήψεως[Μήνυμα προς επέκταση]"
+#~ msgid "SR: %u kHz"
+#~ msgstr "SR: %u kHz"
+#~ msgid "Route Parameters"
+#~ msgstr "Παράμετροι διαδρομών"
+#~ msgid "Use Other"
+#~ msgstr "Χρησιμοποίηση άλλου"
+#~ msgid "Display Automatic Regions"
+#~ msgstr "Ανάδειξη Αυτομάτων Περιοχών"
+#~ msgid "Edit tempo"
+#~ msgstr "Επεξ/σία Χρόνου"
+#~ msgid "Ardour is done. Come again. Have a nice day. Etc.\n"
+#~ msgstr "Ο Ardour τελείωσε. Να μας ξανάρθετε. Καλή ημέρα να έχετε. Κλπ.\n"
+#~ msgid "  -U, --ui-rcfile  path            Use a specific UI style file\n"
+#~ msgstr ""
+#~ "  -U, --ui-rcfile  path            Χρήση συγκεκριμένου αρχείου για UI "
+#~ "στυλ\n"
+#~ msgid "INPUTs"
+#~ msgstr "Είσοδος(οι)"
+#~ msgid "OUTPUTs"
+#~ msgstr "'Εξοδος(οι)"
+#~ msgid "ardour: route parameters"
+#~ msgstr "ardour: παράμετροι διαδρομών"
+#~ msgid "ardour: route parameters: "
+#~ msgstr "ardour: παράμετροι διαδρομών: "
+

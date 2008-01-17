@@ -1,0 +1,8 @@
+.gdb_history
+ardour
+ardourx
+ardour.bin
+version.h
+version.cc
+*.mo
+*.pot
