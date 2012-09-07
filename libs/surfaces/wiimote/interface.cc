@@ -1,47 +1,25 @@
-#include <pbd/failed_constructor.h>
-
-#include "control_protocol/control_protocol.h"
-#include "wiimote.h"
+#include "pbd/failed_constructor.h"
+#include "pbd/error.h"
 
 #include "ardour/session.h"
+#include "control_protocol/control_protocol.h"
+
+#include "wiimote.h"
 
 using namespace ARDOUR;
-
-static WiimoteControlProtocol *foo;
+using namespace PBD;
 
 ControlProtocol*
 new_wiimote_protocol (ControlProtocolDescriptor* descriptor, Session* s)
 {
-	WiimoteControlProtocol* wmcp;
-		
-	try {
-		wmcp =  new WiimoteControlProtocol (*s);
-	} catch (failed_constructor& err) {
-		return 0;
-	}
-	
-	if (wmcp-> set_active (true)) {
-		delete wmcp;
-		return 0;
-	}
-
-	foo = wmcp;
-
+	WiimoteControlProtocol* wmcp = new WiimoteControlProtocol (*s);
+	wmcp->set_active (true);
 	return wmcp;
-}
-
-void
-wiimote_control_protocol_cwiid_callback(cwiid_wiimote_t *wiimote, int mesg_count, union cwiid_mesg mesg[], struct timespec *t)
-{
-	assert(foo != 0);
-
-	foo->wiimote_callback(wiimote,mesg_count,mesg,t);
 }
 
 void
 delete_wiimote_protocol (ControlProtocolDescriptor* descriptor, ControlProtocol* cp)
 {
-	foo = 0;
 	delete cp;
 }
 
@@ -62,12 +40,14 @@ static ControlProtocolDescriptor wiimote_descriptor = {
 	initialize : new_wiimote_protocol,
 	destroy : delete_wiimote_protocol
 };
-	
+
 
 extern "C" {
-ControlProtocolDescriptor* 
+
+ControlProtocolDescriptor*
 protocol_descriptor () {
 	return &wiimote_descriptor;
 }
+
 }
 
