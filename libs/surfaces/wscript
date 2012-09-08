@@ -60,6 +60,8 @@ def configure(conf):
         if not conf.is_defined('HAVE_BLUETOOTH_H'):
             print('WIIMOTE configured but you are missing the libbluetooth headers needed to compile wiimote support!')
             sys.exit(1)
+        autowaf.check_pkg(conf, 'cwiid', uselib_store='CWIID',
+                          atleast_version='0.6.00')
         conf.define ('BUILD_WIIMOTE', 1)
 
 def build(bld):
