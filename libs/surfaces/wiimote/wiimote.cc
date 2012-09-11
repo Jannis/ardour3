@@ -29,7 +29,7 @@ WiimoteControlProtocol::~WiimoteControlProtocol ()
 	stop ();
 }
 
-bool 
+bool
 WiimoteControlProtocol::probe ()
 {
 	return true;
@@ -97,6 +97,10 @@ WiimoteControlProtocol::start ()
 {
 	DEBUG_TRACE (DEBUG::WiimoteControl, "WiimoteControlProtocol::start init\n");
 
+	// update LEDs whenever the transport or recording state changes
+	session->TransportStateChange.connect (session_connections, MISSING_INVALIDATOR, boost::bind (&WiimoteControlProtocol::update_led_state, this), this);
+	session->RecordStateChanged.connect (session_connections, MISSING_INVALIDATOR, boost::bind (&WiimoteControlProtocol::update_led_state, this), this);
+
 	// start the Wiimote control UI; it will run in its own thread context
 	BaseUI::run ();
 
@@ -117,6 +121,9 @@ WiimoteControlProtocol::stop ()
 
 	// stop the Wiimote control UI
 	BaseUI::quit ();
+
+	// no longer update the LEDs
+	session_connections.drop_connections ();
 
 	DEBUG_TRACE (DEBUG::WiimoteControl, "WiimoteControlProtocol::stop done\n");
 
@@ -344,3 +351,33 @@ WiimoteControlProtocol::connect_wiimote ()
 	return success;
 }
 
+void
+WiimoteControlProtocol::update_led_state ()
+{
+	DEBUG_TRACE (DEBUG::WiimoteControl, "WiimoteControlProtocol::update_led_state init\n");
+
+	uint8_t state = 0;
+
+	// do nothing if we do not have a Wiimote
+	if (!wiimote) {
+		DEBUG_TRACE (DEBUG::WiimoteControl, "WiimoteControlProtocol::update_led_state no wiimote connected\n");
+		return;
+	}
+
+	// enable LED1 if Ardour is playing
+	if (session->transport_rolling ()) {
+		DEBUG_TRACE (DEBUG::WiimoteControl, "WiimoteControlProtocol::update_led_state playing, activate LED1\n");
+		state |= CWIID_LED1_ON;
+	}
+
+	// enable LED4 if Ardour is recording
+	if (session->actively_recording ()) {
+		DEBUG_TRACE (DEBUG::WiimoteControl, "WiimoteControlProtocol::update_led_state recording, activate LED4\n");
+		state |= CWIID_LED4_ON;
+	}
+
+	// apply the LED state
+	cwiid_set_led (wiimote, state);
+
+	DEBUG_TRACE (DEBUG::WiimoteControl, "WiimoteControlProtocol::update_led_state done\n");
+}

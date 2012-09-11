@@ -39,7 +39,10 @@ protected:
 	bool idle ();
 	bool connect_wiimote ();
 
+	void update_led_state ();
+
 protected:
+	PBD::ScopedConnectionList session_connections;
 	cwiid_wiimote_t* wiimote;
 	GSource *idle_source;
 	uint16_t button_state;
