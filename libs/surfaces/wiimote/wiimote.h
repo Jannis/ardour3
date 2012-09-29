@@ -27,7 +27,10 @@ public:
 	XMLNode& get_state ();
 	int set_state (const XMLNode&, int version);
 
-	void wiimote_callback (cwiid_wiimote_t* wiimote, int mesg_count, union cwiid_mesg msg[], struct timespec* t);
+	void start_wiimote_discovery ();
+	void stop_wiimote_discovery ();
+
+	void wiimote_callback (int mesg_count, union cwiid_mesg mesg[]);
 
 protected:
 	void do_request (WiimoteControlUIRequest*);
@@ -36,7 +39,7 @@ protected:
 
 	void thread_init ();
 
-	bool idle ();
+	bool connect_idle ();
 	bool connect_wiimote ();
 
 	void update_led_state ();

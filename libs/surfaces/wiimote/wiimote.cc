@@ -14,6 +14,8 @@ using namespace std;
 
 #include "pbd/abstract_ui.cc" // instantiate template
 
+void wiimote_control_protocol_mesg_callback (cwiid_wiimote_t *wiimote, int mesg_count, union cwiid_mesg mesg[], timespec *t);
+
 WiimoteControlProtocol::WiimoteControlProtocol (Session& session)
 	: ControlProtocol (session, X_("Wiimote"))
 	, AbstractUI<WiimoteControlUIRequest> ("wiimote")
@@ -114,10 +116,14 @@ WiimoteControlProtocol::stop ()
 {
 	DEBUG_TRACE (DEBUG::WiimoteControl, "WiimoteControlProtocol::stop init\n");
 
-	// release the idle source used for checking for incoming messages
-	g_source_destroy (idle_source);
-	g_source_unref (idle_source);
-	idle_source = 0;
+	// stop wiimote discovery, just in case
+	stop_wiimote_discovery ();
+
+	// close and reset the wiimote handle
+	if (wiimote) {
+		cwiid_close (wiimote);
+		wiimote = 0;
+	}
 
 	// stop the Wiimote control UI
 	BaseUI::quit ();
@@ -141,45 +147,167 @@ WiimoteControlProtocol::thread_init ()
 	PBD::notify_gui_about_thread_creation (X_("gui"), pthread_self (), X_("wiimote"), 2048);
 	SessionEvent::create_per_thread_pool (X_("wiimote"), 128);
 
-	// set up an idle source to check for incoming messages from the Wiimote
+	// connect a Wiimote
+	start_wiimote_discovery ();
+
+	DEBUG_TRACE (DEBUG::WiimoteControl, "WiimoteControlProtocol::thread_init done\n");
+}
+
+void
+WiimoteControlProtocol::start_wiimote_discovery ()
+{
+	DEBUG_TRACE (DEBUG::WiimoteControl, "WiimoteControlProtocol::start_wiimote_discovery init\n");
+
+	// connect to the Wiimote using an idle source
 	Glib::RefPtr<Glib::IdleSource> source = Glib::IdleSource::create ();
-	source->connect (sigc::mem_fun (*this, &WiimoteControlProtocol::idle));
+	source->connect (sigc::mem_fun (*this, &WiimoteControlProtocol::connect_idle));
 	source->attach (_main_loop->get_context ());
 
 	// grab a reference on the underlying idle source to keep it around
 	idle_source = source->gobj ();
 	g_source_ref (idle_source);
 
-	DEBUG_TRACE (DEBUG::WiimoteControl, "WiimoteControlProtocol::thread_init done\n");
+	DEBUG_TRACE (DEBUG::WiimoteControl, "WiimoteControlProtocol::start_wiimote_discovery done\n");
+}
+
+void
+WiimoteControlProtocol::stop_wiimote_discovery ()
+{
+	DEBUG_TRACE (DEBUG::WiimoteControl, "WiimoteControlProtocol::stop_wiimote_discovery init\n");
+
+	if (idle_source) {
+		g_source_unref (idle_source);
+		idle_source = 0;
+	}
+
+	DEBUG_TRACE (DEBUG::WiimoteControl, "WiimoteControlProtocol::stop_wiimote_discovery done\n");
 }
 
 bool
-WiimoteControlProtocol::idle ()
+WiimoteControlProtocol::connect_idle ()
 {
-	// if the Wiimote is not connected, ask the user to connect it now;
-	// if that fails, try again by calling the idle source again
-	if (!connect_wiimote ()) {
-		sleep (1);
-		return TRUE;
+	DEBUG_TRACE (DEBUG::WiimoteControl, "WiimoteControlProtocol::connect_idle init\n");
+
+	bool retry = true;
+
+	if (connect_wiimote ()) {
+		stop_wiimote_discovery ();
+		retry = false;
 	}
 
-	int i;
-	int mesg_count;
-	union cwiid_mesg *mesg;
-	struct timespec timestamp;
+	DEBUG_TRACE (DEBUG::WiimoteControl, "WiimoteControlProtocol::connect_idle done\n");
 
-	cwiid_get_mesg (wiimote, &mesg_count, &mesg, &timestamp);
+	return retry;
+}
 
-	for (i = 0; i < mesg_count; i++) {
-		// reset the Wiimote handle when receiving errors, so that the user
-		// is asked to reconnect it when the idle source is called next time
+bool
+WiimoteControlProtocol::connect_wiimote ()
+{
+	// abort the discovery and do nothing else if we already have a Wiimote
+	if (wiimote) {
+		return true;
+	}
+
+	bool success = true;
+
+	// if we don't have a Wiimote yet, try to discover it; if that
+	// fails, wait for a short period of time and try again
+	if (!wiimote) {
+		cerr << "Wiimote: Not discovered yet, press 1+2 to connect" << endl;
+
+		bdaddr_t bdaddr = {{ 0, 0, 0, 0, 0, 0 }};
+		wiimote = cwiid_open (&bdaddr, 0);
+		if (!wiimote) {
+			success = false;
+		} else {
+			// a Wiimote was discovered
+			cerr << "Wiimote: Connected successfully" << endl;
+
+			// attach the WiimoteControlProtocol object to the Wiimote handle
+			if (cwiid_set_data (wiimote, this)) {
+				cerr << "Wiimote: Failed to attach control protocol" << endl;
+				success = false;
+			}
+
+			// clear the last button state to start processing events cleanly
+			button_state = 0;
+		}
+	}
+
+	// enable message based communication with the Wiimote
+	if (success && cwiid_enable (wiimote, CWIID_FLAG_MESG_IFC)) {
+		cerr << "Wiimote: Failed to enable message based communication" << endl;
+		success = false;
+	}
+
+	// enable button events to be received from the Wiimote
+	if (success && cwiid_command (wiimote, CWIID_CMD_RPT_MODE, CWIID_RPT_BTN)) {
+		cerr << "Wiimote: Failed to enable button events" << endl;
+		success = false;
+	}
+
+	// receive an event for every single button pressed, not just when
+	// a different button was pressed than before
+	if (success && cwiid_enable (wiimote, CWIID_FLAG_REPEAT_BTN)) {
+		cerr << "Wiimote: Failed to enable repeated button events" << endl;
+		success = false;
+	}
+
+	// be notified of new input events
+	if (success && cwiid_set_mesg_callback (wiimote, wiimote_control_protocol_mesg_callback)) {
+	}
+
+	// reset Wiimote handle if the configuration failed
+	if (!success && wiimote) {
+		cwiid_close (wiimote);
+		wiimote = 0;
+	}
+
+	return success;
+}
+
+void
+WiimoteControlProtocol::update_led_state ()
+{
+	DEBUG_TRACE (DEBUG::WiimoteControl, "WiimoteControlProtocol::update_led_state init\n");
+
+	uint8_t state = 0;
+
+	// do nothing if we do not have a Wiimote
+	if (!wiimote) {
+		DEBUG_TRACE (DEBUG::WiimoteControl, "WiimoteControlProtocol::update_led_state no wiimote connected\n");
+		return;
+	}
+
+	// enable LED1 if Ardour is playing
+	if (session->transport_rolling ()) {
+		DEBUG_TRACE (DEBUG::WiimoteControl, "WiimoteControlProtocol::update_led_state playing, activate LED1\n");
+		state |= CWIID_LED1_ON;
+	}
+
+	// enable LED4 if Ardour is recording
+	if (session->actively_recording ()) {
+		DEBUG_TRACE (DEBUG::WiimoteControl, "WiimoteControlProtocol::update_led_state recording, activate LED4\n");
+		state |= CWIID_LED4_ON;
+	}
+
+	// apply the LED state
+	cwiid_set_led (wiimote, state);
+
+	DEBUG_TRACE (DEBUG::WiimoteControl, "WiimoteControlProtocol::update_led_state done\n");
+}
+
+void
+WiimoteControlProtocol::wiimote_callback (int mesg_count, union cwiid_mesg mesg[])
+{
+	for (int i = 0; i < mesg_count; i++) {
+		// restart Wiimote discovery when receiving errors
 		if (mesg[i].type == CWIID_MESG_ERROR) {
 			cerr << "Wiimote: disconnected" << endl;
-			if (wiimote) {
-				cwiid_close (wiimote);
-				wiimote = 0;
-			}
-			return TRUE;
+			cwiid_close (wiimote);
+			wiimote = 0;
+			start_wiimote_discovery ();
+			return;
 		}
 
 		// skip non-button events
@@ -285,99 +413,18 @@ WiimoteControlProtocol::idle ()
 			}
 		}
 	}
-
-	return TRUE;
-}
-
-bool
-WiimoteControlProtocol::connect_wiimote ()
-{
-	// do nothing if we already have a Wiimote
-	if (wiimote) {
-		return true;
-	}
-
-	bool success = true;
-
-	// if we don't have a Wiimote yet, try to discover it; if that
-	// fails, wait for a short period of time and try again
-	if (!wiimote) {
-		cerr << "Wiimote: Not discovered yet, press 1+2 to connect" << endl;
-
-		bdaddr_t bdaddr = {{ 0, 0, 0, 0, 0, 0 }};
-		wiimote = cwiid_open (&bdaddr, 0);
-		if (!wiimote) {
-			success = false;
-		} else {
-			// a Wiimote was discovered
-			cerr << "Wiimote: Connected successfully" << endl;
-
-			// attach the WiimoteControlProtocol object to the Wiimote handle
-			if (cwiid_set_data (wiimote, this)) {
-				cerr << "Wiimote: Failed to attach control protocol" << endl;
-				success = false;
-			}
-
-			// clear the last button state to start processing events cleanly
-			button_state = 0;
-		}
-	}
-
-	// enable message based communication with the Wiimote
-	if (success && cwiid_enable (wiimote, CWIID_FLAG_MESG_IFC)) {
-		cerr << "Wiimote: Failed to enable message based communication" << endl;
-		success = false;
-	}
-
-	// enable button events to be received from the Wiimote
-	if (success && cwiid_command (wiimote, CWIID_CMD_RPT_MODE, CWIID_RPT_BTN)) {
-		cerr << "Wiimote: Failed to enable button events" << endl;
-		success = false;
-	}
-
-	// receive an event for every single button pressed, not just when
-	// a different button was pressed than before
-	if (success && cwiid_enable (wiimote, CWIID_FLAG_REPEAT_BTN)) {
-		cerr << "Wiimote: Failed to enable repeated button events" << endl;
-		success = false;
-	}
-
-	// reset Wiimote handle if the configuration failed
-	if (!success && wiimote) {
-		cwiid_close (wiimote);
-		wiimote = 0;
-	}
-
-	return success;
 }
 
 void
-WiimoteControlProtocol::update_led_state ()
+wiimote_control_protocol_mesg_callback (cwiid_wiimote_t *wiimote, int mesg_count, union cwiid_mesg mesg[], timespec *t)
 {
-	DEBUG_TRACE (DEBUG::WiimoteControl, "WiimoteControlProtocol::update_led_state init\n");
+	DEBUG_TRACE (DEBUG::WiimoteControl, "WiimoteControlProtocol::mesg_callback init\n");
 
-	uint8_t state = 0;
+	WiimoteControlProtocol *protocol = (WiimoteControlProtocol *)cwiid_get_data (wiimote);
 
-	// do nothing if we do not have a Wiimote
-	if (!wiimote) {
-		DEBUG_TRACE (DEBUG::WiimoteControl, "WiimoteControlProtocol::update_led_state no wiimote connected\n");
-		return;
+	if (protocol) {
+		protocol->wiimote_callback (mesg_count, mesg);
 	}
 
-	// enable LED1 if Ardour is playing
-	if (session->transport_rolling ()) {
-		DEBUG_TRACE (DEBUG::WiimoteControl, "WiimoteControlProtocol::update_led_state playing, activate LED1\n");
-		state |= CWIID_LED1_ON;
-	}
-
-	// enable LED4 if Ardour is recording
-	if (session->actively_recording ()) {
-		DEBUG_TRACE (DEBUG::WiimoteControl, "WiimoteControlProtocol::update_led_state recording, activate LED4\n");
-		state |= CWIID_LED4_ON;
-	}
-
-	// apply the LED state
-	cwiid_set_led (wiimote, state);
-
-	DEBUG_TRACE (DEBUG::WiimoteControl, "WiimoteControlProtocol::update_led_state done\n");
+	DEBUG_TRACE (DEBUG::WiimoteControl, "WiimoteControlProtocol::mesg_callback done\n");
 }
