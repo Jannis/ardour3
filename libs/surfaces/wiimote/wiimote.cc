@@ -22,6 +22,7 @@ WiimoteControlProtocol::WiimoteControlProtocol (Session& session)
 	, wiimote (0)
 	, idle_source (0)
 	, button_state (0)
+	, callback_thread_registered (false)
 {
 }
 
@@ -123,6 +124,7 @@ WiimoteControlProtocol::stop ()
 	if (wiimote) {
 		cwiid_close (wiimote);
 		wiimote = 0;
+		callback_thread_registered = false;
 	}
 
 	// stop the Wiimote control UI
@@ -145,7 +147,7 @@ WiimoteControlProtocol::thread_init ()
 
 	// allow to make requests to the GUI and RT thread(s)
 	PBD::notify_gui_about_thread_creation (X_("gui"), pthread_self (), X_("wiimote"), 2048);
-	SessionEvent::create_per_thread_pool (X_("wiimote"), 128);
+	BasicUI::register_thread ("wiimote");
 
 	// connect a Wiimote
 	start_wiimote_discovery ();
@@ -217,6 +219,7 @@ WiimoteControlProtocol::connect_wiimote ()
 
 		bdaddr_t bdaddr = {{ 0, 0, 0, 0, 0, 0 }};
 		wiimote = cwiid_open (&bdaddr, 0);
+		callback_thread_registered = false;
 		if (!wiimote) {
 			success = false;
 		} else {
@@ -261,6 +264,7 @@ WiimoteControlProtocol::connect_wiimote ()
 	if (!success && wiimote) {
 		cwiid_close (wiimote);
 		wiimote = 0;
+		callback_thread_registered = false;
 	}
 
 	return success;
@@ -300,12 +304,19 @@ WiimoteControlProtocol::update_led_state ()
 void
 WiimoteControlProtocol::wiimote_callback (int mesg_count, union cwiid_mesg mesg[])
 {
+	// register the cwiid callback thread if that hasn't happened yet
+	if (!callback_thread_registered) {
+		BasicUI::register_thread ("wiimote callback");
+		callback_thread_registered = true;
+	}
+
 	for (int i = 0; i < mesg_count; i++) {
 		// restart Wiimote discovery when receiving errors
 		if (mesg[i].type == CWIID_MESG_ERROR) {
 			cerr << "Wiimote: disconnected" << endl;
 			cwiid_close (wiimote);
 			wiimote = 0;
+			callback_thread_registered = false;
 			start_wiimote_discovery ();
 			return;
 		}

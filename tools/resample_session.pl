@@ -6,7 +6,7 @@
 #
 # Copies the session to another directory and changes it's sampling rate in all respects.
 # The frames in .ardour and .automation files are converted according to the conversion ration.
-# The peakfiles and dead_sounds aren't copied. Only "identified" files are copied, instant.xml's
+# The peakfiles and dead aren't copied. Only "identified" files are copied, instant.xml's
 # or .bak's aren't copied either.
 
 use FindBin '$Bin';
@@ -50,7 +50,7 @@ if ( -d $destDirectory) {
 print "Checking source and destination directories\n";
 
 my @sounds;
-my @dead_sounds;
+my @dead;
 my @dot_ardour;
 my @automation;
 
@@ -80,11 +80,13 @@ if ( -d $sourceDirectory."/sounds/") {
 }
 close(SOUNDS);
 
-# Read the names of all audio files in /dead_sounds/
-opendir(DEAD_SOUNDS,$sourceDirectory."/dead_sounds/") || die ($sourceDirectory.": not a valid session, no dead_sounds/ directory");
+# Read the names of all audio files in /dead/
+opendir(DEAD_SOUNDS,$sourceDirectory."/dead/")
+  || opendir(DEAD_SOUNDS,$sourceDirectory."/dead_sounds/")
+  || die ($sourceDirectory.": not a valid session, no dead/ directory");
 while ( my $file=readdir(DEAD_SOUNDS) ) {
-	if ( -f $sourceDirectory."/dead_sounds/".$file ) {
-		push(@dead_sounds,$file);
+	if ( -f $sourceDirectory."/dead/".$file || -f $sourceDirectory."/dead_sounds/".$file ) {
+		push(@dead,$file);
 	}
 }
 close(DEAD_SOUNDS);
@@ -199,7 +201,7 @@ if ($version_099x eq 1) {
 	}
 }
 
-mkdir $destDirectory."/dead_sounds";
+mkdir $destDirectory."/dead";
 mkdir $destDirectory."/peaks";
 
 

@@ -49,6 +49,7 @@ protected:
 	cwiid_wiimote_t* wiimote;
 	GSource *idle_source;
 	uint16_t button_state;
+	bool callback_thread_registered;
 };
 
 #endif  /* ardour_wiimote_control_protocol_h */
